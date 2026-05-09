@@ -1,0 +1,78 @@
+{
+  "projection_batch": 25000,
+  "seed": 424242,
+  "candidate": {
+    "template_key": "A2_B2-0_B1-3_B0-1",
+    "axis_subset_key": "02",
+    "axis_size": 2,
+    "total_cell_count": 4,
+    "bucket_counts": {
+      "2": 0,
+      "1": 3,
+      "0": 1
+    },
+    "selections": {
+      "2": [],
+      "1": [
+        10,
+        5,
+        9
+      ],
+      "0": [
+        8
+      ]
+    },
+    "source": "aco",
+    "family5_hits": 36,
+    "exact_hits": 0,
+    "family5_rate": 0.375,
+    "exact_rate": 0.0,
+    "mean_profile_score": 64.79398148148137,
+    "fitness": 375.1519895858987,
+    "family_histogram": {
+      "6": 59,
+      "5": 36,
+      "4": 1
+    },
+    "best_counts": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "evaluation_seed": 291014,
+    "root_branch_key": "A2_B2-0_B1-3_B0-1@02"
+  },
+  "python": {
+    "elapsed_sec": 3.845065010013059,
+    "family5_rate": 0.18252,
+    "exact_rate": 0.0,
+    "mean_profile_score": 84.39683555558713,
+    "best_counts": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "sec_per_projection": 0.00015380260040052235
+  },
+  "rust": {
+    "elapsed_sec": 0.11505376198329031,
+    "family5_rate": 0.1736,
+    "exact_rate": 0.0,
+    "mean_profile_score": 85.29856888892228,
+    "best_counts": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "sec_per_projection": 4.602150479331613e-06
+  },
+  "speedup_python_over_rust": 33.41972434218615,
+  "shared_rust_kernel_dir": "/home/ilja/Desktop/runes/docs/research/rust/projection_family_kernel",
+  "note": "The benchmark compares the shared projection-family core kernel for one live branch-05 candidate. Rust uses the same high-level scoring logic but an independent QR implementation and RNG stream, so throughput is the main comparison target, not bitwise-identical hit counts."
+}

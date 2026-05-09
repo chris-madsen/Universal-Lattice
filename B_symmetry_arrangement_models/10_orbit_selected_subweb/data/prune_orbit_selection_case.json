@@ -1,0 +1,18 @@
+{
+  "full_union_best_family_count": 8,
+  "full_union_histogram": {
+    "8": 1,
+    "9": 3,
+    "10": 5,
+    "11": 9,
+    "12": 41,
+    "13": 106,
+    "14": 218,
+    "15": 306,
+    "16": 311
+  },
+  "branch05_best_family5_class": "T3_C4",
+  "branch05_best_family5_rate": 0.033,
+  "assessment": "orbit_selection_plausible",
+  "reason": "The raw full union remains much richer than the target lattice, while selected T/C scaffold classes show strong family-5 resonance. That gap is exactly what an orbit-selected-subweb branch is meant to explain."
+}

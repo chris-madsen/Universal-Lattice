@@ -1,0 +1,3613 @@
+{
+  "total_root_branches": 391,
+  "total_templates": 79,
+  "raw_candidate_space": 38478,
+  "unique_topological_signatures": 14510,
+  "overall_compression_ratio": 2.6518263266712614,
+  "root_rows": [
+    {
+      "root_branch_key": "A2_B2-0_B1-2_B0-2@01",
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 28,
+      "unique_signatures": 18,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-2_B0-2@02",
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 28,
+      "unique_signatures": 23,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-2_B0-2@03",
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 28,
+      "unique_signatures": 26,
+      "compression_ratio": 1.0769230769230769
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-2_B0-2@12",
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 28,
+      "unique_signatures": 18,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-2_B0-2@13",
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 28,
+      "unique_signatures": 23,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-2_B0-2@23",
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 28,
+      "unique_signatures": 18,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-1@01",
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-1@02",
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-1@03",
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-1@12",
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 55,
+      "compression_ratio": 2.036363636363636
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-1@13",
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-1@23",
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-2@01",
+      "template_key": "A2_B2-0_B1-3_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-2@02",
+      "template_key": "A2_B2-0_B1-3_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-2@03",
+      "template_key": "A2_B2-0_B1-3_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 54,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-2@12",
+      "template_key": "A2_B2-0_B1-3_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-2@13",
+      "template_key": "A2_B2-0_B1-3_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-2@23",
+      "template_key": "A2_B2-0_B1-3_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-0@01",
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 70,
+      "unique_signatures": 31,
+      "compression_ratio": 2.2580645161290325
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-0@02",
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 70,
+      "unique_signatures": 58,
+      "compression_ratio": 1.206896551724138
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-0@03",
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 70,
+      "unique_signatures": 45,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-0@12",
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 70,
+      "unique_signatures": 44,
+      "compression_ratio": 1.5909090909090908
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-0@13",
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 70,
+      "unique_signatures": 58,
+      "compression_ratio": 1.206896551724138
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-0@23",
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 70,
+      "unique_signatures": 31,
+      "compression_ratio": 2.2580645161290325
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-1@01",
+      "template_key": "A2_B2-0_B1-4_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 140,
+      "unique_signatures": 67,
+      "compression_ratio": 2.08955223880597
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-1@02",
+      "template_key": "A2_B2-0_B1-4_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 140,
+      "unique_signatures": 121,
+      "compression_ratio": 1.1570247933884297
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-1@03",
+      "template_key": "A2_B2-0_B1-4_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 140,
+      "unique_signatures": 115,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-1@12",
+      "template_key": "A2_B2-0_B1-4_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 140,
+      "unique_signatures": 80,
+      "compression_ratio": 1.75
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-1@13",
+      "template_key": "A2_B2-0_B1-4_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 140,
+      "unique_signatures": 121,
+      "compression_ratio": 1.1570247933884297
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-1@23",
+      "template_key": "A2_B2-0_B1-4_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 140,
+      "unique_signatures": 67,
+      "compression_ratio": 2.08955223880597
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-2@01",
+      "template_key": "A2_B2-0_B1-4_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 70,
+      "unique_signatures": 44,
+      "compression_ratio": 1.5909090909090908
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-2@02",
+      "template_key": "A2_B2-0_B1-4_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 70,
+      "unique_signatures": 65,
+      "compression_ratio": 1.0769230769230769
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-2@03",
+      "template_key": "A2_B2-0_B1-4_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-2@12",
+      "template_key": "A2_B2-0_B1-4_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 70,
+      "unique_signatures": 44,
+      "compression_ratio": 1.5909090909090908
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-2@13",
+      "template_key": "A2_B2-0_B1-4_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 70,
+      "unique_signatures": 65,
+      "compression_ratio": 1.0769230769230769
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-2@23",
+      "template_key": "A2_B2-0_B1-4_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 70,
+      "unique_signatures": 44,
+      "compression_ratio": 1.5909090909090908
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-0@01",
+      "template_key": "A2_B2-0_B1-5_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 14,
+      "compression_ratio": 4.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-0@02",
+      "template_key": "A2_B2-0_B1-5_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 48,
+      "compression_ratio": 1.1666666666666667
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-0@03",
+      "template_key": "A2_B2-0_B1-5_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-0@12",
+      "template_key": "A2_B2-0_B1-5_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-0@13",
+      "template_key": "A2_B2-0_B1-5_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 48,
+      "compression_ratio": 1.1666666666666667
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-0@23",
+      "template_key": "A2_B2-0_B1-5_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 14,
+      "compression_ratio": 4.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-1@01",
+      "template_key": "A2_B2-0_B1-5_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-1@02",
+      "template_key": "A2_B2-0_B1-5_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 101,
+      "compression_ratio": 1.108910891089109
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-1@03",
+      "template_key": "A2_B2-0_B1-5_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-1@12",
+      "template_key": "A2_B2-0_B1-5_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 56,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-1@13",
+      "template_key": "A2_B2-0_B1-5_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 101,
+      "compression_ratio": 1.108910891089109
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-1@23",
+      "template_key": "A2_B2-0_B1-5_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-2@01",
+      "template_key": "A2_B2-0_B1-5_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-2@02",
+      "template_key": "A2_B2-0_B1-5_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 53,
+      "compression_ratio": 1.0566037735849056
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-2@03",
+      "template_key": "A2_B2-0_B1-5_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-2@12",
+      "template_key": "A2_B2-0_B1-5_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-2@13",
+      "template_key": "A2_B2-0_B1-5_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 53,
+      "compression_ratio": 1.0566037735849056
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-5_B0-2@23",
+      "template_key": "A2_B2-0_B1-5_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-0@01",
+      "template_key": "A2_B2-0_B1-6_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 28,
+      "unique_signatures": 13,
+      "compression_ratio": 2.1538461538461537
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-0@02",
+      "template_key": "A2_B2-0_B1-6_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-0@03",
+      "template_key": "A2_B2-0_B1-6_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 28,
+      "unique_signatures": 22,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-0@12",
+      "template_key": "A2_B2-0_B1-6_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 28,
+      "unique_signatures": 18,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-0@13",
+      "template_key": "A2_B2-0_B1-6_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-0@23",
+      "template_key": "A2_B2-0_B1-6_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 28,
+      "unique_signatures": 13,
+      "compression_ratio": 2.1538461538461537
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-1@01",
+      "template_key": "A2_B2-0_B1-6_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 31,
+      "compression_ratio": 1.8064516129032258
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-1@02",
+      "template_key": "A2_B2-0_B1-6_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-1@03",
+      "template_key": "A2_B2-0_B1-6_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 50,
+      "compression_ratio": 1.12
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-1@12",
+      "template_key": "A2_B2-0_B1-6_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 36,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-1@13",
+      "template_key": "A2_B2-0_B1-6_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-1@23",
+      "template_key": "A2_B2-0_B1-6_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 31,
+      "compression_ratio": 1.8064516129032258
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-2@01",
+      "template_key": "A2_B2-0_B1-6_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 28,
+      "unique_signatures": 18,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-2@02",
+      "template_key": "A2_B2-0_B1-6_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-2@03",
+      "template_key": "A2_B2-0_B1-6_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-2@12",
+      "template_key": "A2_B2-0_B1-6_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 28,
+      "unique_signatures": 18,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-2@13",
+      "template_key": "A2_B2-0_B1-6_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-6_B0-2@23",
+      "template_key": "A2_B2-0_B1-6_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 28,
+      "unique_signatures": 18,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-0@01",
+      "template_key": "A2_B2-0_B1-7_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 8,
+      "unique_signatures": 2,
+      "compression_ratio": 4.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-0@02",
+      "template_key": "A2_B2-0_B1-7_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-0@03",
+      "template_key": "A2_B2-0_B1-7_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 8,
+      "unique_signatures": 4,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-0@12",
+      "template_key": "A2_B2-0_B1-7_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 8,
+      "unique_signatures": 4,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-0@13",
+      "template_key": "A2_B2-0_B1-7_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-0@23",
+      "template_key": "A2_B2-0_B1-7_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 8,
+      "unique_signatures": 2,
+      "compression_ratio": 4.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-1@01",
+      "template_key": "A2_B2-0_B1-7_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 16,
+      "unique_signatures": 6,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-1@02",
+      "template_key": "A2_B2-0_B1-7_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 16,
+      "unique_signatures": 16,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-1@03",
+      "template_key": "A2_B2-0_B1-7_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-1@12",
+      "template_key": "A2_B2-0_B1-7_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 16,
+      "unique_signatures": 8,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-1@13",
+      "template_key": "A2_B2-0_B1-7_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 16,
+      "unique_signatures": 16,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-7_B0-1@23",
+      "template_key": "A2_B2-0_B1-7_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 16,
+      "unique_signatures": 6,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-8_B0-0@01",
+      "template_key": "A2_B2-0_B1-8_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-8_B0-0@02",
+      "template_key": "A2_B2-0_B1-8_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-8_B0-0@03",
+      "template_key": "A2_B2-0_B1-8_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-8_B0-0@12",
+      "template_key": "A2_B2-0_B1-8_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-8_B0-0@13",
+      "template_key": "A2_B2-0_B1-8_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-8_B0-0@23",
+      "template_key": "A2_B2-0_B1-8_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-1_B0-2@01",
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-1_B0-2@02",
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 16,
+      "unique_signatures": 13,
+      "compression_ratio": 1.2307692307692308
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-1_B0-2@03",
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 16,
+      "unique_signatures": 14,
+      "compression_ratio": 1.1428571428571428
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-1_B0-2@12",
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-1_B0-2@13",
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 16,
+      "unique_signatures": 13,
+      "compression_ratio": 1.2307692307692308
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-1_B0-2@23",
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-1@01",
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-1@02",
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 96,
+      "compression_ratio": 1.1666666666666667
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-1@03",
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 96,
+      "compression_ratio": 1.1666666666666667
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-1@12",
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 90,
+      "compression_ratio": 1.2444444444444445
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-1@13",
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 96,
+      "compression_ratio": 1.1666666666666667
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-1@23",
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-2@01",
+      "template_key": "A2_B2-1_B1-2_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-2@02",
+      "template_key": "A2_B2-1_B1-2_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 51,
+      "compression_ratio": 1.0980392156862746
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-2@03",
+      "template_key": "A2_B2-1_B1-2_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 54,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-2@12",
+      "template_key": "A2_B2-1_B1-2_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-2@13",
+      "template_key": "A2_B2-1_B1-2_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 51,
+      "compression_ratio": 1.0980392156862746
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-2@23",
+      "template_key": "A2_B2-1_B1-2_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-0@01",
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-0@02",
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-0@03",
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 55,
+      "compression_ratio": 2.036363636363636
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-0@12",
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-0@13",
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-0@23",
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-1@01",
+      "template_key": "A2_B2-1_B1-3_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 224,
+      "unique_signatures": 126,
+      "compression_ratio": 1.7777777777777777
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-1@02",
+      "template_key": "A2_B2-1_B1-3_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 224,
+      "unique_signatures": 183,
+      "compression_ratio": 1.2240437158469946
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-1@03",
+      "template_key": "A2_B2-1_B1-3_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 224,
+      "unique_signatures": 165,
+      "compression_ratio": 1.3575757575757577
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-1@12",
+      "template_key": "A2_B2-1_B1-3_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 224,
+      "unique_signatures": 165,
+      "compression_ratio": 1.3575757575757577
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-1@13",
+      "template_key": "A2_B2-1_B1-3_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 224,
+      "unique_signatures": 183,
+      "compression_ratio": 1.2240437158469946
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-1@23",
+      "template_key": "A2_B2-1_B1-3_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 224,
+      "unique_signatures": 126,
+      "compression_ratio": 1.7777777777777777
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-2@01",
+      "template_key": "A2_B2-1_B1-3_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-2@02",
+      "template_key": "A2_B2-1_B1-3_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 102,
+      "compression_ratio": 1.0980392156862746
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-2@03",
+      "template_key": "A2_B2-1_B1-3_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 110,
+      "compression_ratio": 1.018181818181818
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-2@12",
+      "template_key": "A2_B2-1_B1-3_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-2@13",
+      "template_key": "A2_B2-1_B1-3_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 102,
+      "compression_ratio": 1.0980392156862746
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-2@23",
+      "template_key": "A2_B2-1_B1-3_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-0@01",
+      "template_key": "A2_B2-1_B1-4_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 140,
+      "unique_signatures": 68,
+      "compression_ratio": 2.0588235294117645
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-0@02",
+      "template_key": "A2_B2-1_B1-4_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 140,
+      "unique_signatures": 121,
+      "compression_ratio": 1.1570247933884297
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-0@03",
+      "template_key": "A2_B2-1_B1-4_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 140,
+      "unique_signatures": 82,
+      "compression_ratio": 1.7073170731707317
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-0@12",
+      "template_key": "A2_B2-1_B1-4_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 140,
+      "unique_signatures": 114,
+      "compression_ratio": 1.2280701754385965
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-0@13",
+      "template_key": "A2_B2-1_B1-4_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 140,
+      "unique_signatures": 121,
+      "compression_ratio": 1.1570247933884297
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-0@23",
+      "template_key": "A2_B2-1_B1-4_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 140,
+      "unique_signatures": 68,
+      "compression_ratio": 2.0588235294117645
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-1@01",
+      "template_key": "A2_B2-1_B1-4_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 280,
+      "unique_signatures": 176,
+      "compression_ratio": 1.5909090909090908
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-1@02",
+      "template_key": "A2_B2-1_B1-4_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 280,
+      "unique_signatures": 254,
+      "compression_ratio": 1.1023622047244095
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-1@03",
+      "template_key": "A2_B2-1_B1-4_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 280,
+      "unique_signatures": 222,
+      "compression_ratio": 1.2612612612612613
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-1@12",
+      "template_key": "A2_B2-1_B1-4_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 280,
+      "unique_signatures": 220,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-1@13",
+      "template_key": "A2_B2-1_B1-4_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 280,
+      "unique_signatures": 254,
+      "compression_ratio": 1.1023622047244095
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-1@23",
+      "template_key": "A2_B2-1_B1-4_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 280,
+      "unique_signatures": 176,
+      "compression_ratio": 1.5909090909090908
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-2@01",
+      "template_key": "A2_B2-1_B1-4_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 140,
+      "unique_signatures": 114,
+      "compression_ratio": 1.2280701754385965
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-2@02",
+      "template_key": "A2_B2-1_B1-4_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 140,
+      "unique_signatures": 135,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-2@03",
+      "template_key": "A2_B2-1_B1-4_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 140,
+      "unique_signatures": 140,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-2@12",
+      "template_key": "A2_B2-1_B1-4_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 140,
+      "unique_signatures": 114,
+      "compression_ratio": 1.2280701754385965
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-2@13",
+      "template_key": "A2_B2-1_B1-4_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 140,
+      "unique_signatures": 135,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-4_B0-2@23",
+      "template_key": "A2_B2-1_B1-4_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 140,
+      "unique_signatures": 114,
+      "compression_ratio": 1.2280701754385965
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-0@01",
+      "template_key": "A2_B2-1_B1-5_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-0@02",
+      "template_key": "A2_B2-1_B1-5_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 101,
+      "compression_ratio": 1.108910891089109
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-0@03",
+      "template_key": "A2_B2-1_B1-5_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 56,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-0@12",
+      "template_key": "A2_B2-1_B1-5_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-0@13",
+      "template_key": "A2_B2-1_B1-5_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 101,
+      "compression_ratio": 1.108910891089109
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-0@23",
+      "template_key": "A2_B2-1_B1-5_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 42,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-1@01",
+      "template_key": "A2_B2-1_B1-5_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 224,
+      "unique_signatures": 126,
+      "compression_ratio": 1.7777777777777777
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-1@02",
+      "template_key": "A2_B2-1_B1-5_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 224,
+      "unique_signatures": 210,
+      "compression_ratio": 1.0666666666666667
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-1@03",
+      "template_key": "A2_B2-1_B1-5_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 224,
+      "unique_signatures": 168,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-1@12",
+      "template_key": "A2_B2-1_B1-5_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 224,
+      "unique_signatures": 168,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-1@13",
+      "template_key": "A2_B2-1_B1-5_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 224,
+      "unique_signatures": 210,
+      "compression_ratio": 1.0666666666666667
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-1@23",
+      "template_key": "A2_B2-1_B1-5_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 224,
+      "unique_signatures": 126,
+      "compression_ratio": 1.7777777777777777
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-2@01",
+      "template_key": "A2_B2-1_B1-5_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-2@02",
+      "template_key": "A2_B2-1_B1-5_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 109,
+      "compression_ratio": 1.0275229357798166
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-2@03",
+      "template_key": "A2_B2-1_B1-5_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 112,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-2@12",
+      "template_key": "A2_B2-1_B1-5_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-2@13",
+      "template_key": "A2_B2-1_B1-5_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 109,
+      "compression_ratio": 1.0275229357798166
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-5_B0-2@23",
+      "template_key": "A2_B2-1_B1-5_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-0@01",
+      "template_key": "A2_B2-1_B1-6_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 35,
+      "compression_ratio": 1.6
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-0@02",
+      "template_key": "A2_B2-1_B1-6_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-0@03",
+      "template_key": "A2_B2-1_B1-6_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 44,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-0@12",
+      "template_key": "A2_B2-1_B1-6_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-0@13",
+      "template_key": "A2_B2-1_B1-6_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-0@23",
+      "template_key": "A2_B2-1_B1-6_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 35,
+      "compression_ratio": 1.6
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-1@01",
+      "template_key": "A2_B2-1_B1-6_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-1@02",
+      "template_key": "A2_B2-1_B1-6_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 112,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-1@03",
+      "template_key": "A2_B2-1_B1-6_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 100,
+      "compression_ratio": 1.12
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-1@12",
+      "template_key": "A2_B2-1_B1-6_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 92,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-1@13",
+      "template_key": "A2_B2-1_B1-6_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 112,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-6_B0-1@23",
+      "template_key": "A2_B2-1_B1-6_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 81,
+      "compression_ratio": 1.382716049382716
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-7_B0-0@01",
+      "template_key": "A2_B2-1_B1-7_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 16,
+      "unique_signatures": 6,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-7_B0-0@02",
+      "template_key": "A2_B2-1_B1-7_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 16,
+      "unique_signatures": 16,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-7_B0-0@03",
+      "template_key": "A2_B2-1_B1-7_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 16,
+      "unique_signatures": 8,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-7_B0-0@12",
+      "template_key": "A2_B2-1_B1-7_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-7_B0-0@13",
+      "template_key": "A2_B2-1_B1-7_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 16,
+      "unique_signatures": 16,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-7_B0-0@23",
+      "template_key": "A2_B2-1_B1-7_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 16,
+      "unique_signatures": 6,
+      "compression_ratio": 2.6666666666666665
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-0_B0-2@01",
+      "template_key": "A2_B2-2_B1-0_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-0_B0-2@02",
+      "template_key": "A2_B2-2_B1-0_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-0_B0-2@03",
+      "template_key": "A2_B2-2_B1-0_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-0_B0-2@12",
+      "template_key": "A2_B2-2_B1-0_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-0_B0-2@13",
+      "template_key": "A2_B2-2_B1-0_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-0_B0-2@23",
+      "template_key": "A2_B2-2_B1-0_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-1@01",
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-1@02",
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 16,
+      "unique_signatures": 13,
+      "compression_ratio": 1.2307692307692308
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-1@03",
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-1@12",
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 16,
+      "unique_signatures": 14,
+      "compression_ratio": 1.1428571428571428
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-1@13",
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 16,
+      "unique_signatures": 13,
+      "compression_ratio": 1.2307692307692308
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-1@23",
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 16,
+      "unique_signatures": 12,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-2@01",
+      "template_key": "A2_B2-2_B1-1_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-2@02",
+      "template_key": "A2_B2-2_B1-1_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-2@03",
+      "template_key": "A2_B2-2_B1-1_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-2@12",
+      "template_key": "A2_B2-2_B1-1_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-2@13",
+      "template_key": "A2_B2-2_B1-1_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-2@23",
+      "template_key": "A2_B2-2_B1-1_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 8,
+      "unique_signatures": 8,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-0@01",
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 28,
+      "unique_signatures": 22,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-0@02",
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 28,
+      "unique_signatures": 25,
+      "compression_ratio": 1.12
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-0@03",
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 28,
+      "unique_signatures": 22,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-0@12",
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 28,
+      "unique_signatures": 27,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-0@13",
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 28,
+      "unique_signatures": 25,
+      "compression_ratio": 1.12
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-0@23",
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 28,
+      "unique_signatures": 22,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-1@01",
+      "template_key": "A2_B2-2_B1-2_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 50,
+      "compression_ratio": 1.12
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-1@02",
+      "template_key": "A2_B2-2_B1-2_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 53,
+      "compression_ratio": 1.0566037735849056
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-1@03",
+      "template_key": "A2_B2-2_B1-2_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 50,
+      "compression_ratio": 1.12
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-1@12",
+      "template_key": "A2_B2-2_B1-2_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 55,
+      "compression_ratio": 1.018181818181818
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-1@13",
+      "template_key": "A2_B2-2_B1-2_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 53,
+      "compression_ratio": 1.0566037735849056
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-1@23",
+      "template_key": "A2_B2-2_B1-2_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 50,
+      "compression_ratio": 1.12
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-2@01",
+      "template_key": "A2_B2-2_B1-2_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-2@02",
+      "template_key": "A2_B2-2_B1-2_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-2@03",
+      "template_key": "A2_B2-2_B1-2_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-2@12",
+      "template_key": "A2_B2-2_B1-2_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-2@13",
+      "template_key": "A2_B2-2_B1-2_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-2@23",
+      "template_key": "A2_B2-2_B1-2_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-0@01",
+      "template_key": "A2_B2-2_B1-3_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-0@02",
+      "template_key": "A2_B2-2_B1-3_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-0@03",
+      "template_key": "A2_B2-2_B1-3_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-0@12",
+      "template_key": "A2_B2-2_B1-3_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 54,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-0@13",
+      "template_key": "A2_B2-2_B1-3_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 46,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-0@23",
+      "template_key": "A2_B2-2_B1-3_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-1@01",
+      "template_key": "A2_B2-2_B1-3_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-1@02",
+      "template_key": "A2_B2-2_B1-3_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 102,
+      "compression_ratio": 1.0980392156862746
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-1@03",
+      "template_key": "A2_B2-2_B1-3_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-1@12",
+      "template_key": "A2_B2-2_B1-3_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 110,
+      "compression_ratio": 1.018181818181818
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-1@13",
+      "template_key": "A2_B2-2_B1-3_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 102,
+      "compression_ratio": 1.0980392156862746
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-1@23",
+      "template_key": "A2_B2-2_B1-3_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-2@01",
+      "template_key": "A2_B2-2_B1-3_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-2@02",
+      "template_key": "A2_B2-2_B1-3_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-2@03",
+      "template_key": "A2_B2-2_B1-3_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-2@12",
+      "template_key": "A2_B2-2_B1-3_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-2@13",
+      "template_key": "A2_B2-2_B1-3_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-3_B0-2@23",
+      "template_key": "A2_B2-2_B1-3_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-0@01",
+      "template_key": "A2_B2-2_B1-4_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 70,
+      "unique_signatures": 45,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-0@02",
+      "template_key": "A2_B2-2_B1-4_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 70,
+      "unique_signatures": 65,
+      "compression_ratio": 1.0769230769230769
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-0@03",
+      "template_key": "A2_B2-2_B1-4_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 70,
+      "unique_signatures": 45,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-0@12",
+      "template_key": "A2_B2-2_B1-4_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-0@13",
+      "template_key": "A2_B2-2_B1-4_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 70,
+      "unique_signatures": 65,
+      "compression_ratio": 1.0769230769230769
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-0@23",
+      "template_key": "A2_B2-2_B1-4_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 70,
+      "unique_signatures": 45,
+      "compression_ratio": 1.5555555555555556
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-1@01",
+      "template_key": "A2_B2-2_B1-4_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 140,
+      "unique_signatures": 115,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-1@02",
+      "template_key": "A2_B2-2_B1-4_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 140,
+      "unique_signatures": 135,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-1@03",
+      "template_key": "A2_B2-2_B1-4_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 140,
+      "unique_signatures": 115,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-1@12",
+      "template_key": "A2_B2-2_B1-4_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 140,
+      "unique_signatures": 140,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-1@13",
+      "template_key": "A2_B2-2_B1-4_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 140,
+      "unique_signatures": 135,
+      "compression_ratio": 1.037037037037037
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-1@23",
+      "template_key": "A2_B2-2_B1-4_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 140,
+      "unique_signatures": 115,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-2@01",
+      "template_key": "A2_B2-2_B1-4_B0-2",
+      "axis_subset_key": "01",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-2@02",
+      "template_key": "A2_B2-2_B1-4_B0-2",
+      "axis_subset_key": "02",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-2@03",
+      "template_key": "A2_B2-2_B1-4_B0-2",
+      "axis_subset_key": "03",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-2@12",
+      "template_key": "A2_B2-2_B1-4_B0-2",
+      "axis_subset_key": "12",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-2@13",
+      "template_key": "A2_B2-2_B1-4_B0-2",
+      "axis_subset_key": "13",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-4_B0-2@23",
+      "template_key": "A2_B2-2_B1-4_B0-2",
+      "axis_subset_key": "23",
+      "raw_candidates": 70,
+      "unique_signatures": 70,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-0@01",
+      "template_key": "A2_B2-2_B1-5_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-0@02",
+      "template_key": "A2_B2-2_B1-5_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 56,
+      "unique_signatures": 53,
+      "compression_ratio": 1.0566037735849056
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-0@03",
+      "template_key": "A2_B2-2_B1-5_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-0@12",
+      "template_key": "A2_B2-2_B1-5_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 56,
+      "unique_signatures": 56,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-0@13",
+      "template_key": "A2_B2-2_B1-5_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 56,
+      "unique_signatures": 53,
+      "compression_ratio": 1.0566037735849056
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-0@23",
+      "template_key": "A2_B2-2_B1-5_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 56,
+      "unique_signatures": 28,
+      "compression_ratio": 2.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-1@01",
+      "template_key": "A2_B2-2_B1-5_B0-1",
+      "axis_subset_key": "01",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-1@02",
+      "template_key": "A2_B2-2_B1-5_B0-1",
+      "axis_subset_key": "02",
+      "raw_candidates": 112,
+      "unique_signatures": 109,
+      "compression_ratio": 1.0275229357798166
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-1@03",
+      "template_key": "A2_B2-2_B1-5_B0-1",
+      "axis_subset_key": "03",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-1@12",
+      "template_key": "A2_B2-2_B1-5_B0-1",
+      "axis_subset_key": "12",
+      "raw_candidates": 112,
+      "unique_signatures": 112,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-1@13",
+      "template_key": "A2_B2-2_B1-5_B0-1",
+      "axis_subset_key": "13",
+      "raw_candidates": 112,
+      "unique_signatures": 109,
+      "compression_ratio": 1.0275229357798166
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-5_B0-1@23",
+      "template_key": "A2_B2-2_B1-5_B0-1",
+      "axis_subset_key": "23",
+      "raw_candidates": 112,
+      "unique_signatures": 84,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-6_B0-0@01",
+      "template_key": "A2_B2-2_B1-6_B0-0",
+      "axis_subset_key": "01",
+      "raw_candidates": 28,
+      "unique_signatures": 22,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-6_B0-0@02",
+      "template_key": "A2_B2-2_B1-6_B0-0",
+      "axis_subset_key": "02",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-6_B0-0@03",
+      "template_key": "A2_B2-2_B1-6_B0-0",
+      "axis_subset_key": "03",
+      "raw_candidates": 28,
+      "unique_signatures": 22,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-6_B0-0@12",
+      "template_key": "A2_B2-2_B1-6_B0-0",
+      "axis_subset_key": "12",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-6_B0-0@13",
+      "template_key": "A2_B2-2_B1-6_B0-0",
+      "axis_subset_key": "13",
+      "raw_candidates": 28,
+      "unique_signatures": 28,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-6_B0-0@23",
+      "template_key": "A2_B2-2_B1-6_B0-0",
+      "axis_subset_key": "23",
+      "raw_candidates": 28,
+      "unique_signatures": 22,
+      "compression_ratio": 1.2727272727272727
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-4_B0-0@012",
+      "template_key": "A3_B2-0_B1-4_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 15,
+      "unique_signatures": 5,
+      "compression_ratio": 3.0
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-4_B0-0@013",
+      "template_key": "A3_B2-0_B1-4_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 15,
+      "unique_signatures": 10,
+      "compression_ratio": 1.5
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-4_B0-0@023",
+      "template_key": "A3_B2-0_B1-4_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 15,
+      "unique_signatures": 10,
+      "compression_ratio": 1.5
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-4_B0-0@123",
+      "template_key": "A3_B2-0_B1-4_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 15,
+      "unique_signatures": 5,
+      "compression_ratio": 3.0
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-5_B0-0@012",
+      "template_key": "A3_B2-0_B1-5_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 6,
+      "unique_signatures": 2,
+      "compression_ratio": 3.0
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-5_B0-0@013",
+      "template_key": "A3_B2-0_B1-5_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 6,
+      "unique_signatures": 4,
+      "compression_ratio": 1.5
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-5_B0-0@023",
+      "template_key": "A3_B2-0_B1-5_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 6,
+      "unique_signatures": 4,
+      "compression_ratio": 1.5
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-5_B0-0@123",
+      "template_key": "A3_B2-0_B1-5_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 6,
+      "unique_signatures": 2,
+      "compression_ratio": 3.0
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-6_B0-0@012",
+      "template_key": "A3_B2-0_B1-6_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-6_B0-0@013",
+      "template_key": "A3_B2-0_B1-6_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-6_B0-0@023",
+      "template_key": "A3_B2-0_B1-6_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-0_B1-6_B0-0@123",
+      "template_key": "A3_B2-0_B1-6_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-3_B0-0@012",
+      "template_key": "A3_B2-1_B1-3_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 120,
+      "unique_signatures": 34,
+      "compression_ratio": 3.5294117647058822
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-3_B0-0@013",
+      "template_key": "A3_B2-1_B1-3_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 120,
+      "unique_signatures": 65,
+      "compression_ratio": 1.8461538461538463
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-3_B0-0@023",
+      "template_key": "A3_B2-1_B1-3_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 120,
+      "unique_signatures": 65,
+      "compression_ratio": 1.8461538461538463
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-3_B0-0@123",
+      "template_key": "A3_B2-1_B1-3_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 120,
+      "unique_signatures": 34,
+      "compression_ratio": 3.5294117647058822
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-4_B0-0@012",
+      "template_key": "A3_B2-1_B1-4_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 90,
+      "unique_signatures": 25,
+      "compression_ratio": 3.6
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-4_B0-0@013",
+      "template_key": "A3_B2-1_B1-4_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 90,
+      "unique_signatures": 53,
+      "compression_ratio": 1.6981132075471699
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-4_B0-0@023",
+      "template_key": "A3_B2-1_B1-4_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 90,
+      "unique_signatures": 53,
+      "compression_ratio": 1.6981132075471699
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-4_B0-0@123",
+      "template_key": "A3_B2-1_B1-4_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 90,
+      "unique_signatures": 25,
+      "compression_ratio": 3.6
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-5_B0-0@012",
+      "template_key": "A3_B2-1_B1-5_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 36,
+      "unique_signatures": 10,
+      "compression_ratio": 3.6
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-5_B0-0@013",
+      "template_key": "A3_B2-1_B1-5_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 36,
+      "unique_signatures": 22,
+      "compression_ratio": 1.6363636363636365
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-5_B0-0@023",
+      "template_key": "A3_B2-1_B1-5_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 36,
+      "unique_signatures": 22,
+      "compression_ratio": 1.6363636363636365
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-5_B0-0@123",
+      "template_key": "A3_B2-1_B1-5_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 36,
+      "unique_signatures": 10,
+      "compression_ratio": 3.6
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-6_B0-0@012",
+      "template_key": "A3_B2-1_B1-6_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 6,
+      "unique_signatures": 2,
+      "compression_ratio": 3.0
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-6_B0-0@013",
+      "template_key": "A3_B2-1_B1-6_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 6,
+      "unique_signatures": 4,
+      "compression_ratio": 1.5
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-6_B0-0@023",
+      "template_key": "A3_B2-1_B1-6_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 6,
+      "unique_signatures": 4,
+      "compression_ratio": 1.5
+    },
+    {
+      "root_branch_key": "A3_B2-1_B1-6_B0-0@123",
+      "template_key": "A3_B2-1_B1-6_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 6,
+      "unique_signatures": 2,
+      "compression_ratio": 3.0
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-2_B0-0@012",
+      "template_key": "A3_B2-2_B1-2_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 225,
+      "unique_signatures": 100,
+      "compression_ratio": 2.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-2_B0-0@013",
+      "template_key": "A3_B2-2_B1-2_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 225,
+      "unique_signatures": 135,
+      "compression_ratio": 1.6666666666666667
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-2_B0-0@023",
+      "template_key": "A3_B2-2_B1-2_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 225,
+      "unique_signatures": 135,
+      "compression_ratio": 1.6666666666666667
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-2_B0-0@123",
+      "template_key": "A3_B2-2_B1-2_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 225,
+      "unique_signatures": 100,
+      "compression_ratio": 2.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-3_B0-0@012",
+      "template_key": "A3_B2-2_B1-3_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 300,
+      "unique_signatures": 124,
+      "compression_ratio": 2.4193548387096775
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-3_B0-0@013",
+      "template_key": "A3_B2-2_B1-3_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 300,
+      "unique_signatures": 190,
+      "compression_ratio": 1.5789473684210527
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-3_B0-0@023",
+      "template_key": "A3_B2-2_B1-3_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 300,
+      "unique_signatures": 190,
+      "compression_ratio": 1.5789473684210527
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-3_B0-0@123",
+      "template_key": "A3_B2-2_B1-3_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 300,
+      "unique_signatures": 124,
+      "compression_ratio": 2.4193548387096775
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-4_B0-0@012",
+      "template_key": "A3_B2-2_B1-4_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 225,
+      "unique_signatures": 100,
+      "compression_ratio": 2.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-4_B0-0@013",
+      "template_key": "A3_B2-2_B1-4_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 225,
+      "unique_signatures": 157,
+      "compression_ratio": 1.4331210191082802
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-4_B0-0@023",
+      "template_key": "A3_B2-2_B1-4_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 225,
+      "unique_signatures": 157,
+      "compression_ratio": 1.4331210191082802
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-4_B0-0@123",
+      "template_key": "A3_B2-2_B1-4_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 225,
+      "unique_signatures": 100,
+      "compression_ratio": 2.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-5_B0-0@012",
+      "template_key": "A3_B2-2_B1-5_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 90,
+      "unique_signatures": 40,
+      "compression_ratio": 2.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-5_B0-0@013",
+      "template_key": "A3_B2-2_B1-5_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 90,
+      "unique_signatures": 64,
+      "compression_ratio": 1.40625
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-5_B0-0@023",
+      "template_key": "A3_B2-2_B1-5_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 90,
+      "unique_signatures": 64,
+      "compression_ratio": 1.40625
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-5_B0-0@123",
+      "template_key": "A3_B2-2_B1-5_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 90,
+      "unique_signatures": 40,
+      "compression_ratio": 2.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-6_B0-0@012",
+      "template_key": "A3_B2-2_B1-6_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 15,
+      "unique_signatures": 9,
+      "compression_ratio": 1.6666666666666667
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-6_B0-0@013",
+      "template_key": "A3_B2-2_B1-6_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 15,
+      "unique_signatures": 12,
+      "compression_ratio": 1.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-6_B0-0@023",
+      "template_key": "A3_B2-2_B1-6_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 15,
+      "unique_signatures": 12,
+      "compression_ratio": 1.25
+    },
+    {
+      "root_branch_key": "A3_B2-2_B1-6_B0-0@123",
+      "template_key": "A3_B2-2_B1-6_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 15,
+      "unique_signatures": 9,
+      "compression_ratio": 1.6666666666666667
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-1_B0-0@012",
+      "template_key": "A3_B2-3_B1-1_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 120,
+      "unique_signatures": 68,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-1_B0-0@013",
+      "template_key": "A3_B2-3_B1-1_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 120,
+      "unique_signatures": 78,
+      "compression_ratio": 1.5384615384615385
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-1_B0-0@023",
+      "template_key": "A3_B2-3_B1-1_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 120,
+      "unique_signatures": 78,
+      "compression_ratio": 1.5384615384615385
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-1_B0-0@123",
+      "template_key": "A3_B2-3_B1-1_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 120,
+      "unique_signatures": 68,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-2_B0-0@012",
+      "template_key": "A3_B2-3_B1-2_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 300,
+      "unique_signatures": 170,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-2_B0-0@013",
+      "template_key": "A3_B2-3_B1-2_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 300,
+      "unique_signatures": 209,
+      "compression_ratio": 1.4354066985645932
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-2_B0-0@023",
+      "template_key": "A3_B2-3_B1-2_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 300,
+      "unique_signatures": 209,
+      "compression_ratio": 1.4354066985645932
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-2_B0-0@123",
+      "template_key": "A3_B2-3_B1-2_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 300,
+      "unique_signatures": 170,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-3_B0-0@012",
+      "template_key": "A3_B2-3_B1-3_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 400,
+      "unique_signatures": 218,
+      "compression_ratio": 1.834862385321101
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-3_B0-0@013",
+      "template_key": "A3_B2-3_B1-3_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 400,
+      "unique_signatures": 290,
+      "compression_ratio": 1.3793103448275863
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-3_B0-0@023",
+      "template_key": "A3_B2-3_B1-3_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 400,
+      "unique_signatures": 290,
+      "compression_ratio": 1.3793103448275863
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-3_B0-0@123",
+      "template_key": "A3_B2-3_B1-3_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 400,
+      "unique_signatures": 218,
+      "compression_ratio": 1.834862385321101
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-4_B0-0@012",
+      "template_key": "A3_B2-3_B1-4_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 300,
+      "unique_signatures": 170,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-4_B0-0@013",
+      "template_key": "A3_B2-3_B1-4_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 300,
+      "unique_signatures": 232,
+      "compression_ratio": 1.293103448275862
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-4_B0-0@023",
+      "template_key": "A3_B2-3_B1-4_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 300,
+      "unique_signatures": 232,
+      "compression_ratio": 1.293103448275862
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-4_B0-0@123",
+      "template_key": "A3_B2-3_B1-4_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 300,
+      "unique_signatures": 170,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-5_B0-0@012",
+      "template_key": "A3_B2-3_B1-5_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 120,
+      "unique_signatures": 68,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-5_B0-0@013",
+      "template_key": "A3_B2-3_B1-5_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 120,
+      "unique_signatures": 94,
+      "compression_ratio": 1.2765957446808511
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-5_B0-0@023",
+      "template_key": "A3_B2-3_B1-5_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 120,
+      "unique_signatures": 94,
+      "compression_ratio": 1.2765957446808511
+    },
+    {
+      "root_branch_key": "A3_B2-3_B1-5_B0-0@123",
+      "template_key": "A3_B2-3_B1-5_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 120,
+      "unique_signatures": 68,
+      "compression_ratio": 1.7647058823529411
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-0_B0-0@012",
+      "template_key": "A3_B2-4_B1-0_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 15,
+      "unique_signatures": 11,
+      "compression_ratio": 1.3636363636363635
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-0_B0-0@013",
+      "template_key": "A3_B2-4_B1-0_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 15,
+      "unique_signatures": 11,
+      "compression_ratio": 1.3636363636363635
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-0_B0-0@023",
+      "template_key": "A3_B2-4_B1-0_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 15,
+      "unique_signatures": 11,
+      "compression_ratio": 1.3636363636363635
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-0_B0-0@123",
+      "template_key": "A3_B2-4_B1-0_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 15,
+      "unique_signatures": 11,
+      "compression_ratio": 1.3636363636363635
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-1_B0-0@012",
+      "template_key": "A3_B2-4_B1-1_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 90,
+      "unique_signatures": 62,
+      "compression_ratio": 1.4516129032258065
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-1_B0-0@013",
+      "template_key": "A3_B2-4_B1-1_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 90,
+      "unique_signatures": 67,
+      "compression_ratio": 1.3432835820895523
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-1_B0-0@023",
+      "template_key": "A3_B2-4_B1-1_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 90,
+      "unique_signatures": 67,
+      "compression_ratio": 1.3432835820895523
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-1_B0-0@123",
+      "template_key": "A3_B2-4_B1-1_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 90,
+      "unique_signatures": 62,
+      "compression_ratio": 1.4516129032258065
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-2_B0-0@012",
+      "template_key": "A3_B2-4_B1-2_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 225,
+      "unique_signatures": 155,
+      "compression_ratio": 1.4516129032258065
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-2_B0-0@013",
+      "template_key": "A3_B2-4_B1-2_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 225,
+      "unique_signatures": 176,
+      "compression_ratio": 1.2784090909090908
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-2_B0-0@023",
+      "template_key": "A3_B2-4_B1-2_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 225,
+      "unique_signatures": 176,
+      "compression_ratio": 1.2784090909090908
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-2_B0-0@123",
+      "template_key": "A3_B2-4_B1-2_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 225,
+      "unique_signatures": 155,
+      "compression_ratio": 1.4516129032258065
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-3_B0-0@012",
+      "template_key": "A3_B2-4_B1-3_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 300,
+      "unique_signatures": 208,
+      "compression_ratio": 1.4423076923076923
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-3_B0-0@013",
+      "template_key": "A3_B2-4_B1-3_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 300,
+      "unique_signatures": 245,
+      "compression_ratio": 1.2244897959183674
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-3_B0-0@023",
+      "template_key": "A3_B2-4_B1-3_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 300,
+      "unique_signatures": 245,
+      "compression_ratio": 1.2244897959183674
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-3_B0-0@123",
+      "template_key": "A3_B2-4_B1-3_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 300,
+      "unique_signatures": 208,
+      "compression_ratio": 1.4423076923076923
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-4_B0-0@012",
+      "template_key": "A3_B2-4_B1-4_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 225,
+      "unique_signatures": 155,
+      "compression_ratio": 1.4516129032258065
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-4_B0-0@013",
+      "template_key": "A3_B2-4_B1-4_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 225,
+      "unique_signatures": 188,
+      "compression_ratio": 1.196808510638298
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-4_B0-0@023",
+      "template_key": "A3_B2-4_B1-4_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 225,
+      "unique_signatures": 188,
+      "compression_ratio": 1.196808510638298
+    },
+    {
+      "root_branch_key": "A3_B2-4_B1-4_B0-0@123",
+      "template_key": "A3_B2-4_B1-4_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 225,
+      "unique_signatures": 155,
+      "compression_ratio": 1.4516129032258065
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-0_B0-0@012",
+      "template_key": "A3_B2-5_B1-0_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-0_B0-0@013",
+      "template_key": "A3_B2-5_B1-0_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-0_B0-0@023",
+      "template_key": "A3_B2-5_B1-0_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-0_B0-0@123",
+      "template_key": "A3_B2-5_B1-0_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-1_B0-0@012",
+      "template_key": "A3_B2-5_B1-1_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 36,
+      "unique_signatures": 32,
+      "compression_ratio": 1.125
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-1_B0-0@013",
+      "template_key": "A3_B2-5_B1-1_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 36,
+      "unique_signatures": 33,
+      "compression_ratio": 1.0909090909090908
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-1_B0-0@023",
+      "template_key": "A3_B2-5_B1-1_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 36,
+      "unique_signatures": 33,
+      "compression_ratio": 1.0909090909090908
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-1_B0-0@123",
+      "template_key": "A3_B2-5_B1-1_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 36,
+      "unique_signatures": 32,
+      "compression_ratio": 1.125
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-2_B0-0@012",
+      "template_key": "A3_B2-5_B1-2_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 90,
+      "unique_signatures": 80,
+      "compression_ratio": 1.125
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-2_B0-0@013",
+      "template_key": "A3_B2-5_B1-2_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 90,
+      "unique_signatures": 83,
+      "compression_ratio": 1.0843373493975903
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-2_B0-0@023",
+      "template_key": "A3_B2-5_B1-2_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 90,
+      "unique_signatures": 83,
+      "compression_ratio": 1.0843373493975903
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-2_B0-0@123",
+      "template_key": "A3_B2-5_B1-2_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 90,
+      "unique_signatures": 80,
+      "compression_ratio": 1.125
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-3_B0-0@012",
+      "template_key": "A3_B2-5_B1-3_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 120,
+      "unique_signatures": 108,
+      "compression_ratio": 1.1111111111111112
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-3_B0-0@013",
+      "template_key": "A3_B2-5_B1-3_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 120,
+      "unique_signatures": 113,
+      "compression_ratio": 1.0619469026548674
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-3_B0-0@023",
+      "template_key": "A3_B2-5_B1-3_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 120,
+      "unique_signatures": 113,
+      "compression_ratio": 1.0619469026548674
+    },
+    {
+      "root_branch_key": "A3_B2-5_B1-3_B0-0@123",
+      "template_key": "A3_B2-5_B1-3_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 120,
+      "unique_signatures": 108,
+      "compression_ratio": 1.1111111111111112
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-0_B0-0@012",
+      "template_key": "A3_B2-6_B1-0_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-0_B0-0@013",
+      "template_key": "A3_B2-6_B1-0_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-0_B0-0@023",
+      "template_key": "A3_B2-6_B1-0_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-0_B0-0@123",
+      "template_key": "A3_B2-6_B1-0_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 1,
+      "unique_signatures": 1,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-1_B0-0@012",
+      "template_key": "A3_B2-6_B1-1_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-1_B0-0@013",
+      "template_key": "A3_B2-6_B1-1_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-1_B0-0@023",
+      "template_key": "A3_B2-6_B1-1_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-1_B0-0@123",
+      "template_key": "A3_B2-6_B1-1_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-2_B0-0@012",
+      "template_key": "A3_B2-6_B1-2_B0-0",
+      "axis_subset_key": "012",
+      "raw_candidates": 15,
+      "unique_signatures": 15,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-2_B0-0@013",
+      "template_key": "A3_B2-6_B1-2_B0-0",
+      "axis_subset_key": "013",
+      "raw_candidates": 15,
+      "unique_signatures": 15,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-2_B0-0@023",
+      "template_key": "A3_B2-6_B1-2_B0-0",
+      "axis_subset_key": "023",
+      "raw_candidates": 15,
+      "unique_signatures": 15,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A3_B2-6_B1-2_B0-0@123",
+      "template_key": "A3_B2-6_B1-2_B0-0",
+      "axis_subset_key": "123",
+      "raw_candidates": 15,
+      "unique_signatures": 15,
+      "compression_ratio": 1.0
+    },
+    {
+      "root_branch_key": "A4_B2-4_B1-0_B0-0@0123",
+      "template_key": "A4_B2-4_B1-0_B0-0",
+      "axis_subset_key": "0123",
+      "raw_candidates": 495,
+      "unique_signatures": 143,
+      "compression_ratio": 3.4615384615384617
+    },
+    {
+      "root_branch_key": "A4_B2-5_B1-0_B0-0@0123",
+      "template_key": "A4_B2-5_B1-0_B0-0",
+      "axis_subset_key": "0123",
+      "raw_candidates": 792,
+      "unique_signatures": 260,
+      "compression_ratio": 3.046153846153846
+    },
+    {
+      "root_branch_key": "A4_B2-6_B1-0_B0-0@0123",
+      "template_key": "A4_B2-6_B1-0_B0-0",
+      "axis_subset_key": "0123",
+      "raw_candidates": 924,
+      "unique_signatures": 370,
+      "compression_ratio": 2.497297297297297
+    },
+    {
+      "root_branch_key": "A4_B2-7_B1-0_B0-0@0123",
+      "template_key": "A4_B2-7_B1-0_B0-0",
+      "axis_subset_key": "0123",
+      "raw_candidates": 792,
+      "unique_signatures": 409,
+      "compression_ratio": 1.9364303178484108
+    },
+    {
+      "root_branch_key": "A4_B2-8_B1-0_B0-0@0123",
+      "template_key": "A4_B2-8_B1-0_B0-0",
+      "axis_subset_key": "0123",
+      "raw_candidates": 495,
+      "unique_signatures": 310,
+      "compression_ratio": 1.596774193548387
+    }
+  ],
+  "template_rows": [
+    {
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "raw_candidates": 168,
+      "unique_signatures": 126,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "raw_candidates": 672,
+      "unique_signatures": 382,
+      "compression_ratio": 1.7591623036649215
+    },
+    {
+      "template_key": "A2_B2-0_B1-3_B0-2",
+      "raw_candidates": 336,
+      "unique_signatures": 230,
+      "compression_ratio": 1.4608695652173913
+    },
+    {
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "raw_candidates": 420,
+      "unique_signatures": 267,
+      "compression_ratio": 1.5730337078651686
+    },
+    {
+      "template_key": "A2_B2-0_B1-4_B0-1",
+      "raw_candidates": 840,
+      "unique_signatures": 571,
+      "compression_ratio": 1.4711033274956218
+    },
+    {
+      "template_key": "A2_B2-0_B1-4_B0-2",
+      "raw_candidates": 420,
+      "unique_signatures": 332,
+      "compression_ratio": 1.2650602409638554
+    },
+    {
+      "template_key": "A2_B2-0_B1-5_B0-0",
+      "raw_candidates": 336,
+      "unique_signatures": 180,
+      "compression_ratio": 1.8666666666666667
+    },
+    {
+      "template_key": "A2_B2-0_B1-5_B0-1",
+      "raw_candidates": 672,
+      "unique_signatures": 426,
+      "compression_ratio": 1.5774647887323943
+    },
+    {
+      "template_key": "A2_B2-0_B1-5_B0-2",
+      "raw_candidates": 336,
+      "unique_signatures": 246,
+      "compression_ratio": 1.3658536585365855
+    },
+    {
+      "template_key": "A2_B2-0_B1-6_B0-0",
+      "raw_candidates": 168,
+      "unique_signatures": 122,
+      "compression_ratio": 1.3770491803278688
+    },
+    {
+      "template_key": "A2_B2-0_B1-6_B0-1",
+      "raw_candidates": 336,
+      "unique_signatures": 260,
+      "compression_ratio": 1.2923076923076924
+    },
+    {
+      "template_key": "A2_B2-0_B1-6_B0-2",
+      "raw_candidates": 168,
+      "unique_signatures": 138,
+      "compression_ratio": 1.2173913043478262
+    },
+    {
+      "template_key": "A2_B2-0_B1-7_B0-0",
+      "raw_candidates": 48,
+      "unique_signatures": 28,
+      "compression_ratio": 1.7142857142857142
+    },
+    {
+      "template_key": "A2_B2-0_B1-7_B0-1",
+      "raw_candidates": 96,
+      "unique_signatures": 64,
+      "compression_ratio": 1.5
+    },
+    {
+      "template_key": "A2_B2-0_B1-8_B0-0",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "raw_candidates": 96,
+      "unique_signatures": 76,
+      "compression_ratio": 1.263157894736842
+    },
+    {
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "raw_candidates": 672,
+      "unique_signatures": 540,
+      "compression_ratio": 1.2444444444444445
+    },
+    {
+      "template_key": "A2_B2-1_B1-2_B0-2",
+      "raw_candidates": 336,
+      "unique_signatures": 294,
+      "compression_ratio": 1.1428571428571428
+    },
+    {
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "raw_candidates": 672,
+      "unique_signatures": 382,
+      "compression_ratio": 1.7591623036649215
+    },
+    {
+      "template_key": "A2_B2-1_B1-3_B0-1",
+      "raw_candidates": 1344,
+      "unique_signatures": 948,
+      "compression_ratio": 1.4177215189873418
+    },
+    {
+      "template_key": "A2_B2-1_B1-3_B0-2",
+      "raw_candidates": 672,
+      "unique_signatures": 566,
+      "compression_ratio": 1.187279151943463
+    },
+    {
+      "template_key": "A2_B2-1_B1-4_B0-0",
+      "raw_candidates": 840,
+      "unique_signatures": 574,
+      "compression_ratio": 1.4634146341463414
+    },
+    {
+      "template_key": "A2_B2-1_B1-4_B0-1",
+      "raw_candidates": 1680,
+      "unique_signatures": 1302,
+      "compression_ratio": 1.2903225806451613
+    },
+    {
+      "template_key": "A2_B2-1_B1-4_B0-2",
+      "raw_candidates": 840,
+      "unique_signatures": 752,
+      "compression_ratio": 1.1170212765957446
+    },
+    {
+      "template_key": "A2_B2-1_B1-5_B0-0",
+      "raw_candidates": 672,
+      "unique_signatures": 426,
+      "compression_ratio": 1.5774647887323943
+    },
+    {
+      "template_key": "A2_B2-1_B1-5_B0-1",
+      "raw_candidates": 1344,
+      "unique_signatures": 1008,
+      "compression_ratio": 1.3333333333333333
+    },
+    {
+      "template_key": "A2_B2-1_B1-5_B0-2",
+      "raw_candidates": 672,
+      "unique_signatures": 582,
+      "compression_ratio": 1.1546391752577319
+    },
+    {
+      "template_key": "A2_B2-1_B1-6_B0-0",
+      "raw_candidates": 336,
+      "unique_signatures": 272,
+      "compression_ratio": 1.2352941176470589
+    },
+    {
+      "template_key": "A2_B2-1_B1-6_B0-1",
+      "raw_candidates": 672,
+      "unique_signatures": 578,
+      "compression_ratio": 1.1626297577854672
+    },
+    {
+      "template_key": "A2_B2-1_B1-7_B0-0",
+      "raw_candidates": 96,
+      "unique_signatures": 64,
+      "compression_ratio": 1.5
+    },
+    {
+      "template_key": "A2_B2-2_B1-0_B0-2",
+      "raw_candidates": 6,
+      "unique_signatures": 6,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "raw_candidates": 96,
+      "unique_signatures": 76,
+      "compression_ratio": 1.263157894736842
+    },
+    {
+      "template_key": "A2_B2-2_B1-1_B0-2",
+      "raw_candidates": 48,
+      "unique_signatures": 48,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "raw_candidates": 168,
+      "unique_signatures": 143,
+      "compression_ratio": 1.1748251748251748
+    },
+    {
+      "template_key": "A2_B2-2_B1-2_B0-1",
+      "raw_candidates": 336,
+      "unique_signatures": 311,
+      "compression_ratio": 1.0803858520900322
+    },
+    {
+      "template_key": "A2_B2-2_B1-2_B0-2",
+      "raw_candidates": 168,
+      "unique_signatures": 168,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A2_B2-2_B1-3_B0-0",
+      "raw_candidates": 336,
+      "unique_signatures": 230,
+      "compression_ratio": 1.4608695652173913
+    },
+    {
+      "template_key": "A2_B2-2_B1-3_B0-1",
+      "raw_candidates": 672,
+      "unique_signatures": 566,
+      "compression_ratio": 1.187279151943463
+    },
+    {
+      "template_key": "A2_B2-2_B1-3_B0-2",
+      "raw_candidates": 336,
+      "unique_signatures": 336,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A2_B2-2_B1-4_B0-0",
+      "raw_candidates": 420,
+      "unique_signatures": 335,
+      "compression_ratio": 1.2537313432835822
+    },
+    {
+      "template_key": "A2_B2-2_B1-4_B0-1",
+      "raw_candidates": 840,
+      "unique_signatures": 755,
+      "compression_ratio": 1.1125827814569536
+    },
+    {
+      "template_key": "A2_B2-2_B1-4_B0-2",
+      "raw_candidates": 420,
+      "unique_signatures": 420,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A2_B2-2_B1-5_B0-0",
+      "raw_candidates": 336,
+      "unique_signatures": 246,
+      "compression_ratio": 1.3658536585365855
+    },
+    {
+      "template_key": "A2_B2-2_B1-5_B0-1",
+      "raw_candidates": 672,
+      "unique_signatures": 582,
+      "compression_ratio": 1.1546391752577319
+    },
+    {
+      "template_key": "A2_B2-2_B1-6_B0-0",
+      "raw_candidates": 168,
+      "unique_signatures": 150,
+      "compression_ratio": 1.12
+    },
+    {
+      "template_key": "A3_B2-0_B1-4_B0-0",
+      "raw_candidates": 60,
+      "unique_signatures": 30,
+      "compression_ratio": 2.0
+    },
+    {
+      "template_key": "A3_B2-0_B1-5_B0-0",
+      "raw_candidates": 24,
+      "unique_signatures": 12,
+      "compression_ratio": 2.0
+    },
+    {
+      "template_key": "A3_B2-0_B1-6_B0-0",
+      "raw_candidates": 4,
+      "unique_signatures": 4,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A3_B2-1_B1-3_B0-0",
+      "raw_candidates": 480,
+      "unique_signatures": 198,
+      "compression_ratio": 2.4242424242424243
+    },
+    {
+      "template_key": "A3_B2-1_B1-4_B0-0",
+      "raw_candidates": 360,
+      "unique_signatures": 156,
+      "compression_ratio": 2.3076923076923075
+    },
+    {
+      "template_key": "A3_B2-1_B1-5_B0-0",
+      "raw_candidates": 144,
+      "unique_signatures": 64,
+      "compression_ratio": 2.25
+    },
+    {
+      "template_key": "A3_B2-1_B1-6_B0-0",
+      "raw_candidates": 24,
+      "unique_signatures": 12,
+      "compression_ratio": 2.0
+    },
+    {
+      "template_key": "A3_B2-2_B1-2_B0-0",
+      "raw_candidates": 900,
+      "unique_signatures": 470,
+      "compression_ratio": 1.9148936170212767
+    },
+    {
+      "template_key": "A3_B2-2_B1-3_B0-0",
+      "raw_candidates": 1200,
+      "unique_signatures": 628,
+      "compression_ratio": 1.910828025477707
+    },
+    {
+      "template_key": "A3_B2-2_B1-4_B0-0",
+      "raw_candidates": 900,
+      "unique_signatures": 514,
+      "compression_ratio": 1.7509727626459144
+    },
+    {
+      "template_key": "A3_B2-2_B1-5_B0-0",
+      "raw_candidates": 360,
+      "unique_signatures": 208,
+      "compression_ratio": 1.7307692307692308
+    },
+    {
+      "template_key": "A3_B2-2_B1-6_B0-0",
+      "raw_candidates": 60,
+      "unique_signatures": 42,
+      "compression_ratio": 1.4285714285714286
+    },
+    {
+      "template_key": "A3_B2-3_B1-1_B0-0",
+      "raw_candidates": 480,
+      "unique_signatures": 292,
+      "compression_ratio": 1.643835616438356
+    },
+    {
+      "template_key": "A3_B2-3_B1-2_B0-0",
+      "raw_candidates": 1200,
+      "unique_signatures": 758,
+      "compression_ratio": 1.5831134564643798
+    },
+    {
+      "template_key": "A3_B2-3_B1-3_B0-0",
+      "raw_candidates": 1600,
+      "unique_signatures": 1016,
+      "compression_ratio": 1.5748031496062993
+    },
+    {
+      "template_key": "A3_B2-3_B1-4_B0-0",
+      "raw_candidates": 1200,
+      "unique_signatures": 804,
+      "compression_ratio": 1.492537313432836
+    },
+    {
+      "template_key": "A3_B2-3_B1-5_B0-0",
+      "raw_candidates": 480,
+      "unique_signatures": 324,
+      "compression_ratio": 1.4814814814814814
+    },
+    {
+      "template_key": "A3_B2-4_B1-0_B0-0",
+      "raw_candidates": 60,
+      "unique_signatures": 44,
+      "compression_ratio": 1.3636363636363635
+    },
+    {
+      "template_key": "A3_B2-4_B1-1_B0-0",
+      "raw_candidates": 360,
+      "unique_signatures": 258,
+      "compression_ratio": 1.3953488372093024
+    },
+    {
+      "template_key": "A3_B2-4_B1-2_B0-0",
+      "raw_candidates": 900,
+      "unique_signatures": 662,
+      "compression_ratio": 1.3595166163141994
+    },
+    {
+      "template_key": "A3_B2-4_B1-3_B0-0",
+      "raw_candidates": 1200,
+      "unique_signatures": 906,
+      "compression_ratio": 1.3245033112582782
+    },
+    {
+      "template_key": "A3_B2-4_B1-4_B0-0",
+      "raw_candidates": 900,
+      "unique_signatures": 686,
+      "compression_ratio": 1.3119533527696794
+    },
+    {
+      "template_key": "A3_B2-5_B1-0_B0-0",
+      "raw_candidates": 24,
+      "unique_signatures": 24,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A3_B2-5_B1-1_B0-0",
+      "raw_candidates": 144,
+      "unique_signatures": 130,
+      "compression_ratio": 1.1076923076923078
+    },
+    {
+      "template_key": "A3_B2-5_B1-2_B0-0",
+      "raw_candidates": 360,
+      "unique_signatures": 326,
+      "compression_ratio": 1.1042944785276074
+    },
+    {
+      "template_key": "A3_B2-5_B1-3_B0-0",
+      "raw_candidates": 480,
+      "unique_signatures": 442,
+      "compression_ratio": 1.085972850678733
+    },
+    {
+      "template_key": "A3_B2-6_B1-0_B0-0",
+      "raw_candidates": 4,
+      "unique_signatures": 4,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A3_B2-6_B1-1_B0-0",
+      "raw_candidates": 24,
+      "unique_signatures": 24,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A3_B2-6_B1-2_B0-0",
+      "raw_candidates": 60,
+      "unique_signatures": 60,
+      "compression_ratio": 1.0
+    },
+    {
+      "template_key": "A4_B2-4_B1-0_B0-0",
+      "raw_candidates": 495,
+      "unique_signatures": 143,
+      "compression_ratio": 3.4615384615384617
+    },
+    {
+      "template_key": "A4_B2-5_B1-0_B0-0",
+      "raw_candidates": 792,
+      "unique_signatures": 260,
+      "compression_ratio": 3.046153846153846
+    },
+    {
+      "template_key": "A4_B2-6_B1-0_B0-0",
+      "raw_candidates": 924,
+      "unique_signatures": 370,
+      "compression_ratio": 2.497297297297297
+    },
+    {
+      "template_key": "A4_B2-7_B1-0_B0-0",
+      "raw_candidates": 792,
+      "unique_signatures": 409,
+      "compression_ratio": 1.9364303178484108
+    },
+    {
+      "template_key": "A4_B2-8_B1-0_B0-0",
+      "raw_candidates": 495,
+      "unique_signatures": 310,
+      "compression_ratio": 1.596774193548387
+    }
+  ]
+}

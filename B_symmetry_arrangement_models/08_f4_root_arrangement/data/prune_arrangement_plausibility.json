@@ -1,0 +1,7 @@
+{
+  "anchor_node_count": 15,
+  "false_intersection_count": 78,
+  "false_to_anchor_ratio": 5.2,
+  "assessment": "arrangement_plausible",
+  "reason": "A large false-intersection layer means line-arrangement models naturally belong in the candidate set."
+}

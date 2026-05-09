@@ -1,0 +1,517 @@
+{
+  "classes": [
+    "A2_L4_H0",
+    "A2_L5_H0",
+    "A2_L6_H0",
+    "A2_L7_H0",
+    "A2_L8_H0",
+    "A3_L4_H0",
+    "A3_L5_H0",
+    "A3_L6_H0",
+    "A3_L7_H0",
+    "A3_L8_H0",
+    "A4_L4_H0",
+    "A4_L5_H0",
+    "A4_L6_H0",
+    "A4_L7_H0",
+    "A4_L8_H0"
+  ],
+  "samples_per_class": 2500,
+  "ranking": [
+    {
+      "class": "A2_L4_H0",
+      "hits_family5": 364,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.1456,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 4,
+        "4": 46,
+        "5": 364,
+        "6": 2086
+      },
+      "best": {
+        "class": "A2_L4_H0",
+        "axis_count": 2,
+        "long_count": 4,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A2_L5_H0",
+      "hits_family5": 91,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0364,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 15,
+        "5": 91,
+        "6": 490,
+        "7": 1904
+      },
+      "best": {
+        "class": "A2_L5_H0",
+        "axis_count": 2,
+        "long_count": 5,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "profile_score": 1.333333333333333,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A3_L4_H0",
+      "hits_family5": 81,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0324,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 2,
+        "4": 10,
+        "5": 81,
+        "6": 460,
+        "7": 1947
+      },
+      "best": {
+        "class": "A3_L4_H0",
+        "axis_count": 3,
+        "long_count": 4,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "profile_score": 1.333333333333333,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A4_L4_H0",
+      "hits_family5": 35,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.014,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 5,
+        "5": 35,
+        "6": 140,
+        "7": 461,
+        "8": 1859
+      },
+      "best": {
+        "class": "A4_L4_H0",
+        "axis_count": 4,
+        "long_count": 4,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "profile_score": 1.1111111111111112,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A3_L5_H0",
+      "hits_family5": 25,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.01,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 1,
+        "5": 25,
+        "6": 154,
+        "7": 573,
+        "8": 1747
+      },
+      "best": {
+        "class": "A3_L5_H0",
+        "axis_count": 3,
+        "long_count": 5,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          3
+        ],
+        "profile_score": 1.925925925925926,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A2_L6_H0",
+      "hits_family5": 21,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0084,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 1,
+        "5": 21,
+        "6": 127,
+        "7": 592,
+        "8": 1759
+      },
+      "best": {
+        "class": "A2_L6_H0",
+        "axis_count": 2,
+        "long_count": 6,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "profile_score": 1.1111111111111112,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A4_L5_H0",
+      "hits_family5": 8,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0032,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 1,
+        "5": 8,
+        "6": 46,
+        "7": 191,
+        "8": 554,
+        "9": 1700
+      },
+      "best": {
+        "class": "A4_L5_H0",
+        "axis_count": 4,
+        "long_count": 5,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "profile_score": 0.6666666666666667,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A2_L7_H0",
+      "hits_family5": 5,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.002,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 1,
+        "5": 5,
+        "6": 35,
+        "7": 176,
+        "8": 655,
+        "9": 1628
+      },
+      "best": {
+        "class": "A2_L7_H0",
+        "axis_count": 2,
+        "long_count": 7,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          3,
+          3
+        ],
+        "profile_score": 2.6666666666666665,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A4_L6_H0",
+      "hits_family5": 3,
+      "hits_exact_profile_11116": 1,
+      "family5_hit_rate": 0.0012,
+      "exact_profile_hit_rate": 0.0004,
+      "family_histogram": {
+        "5": 3,
+        "6": 10,
+        "7": 69,
+        "8": 205,
+        "9": 650,
+        "10": 1563
+      },
+      "best": {
+        "class": "A4_L6_H0",
+        "axis_count": 4,
+        "long_count": 6,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          2,
+          2,
+          2,
+          3
+        ],
+        "profile_score": 1.1111111111111116,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A3_L6_H0",
+      "hits_family5": 3,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0012,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 1,
+        "5": 3,
+        "6": 44,
+        "7": 178,
+        "8": 624,
+        "9": 1650
+      },
+      "best": {
+        "class": "A3_L6_H0",
+        "axis_count": 3,
+        "long_count": 6,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "profile_score": 0.6666666666666667,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A4_L7_H0",
+      "hits_family5": 2,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0008,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 2,
+        "6": 3,
+        "7": 24,
+        "8": 104,
+        "9": 313,
+        "10": 692,
+        "11": 1362
+      },
+      "best": {
+        "class": "A4_L7_H0",
+        "axis_count": 4,
+        "long_count": 7,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          4,
+          4
+        ],
+        "profile_score": 4.5925925925925934,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A2_L8_H0",
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 1,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0004,
+      "family_histogram": {
+        "4": 3,
+        "5": 1,
+        "6": 13,
+        "7": 58,
+        "8": 240,
+        "9": 689,
+        "10": 1496
+      },
+      "best": {
+        "class": "A2_L8_H0",
+        "axis_count": 2,
+        "long_count": 8,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          6
+        ],
+        "profile_score": 6.074074074074074,
+        "exact_profile_hit": true
+      }
+    },
+    {
+      "class": "A3_L7_H0",
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 1,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0004,
+      "family_histogram": {
+        "5": 1,
+        "6": 5,
+        "7": 54,
+        "8": 244,
+        "9": 768,
+        "10": 1428
+      },
+      "best": {
+        "class": "A3_L7_H0",
+        "axis_count": 3,
+        "long_count": 7,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          6
+        ],
+        "profile_score": 6.074074074074074,
+        "exact_profile_hit": true
+      }
+    },
+    {
+      "class": "A3_L8_H0",
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 1,
+        "6": 5,
+        "7": 24,
+        "8": 86,
+        "9": 296,
+        "10": 745,
+        "11": 1343
+      },
+      "best": {
+        "class": "A3_L8_H0",
+        "axis_count": 3,
+        "long_count": 8,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          2,
+          2,
+          5
+        ],
+        "profile_score": 3.481481481481482,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "class": "A4_L8_H0",
+      "hits_family5": 0,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "6": 1,
+        "7": 8,
+        "8": 30,
+        "9": 133,
+        "10": 345,
+        "11": 741,
+        "12": 1242
+      },
+      "best": {
+        "class": "A4_L8_H0",
+        "axis_count": 4,
+        "long_count": 8,
+        "half_count": 0,
+        "family_count": 6,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          3,
+          4
+        ],
+        "profile_score": 108.0,
+        "exact_profile_hit": false
+      }
+    }
+  ],
+  "best_class": "A2_L4_H0",
+  "best_stats": {
+    "hits_family5": 364,
+    "hits_exact_profile_11116": 0,
+    "family5_hit_rate": 0.1456,
+    "exact_profile_hit_rate": 0.0,
+    "family_histogram": {
+      "3": 4,
+      "4": 46,
+      "5": 364,
+      "6": 2086
+    },
+    "best": {
+      "class": "A2_L4_H0",
+      "axis_count": 2,
+      "long_count": 4,
+      "half_count": 0,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "profile_score": 1.3333333333333335,
+      "exact_profile_hit": false
+    }
+  },
+  "interpretation": {
+    "current_read": "pure axis+long sweep inside branch 09",
+    "best_uses_half_shell": false
+  }
+}

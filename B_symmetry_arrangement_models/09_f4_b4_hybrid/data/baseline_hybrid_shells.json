@@ -1,0 +1,9 @@
+{
+  "axis_root_count": 8,
+  "half_root_count": 16,
+  "long_root_count": 24,
+  "axis_line_count": 4,
+  "half_line_count": 8,
+  "long_line_count": 12,
+  "motivation": "B4-like axis+long structure gives a natural vertical-vs-diagonal split; F4 adds the half-integer shell as a refinement layer."
+}

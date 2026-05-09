@@ -1,0 +1,46 @@
+{
+  "samples": 1200,
+  "target_family_count": 5,
+  "family_count_histogram": {
+    "7": 5,
+    "12": 630,
+    "11": 332,
+    "10": 170,
+    "9": 49,
+    "8": 14
+  },
+  "exact_family_match_count": 0,
+  "best_candidate": {
+    "projected_vertex_count": 24,
+    "projected_edge_count": 96,
+    "zero_edges": 0,
+    "absolute_family_count": 7,
+    "family_centers_deg": [
+      1.5899326269691585,
+      8.263760530285262,
+      10.878381669679897,
+      64.84820013464252,
+      81.88424404345105,
+      116.69037923677163,
+      132.63537776712133
+    ],
+    "projection": [
+      [
+        -0.15421976959294836,
+        -0.6613261254342114,
+        -0.3072250023533787,
+        0.6666909452016263
+      ],
+      [
+        0.9874346311812,
+        -0.07939857803001071,
+        -0.06956990499638083,
+        0.117595677087443
+      ]
+    ]
+  },
+  "interpretation": {
+    "raw_model_family_match_is_common": false,
+    "raw_model_family_match_exists": false
+  }
+}

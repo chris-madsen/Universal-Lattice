@@ -1,0 +1,10 @@
+{
+  "projection_seeds": 2000,
+  "alpha_seeds": 24,
+  "beta_seeds": 24,
+  "plane_choices": 3,
+  "overlay_modes": 3,
+  "coarse_combination_count": 10368000,
+  "assessment": "blocked_complexity",
+  "reason": "Need stronger group-theoretic reduction before brute-force search is worth running."
+}

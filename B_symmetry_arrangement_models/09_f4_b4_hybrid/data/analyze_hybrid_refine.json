@@ -1,0 +1,560 @@
+{
+  "focus_classes": [
+    "A4_L6_H0",
+    "A3_L8_H0",
+    "A4_L4_H4",
+    "A3_L6_H2",
+    "A4_L6_H2"
+  ],
+  "focus_samples_per_class": 2500,
+  "focus_sampling_seed": 149,
+  "focus_exact_profile": [
+    1,
+    1,
+    1,
+    1,
+    6
+  ],
+  "class_hits": {
+    "A4_L6_H0": {
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 1,
+        "6": 11,
+        "7": 61,
+        "8": 223,
+        "9": 662,
+        "10": 1542
+      },
+      "best": {
+        "class": "A4_L6_H0",
+        "axis_count": 4,
+        "long_count": 6,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          3,
+          4
+        ],
+        "profile_score": 3.6296296296296298,
+        "exact_profile_hit": false
+      }
+    },
+    "A3_L8_H0": {
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 1,
+        "6": 6,
+        "7": 21,
+        "8": 92,
+        "9": 304,
+        "10": 754,
+        "11": 1322
+      },
+      "best": {
+        "class": "A3_L8_H0",
+        "axis_count": 3,
+        "long_count": 8,
+        "half_count": 0,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          7
+        ],
+        "profile_score": 7.481481481481483,
+        "exact_profile_hit": false
+      }
+    },
+    "A4_L4_H4": {
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 1,
+        "6": 2,
+        "7": 7,
+        "8": 27,
+        "9": 109,
+        "10": 387,
+        "11": 850,
+        "12": 1117
+      },
+      "best": {
+        "class": "A4_L4_H4",
+        "axis_count": 4,
+        "long_count": 4,
+        "half_count": 4,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          4,
+          5
+        ],
+        "profile_score": 5.555555555555555,
+        "exact_profile_hit": false
+      }
+    },
+    "A3_L6_H2": {
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 1,
+        "6": 2,
+        "7": 16,
+        "8": 107,
+        "9": 311,
+        "10": 769,
+        "11": 1294
+      },
+      "best": {
+        "class": "A3_L6_H2",
+        "axis_count": 3,
+        "long_count": 6,
+        "half_count": 2,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          6
+        ],
+        "profile_score": 5.481481481481483,
+        "exact_profile_hit": false
+      }
+    },
+    "A4_L6_H2": {
+      "hits_family5": 1,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 1,
+        "6": 2,
+        "7": 6,
+        "8": 29,
+        "9": 119,
+        "10": 359,
+        "11": 852,
+        "12": 1132
+      },
+      "best": {
+        "class": "A4_L6_H2",
+        "axis_count": 4,
+        "long_count": 6,
+        "half_count": 2,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          8
+        ],
+        "profile_score": 8.88888888888889,
+        "exact_profile_hit": false
+      }
+    }
+  },
+  "top_records": [
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        3,
+        4
+      ],
+      "profile_score": 3.6296296296296298,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A3_L6_H2",
+      "axis_count": 3,
+      "long_count": 6,
+      "half_count": 2,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        6
+      ],
+      "profile_score": 5.481481481481483,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L4_H4",
+      "axis_count": 4,
+      "long_count": 4,
+      "half_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        4,
+        5
+      ],
+      "profile_score": 5.555555555555555,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A3_L8_H0",
+      "axis_count": 3,
+      "long_count": 8,
+      "half_count": 0,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        7
+      ],
+      "profile_score": 7.481481481481483,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H2",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 2,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        8
+      ],
+      "profile_score": 8.88888888888889,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "profile_score": 106.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "profile_score": 106.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "profile_score": 106.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A3_L8_H0",
+      "axis_count": 3,
+      "long_count": 8,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "profile_score": 106.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A3_L8_H0",
+      "axis_count": 3,
+      "long_count": 8,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "profile_score": 106.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A3_L8_H0",
+      "axis_count": 3,
+      "long_count": 8,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        3,
+        3
+      ],
+      "profile_score": 106.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A3_L8_H0",
+      "axis_count": 3,
+      "long_count": 8,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        3,
+        3
+      ],
+      "profile_score": 106.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ],
+      "profile_score": 106.07407407407408,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ],
+      "profile_score": 106.07407407407408,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3
+      ],
+      "profile_score": 106.07407407407408,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        4
+      ],
+      "profile_score": 108.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        4
+      ],
+      "profile_score": 108.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        4
+      ],
+      "profile_score": 108.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        5
+      ],
+      "profile_score": 110.0,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 6,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        5
+      ],
+      "profile_score": 110.0,
+      "exact_profile_hit": false
+    }
+  ],
+  "best_focus_class": "A4_L6_H0",
+  "best_focus_stats": {
+    "hits_family5": 1,
+    "hits_exact_profile_11116": 0,
+    "family5_hit_rate": 0.0004,
+    "exact_profile_hit_rate": 0.0,
+    "family_histogram": {
+      "5": 1,
+      "6": 11,
+      "7": 61,
+      "8": 223,
+      "9": 662,
+      "10": 1542
+    },
+    "best": {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        3,
+        4
+      ],
+      "profile_score": 3.6296296296296298,
+      "exact_profile_hit": false
+    }
+  },
+  "interpretation": {
+    "best_class_uses_half_shell": false,
+    "any_half_class_matches_or_beats_best_score": false,
+    "current_read": "axis+long currently dominates the hybrid branch"
+  },
+  "comparison_to_branch_08": {
+    "branch_08_source": "finalize_f4_focus.json",
+    "branch_08_best_class": "L5_S5",
+    "branch_08_family5_hit_rate": 0.0004,
+    "branch_08_exact_profile_hit_rate": 0.0004,
+    "branch_09_best_class": "A4_L6_H0",
+    "branch_09_family5_hit_rate": 0.0004,
+    "branch_09_exact_profile_hit_rate": 0.0,
+    "hybrid_beats_08_on_family5_rate": false,
+    "hybrid_beats_08_on_exact_profile_rate": false
+  }
+}

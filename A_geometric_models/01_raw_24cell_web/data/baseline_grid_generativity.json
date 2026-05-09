@@ -1,0 +1,44 @@
+{
+  "vertical_mast_count": 3,
+  "absolute_family_count": 5,
+  "family_set_matches_expected": true,
+  "anchor_node_count": 15,
+  "false_intersection_count": 78,
+  "center_degree": 5,
+  "top_center_degree": 5,
+  "bottom_center_degree": 5,
+  "corner_degrees": {
+    "(0,0)": 5,
+    "(0,3)": 5,
+    "(2,0)": 5,
+    "(2,3)": 5
+  },
+  "mast_attachment_levels": {
+    "0": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "3/2"
+    ],
+    "1": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "3/2"
+    ],
+    "2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "3/2"
+    ]
+  },
+  "central_core_labels": [
+    "(1,3/2)",
+    "(1,3)",
+    "(1,0)"
+  ]
+}

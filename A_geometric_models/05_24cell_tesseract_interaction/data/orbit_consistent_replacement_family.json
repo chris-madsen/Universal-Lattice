@@ -1,0 +1,2666 @@
+{
+  "captured_at": "2026-05-09 01:05:08",
+  "projection_batch": 3072,
+  "canonical_counts": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "core_metrics": {
+    "02": {
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_profile_score": 1.3333333333333335,
+      "exact_hits": 0,
+      "exact_rate": 0.0,
+      "family5_hits": 566,
+      "family5_rate": 0.18424479166666666,
+      "family_histogram": {
+        "3": 1,
+        "4": 38,
+        "5": 566,
+        "6": 2467
+      },
+      "mean_profile_score": 84.19820601851468,
+      "preserves_canonical_counts": true
+    },
+    "12": {
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_profile_score": 1.3333333333333335,
+      "exact_hits": 0,
+      "exact_rate": 0.0,
+      "family5_hits": 591,
+      "family5_rate": 0.1923828125,
+      "family_histogram": {
+        "3": 3,
+        "4": 33,
+        "5": 591,
+        "6": 2445
+      },
+      "mean_profile_score": 83.43901909721846,
+      "preserves_canonical_counts": true
+    },
+    "13": {
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_profile_score": 1.3333333333333335,
+      "exact_hits": 0,
+      "exact_rate": 0.0,
+      "family5_hits": 518,
+      "family5_rate": 0.16861979166666666,
+      "family_histogram": {
+        "3": 1,
+        "4": 30,
+        "5": 518,
+        "6": 2523
+      },
+      "mean_profile_score": 85.78747106481076,
+      "preserves_canonical_counts": true
+    },
+    "23": {
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_profile_score": 1.3333333333333335,
+      "exact_hits": 0,
+      "exact_rate": 0.0,
+      "family5_hits": 550,
+      "family5_rate": 0.17903645833333334,
+      "family_histogram": {
+        "3": 2,
+        "4": 31,
+        "5": 550,
+        "6": 2489
+      },
+      "mean_profile_score": 84.76251446758866,
+      "preserves_canonical_counts": true
+    }
+  },
+  "family_count": 16,
+  "best_family": {
+    "base_move": {
+      "bucket": "1",
+      "out_line": 5,
+      "in_line": 3
+    },
+    "all_canonical": true,
+    "avg_family5_rate": 0.18221028645833331,
+    "min_family5_rate": 0.17838541666666666,
+    "avg_improvement_vs_core": 0.0011393229166666644,
+    "per_subset": {
+      "02": {
+        "candidate": {
+          "template_key": "A2_orbit_replacement",
+          "axis_subset_key": "02",
+          "axis_size": 2,
+          "total_cell_count": 4,
+          "bucket_counts": {
+            "2": 0,
+            "1": 3,
+            "0": 1
+          },
+          "selections": {
+            "2": [],
+            "1": [
+              3,
+              9,
+              10
+            ],
+            "0": [
+              8
+            ]
+          }
+        },
+        "metrics": {
+          "best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "best_profile_score": 1.3333333333333335,
+          "exact_hits": 0,
+          "exact_rate": 0.0,
+          "family5_hits": 548,
+          "family5_rate": 0.17838541666666666,
+          "family_histogram": {
+            "3": 1,
+            "4": 33,
+            "5": 548,
+            "6": 2490
+          },
+          "mean_profile_score": 84.79463252314417,
+          "preserves_canonical_counts": true
+        }
+      },
+      "12": {
+        "candidate": {
+          "template_key": "A2_orbit_replacement",
+          "axis_subset_key": "12",
+          "axis_size": 2,
+          "total_cell_count": 4,
+          "bucket_counts": {
+            "2": 0,
+            "1": 3,
+            "0": 1
+          },
+          "selections": {
+            "2": [],
+            "1": [
+              1,
+              5,
+              11
+            ],
+            "0": [
+              3
+            ]
+          }
+        },
+        "metrics": {
+          "best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "best_profile_score": 1.3333333333333335,
+          "exact_hits": 0,
+          "exact_rate": 0.0,
+          "family5_hits": 571,
+          "family5_rate": 0.18587239583333334,
+          "family_histogram": {
+            "3": 2,
+            "4": 38,
+            "5": 571,
+            "6": 2461
+          },
+          "mean_profile_score": 84.0655381944407,
+          "preserves_canonical_counts": true
+        }
+      },
+      "13": {
+        "candidate": {
+          "template_key": "A2_orbit_replacement",
+          "axis_subset_key": "13",
+          "axis_size": 2,
+          "total_cell_count": 4,
+          "bucket_counts": {
+            "2": 0,
+            "1": 3,
+            "0": 1
+          },
+          "selections": {
+            "2": [],
+            "1": [
+              2,
+              9,
+              10
+            ],
+            "0": [
+              1
+            ]
+          }
+        },
+        "metrics": {
+          "best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "best_profile_score": 1.3333333333333335,
+          "exact_hits": 0,
+          "exact_rate": 0.0,
+          "family5_hits": 554,
+          "family5_rate": 0.18033854166666666,
+          "family_histogram": {
+            "3": 3,
+            "4": 33,
+            "5": 554,
+            "6": 2482
+          },
+          "mean_profile_score": 84.66239872684788,
+          "preserves_canonical_counts": true
+        }
+      },
+      "23": {
+        "candidate": {
+          "template_key": "A2_orbit_replacement",
+          "axis_subset_key": "23",
+          "axis_size": 2,
+          "total_cell_count": 4,
+          "bucket_counts": {
+            "2": 0,
+            "1": 3,
+            "0": 1
+          },
+          "selections": {
+            "2": [],
+            "1": [
+              2,
+              4,
+              6
+            ],
+            "0": [
+              5
+            ]
+          }
+        },
+        "metrics": {
+          "best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "best_profile_score": 1.3333333333333335,
+          "exact_hits": 0,
+          "exact_rate": 0.0,
+          "family5_hits": 566,
+          "family5_rate": 0.18424479166666666,
+          "family_histogram": {
+            "3": 3,
+            "4": 36,
+            "5": 566,
+            "6": 2467
+          },
+          "mean_profile_score": 84.2650462962924,
+          "preserves_canonical_counts": true
+        }
+      }
+    }
+  },
+  "top_families": [
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 5,
+        "in_line": 3
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.18221028645833331,
+      "min_family5_rate": 0.17838541666666666,
+      "avg_improvement_vs_core": 0.0011393229166666644,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                3,
+                9,
+                10
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 548,
+            "family5_rate": 0.17838541666666666,
+            "family_histogram": {
+              "3": 1,
+              "4": 33,
+              "5": 548,
+              "6": 2490
+            },
+            "mean_profile_score": 84.79463252314417,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                1,
+                5,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 571,
+            "family5_rate": 0.18587239583333334,
+            "family_histogram": {
+              "3": 2,
+              "4": 38,
+              "5": 571,
+              "6": 2461
+            },
+            "mean_profile_score": 84.0655381944407,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                9,
+                10
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 554,
+            "family5_rate": 0.18033854166666666,
+            "family_histogram": {
+              "3": 3,
+              "4": 33,
+              "5": 554,
+              "6": 2482
+            },
+            "mean_profile_score": 84.66239872684788,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                4,
+                6
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 566,
+            "family5_rate": 0.18424479166666666,
+            "family_histogram": {
+              "3": 3,
+              "4": 36,
+              "5": 566,
+              "6": 2467
+            },
+            "mean_profile_score": 84.2650462962924,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 5,
+        "in_line": 0
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.18041992187499997,
+      "min_family5_rate": 0.17154947916666666,
+      "avg_improvement_vs_core": -0.0006510416666666713,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                9,
+                10
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 567,
+            "family5_rate": 0.1845703125,
+            "family_histogram": {
+              "3": 1,
+              "4": 29,
+              "5": 567,
+              "6": 2475
+            },
+            "mean_profile_score": 84.16753472221835,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                1,
+                7,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 527,
+            "family5_rate": 0.17154947916666666,
+            "family_histogram": {
+              "3": 4,
+              "4": 44,
+              "5": 527,
+              "6": 2497
+            },
+            "mean_profile_score": 85.58362268518117,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                5,
+                10
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 548,
+            "family5_rate": 0.17838541666666666,
+            "family_histogram": {
+              "3": 2,
+              "4": 52,
+              "5": 548,
+              "6": 2470
+            },
+            "mean_profile_score": 84.82168692129231,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                4,
+                6,
+                8
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 575,
+            "family5_rate": 0.18717447916666666,
+            "family_histogram": {
+              "4": 44,
+              "5": 575,
+              "6": 2453
+            },
+            "mean_profile_score": 83.86610243055179,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 9,
+        "in_line": 2
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.179443359375,
+      "min_family5_rate": 0.1689453125,
+      "avg_improvement_vs_core": -0.0016276041666666644,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                5,
+                10
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 553,
+            "family5_rate": 0.18001302083333334,
+            "family_histogram": {
+              "3": 2,
+              "4": 42,
+              "5": 553,
+              "6": 2475
+            },
+            "mean_profile_score": 84.65914351851451,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                1,
+                8
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 519,
+            "family5_rate": 0.1689453125,
+            "family_histogram": {
+              "3": 2,
+              "4": 42,
+              "5": 519,
+              "6": 2509
+            },
+            "mean_profile_score": 85.78399884258853,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                6,
+                10
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 576,
+            "family5_rate": 0.1875,
+            "family_histogram": {
+              "3": 1,
+              "4": 42,
+              "5": 576,
+              "6": 2453
+            },
+            "mean_profile_score": 83.86595775462588,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                3,
+                4,
+                7
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 557,
+            "family5_rate": 0.18131510416666666,
+            "family_histogram": {
+              "3": 2,
+              "4": 36,
+              "5": 557,
+              "6": 2477
+            },
+            "mean_profile_score": 84.53038194444052,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 5,
+        "in_line": 2
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.17683919270833334,
+      "min_family5_rate": 0.17415364583333334,
+      "avg_improvement_vs_core": -0.004231770833333329,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                9,
+                10
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 559,
+            "family5_rate": 0.18196614583333334,
+            "family_histogram": {
+              "3": 2,
+              "4": 36,
+              "5": 559,
+              "6": 2475
+            },
+            "mean_profile_score": 84.46317997684804,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                1,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 540,
+            "family5_rate": 0.17578125,
+            "family_histogram": {
+              "3": 4,
+              "4": 47,
+              "5": 540,
+              "6": 2481
+            },
+            "mean_profile_score": 85.15299479166276,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                6,
+                10
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 535,
+            "family5_rate": 0.17415364583333334,
+            "family_histogram": {
+              "3": 1,
+              "4": 27,
+              "5": 535,
+              "6": 2509
+            },
+            "mean_profile_score": 85.22743055555158,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                3,
+                4,
+                6
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 539,
+            "family5_rate": 0.17545572916666666,
+            "family_histogram": {
+              "3": 5,
+              "4": 36,
+              "5": 539,
+              "6": 2492
+            },
+            "mean_profile_score": 85.22243923610712,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 10,
+        "in_line": 2
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.17586263020833331,
+      "min_family5_rate": 0.1708984375,
+      "avg_improvement_vs_core": -0.005208333333333336,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                5,
+                9
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 530,
+            "family5_rate": 0.17252604166666666,
+            "family_histogram": {
+              "3": 2,
+              "4": 43,
+              "5": 530,
+              "6": 2497
+            },
+            "mean_profile_score": 85.41890914351451,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                8,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 539,
+            "family5_rate": 0.17545572916666666,
+            "family_histogram": {
+              "3": 3,
+              "4": 40,
+              "5": 539,
+              "6": 2490
+            },
+            "mean_profile_score": 85.15682870369973,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                2,
+                6
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 525,
+            "family5_rate": 0.1708984375,
+            "family_histogram": {
+              "4": 41,
+              "5": 525,
+              "6": 2506
+            },
+            "mean_profile_score": 85.52076099536633,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                3,
+                6,
+                7
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 567,
+            "family5_rate": 0.1845703125,
+            "family_histogram": {
+              "3": 3,
+              "4": 40,
+              "5": 567,
+              "6": 2462
+            },
+            "mean_profile_score": 84.22967303240354,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 9,
+        "in_line": 3
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.165771484375,
+      "min_family5_rate": 0.16243489583333334,
+      "avg_improvement_vs_core": -0.015299479166666664,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                3,
+                5,
+                10
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 499,
+            "family5_rate": 0.16243489583333334,
+            "family_histogram": {
+              "3": 3,
+              "4": 49,
+              "5": 499,
+              "6": 2521
+            },
+            "mean_profile_score": 86.48025173610684,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                1,
+                5,
+                8
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 507,
+            "family5_rate": 0.1650390625,
+            "family_histogram": {
+              "3": 2,
+              "4": 61,
+              "5": 507,
+              "6": 2502
+            },
+            "mean_profile_score": 86.17903645832912,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                9,
+                10
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 504,
+            "family5_rate": 0.1640625,
+            "family_histogram": {
+              "3": 1,
+              "4": 57,
+              "5": 504,
+              "6": 2510
+            },
+            "mean_profile_score": 86.2479021990698,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                4,
+                7
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 527,
+            "family5_rate": 0.17154947916666666,
+            "family_histogram": {
+              "3": 7,
+              "4": 56,
+              "5": 527,
+              "6": 2482
+            },
+            "mean_profile_score": 85.68388310184793,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 10,
+        "in_line": 3
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.165771484375,
+      "min_family5_rate": 0.15397135416666666,
+      "avg_improvement_vs_core": -0.015299479166666664,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                3,
+                5,
+                9
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 511,
+            "family5_rate": 0.16634114583333334,
+            "family_histogram": {
+              "3": 3,
+              "4": 60,
+              "5": 511,
+              "6": 2498
+            },
+            "mean_profile_score": 86.08087384258847,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                5,
+                8,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 542,
+            "family5_rate": 0.17643229166666666,
+            "family_histogram": {
+              "3": 3,
+              "4": 63,
+              "5": 542,
+              "6": 2464
+            },
+            "mean_profile_score": 85.05584490740337,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                2,
+                9
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 511,
+            "family5_rate": 0.16634114583333334,
+            "family_histogram": {
+              "2": 1,
+              "3": 2,
+              "4": 62,
+              "5": 511,
+              "6": 2496
+            },
+            "mean_profile_score": 86.11270254629221,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                2,
+                6,
+                7
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 473,
+            "family5_rate": 0.15397135416666666,
+            "family_histogram": {
+              "3": 2,
+              "4": 53,
+              "5": 473,
+              "6": 2544
+            },
+            "mean_profile_score": 87.30700231481045,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 9,
+        "in_line": 6
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.1640625,
+      "min_family5_rate": 0.15169270833333334,
+      "avg_improvement_vs_core": -0.017008463541666664,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                5,
+                6,
+                10
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 533,
+            "family5_rate": 0.17350260416666666,
+            "family_histogram": {
+              "3": 5,
+              "4": 55,
+              "5": 533,
+              "6": 2479
+            },
+            "mean_profile_score": 85.41934317129225,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                1,
+                8,
+                10
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 466,
+            "family5_rate": 0.15169270833333334,
+            "family_histogram": {
+              "3": 3,
+              "4": 68,
+              "5": 466,
+              "6": 2535
+            },
+            "mean_profile_score": 87.56626157406954,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                3,
+                10
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 492,
+            "family5_rate": 0.16015625,
+            "family_histogram": {
+              "3": 7,
+              "4": 47,
+              "5": 492,
+              "6": 2526
+            },
+            "mean_profile_score": 86.8420138888847,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                4,
+                7,
+                9
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 525,
+            "family5_rate": 0.1708984375,
+            "family_histogram": {
+              "3": 5,
+              "4": 62,
+              "5": 525,
+              "6": 2480
+            },
+            "mean_profile_score": 85.68236400462564,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 10,
+        "in_line": 11
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.16357421875,
+      "min_family5_rate": 0.1552734375,
+      "avg_improvement_vs_core": -0.017496744791666664,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                5,
+                9,
+                11
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 540,
+            "family5_rate": 0.17578125,
+            "family_histogram": {
+              "3": 4,
+              "4": 58,
+              "5": 540,
+              "6": 2470
+            },
+            "mean_profile_score": 85.15530960647753,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                4,
+                8,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 484,
+            "family5_rate": 0.15755208333333334,
+            "family_histogram": {
+              "3": 6,
+              "4": 56,
+              "5": 484,
+              "6": 2526
+            },
+            "mean_profile_score": 87.07168692129189,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                2,
+                11
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 509,
+            "family5_rate": 0.16569010416666666,
+            "family_histogram": {
+              "3": 3,
+              "4": 52,
+              "5": 509,
+              "6": 2508
+            },
+            "mean_profile_score": 86.14814814814405,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                1,
+                6,
+                7
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 477,
+            "family5_rate": 0.1552734375,
+            "family_histogram": {
+              "3": 4,
+              "4": 66,
+              "5": 477,
+              "6": 2525
+            },
+            "mean_profile_score": 87.23574942129193,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 10,
+        "in_line": 6
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.15576171874999997,
+      "min_family5_rate": 0.15397135416666666,
+      "avg_improvement_vs_core": -0.02530924479166667,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                5,
+                6,
+                9
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 482,
+            "family5_rate": 0.15690104166666666,
+            "family_histogram": {
+              "3": 5,
+              "4": 71,
+              "5": 482,
+              "6": 2514
+            },
+            "mean_profile_score": 87.10279224536596,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                8,
+                10,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 477,
+            "family5_rate": 0.1552734375,
+            "family_histogram": {
+              "2": 2,
+              "3": 5,
+              "4": 54,
+              "5": 477,
+              "6": 2534
+            },
+            "mean_profile_score": 87.40328414351403,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                2,
+                3
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 482,
+            "family5_rate": 0.15690104166666666,
+            "family_histogram": {
+              "3": 4,
+              "4": 61,
+              "5": 482,
+              "6": 2525
+            },
+            "mean_profile_score": 87.07291666666224,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                6,
+                7,
+                9
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 473,
+            "family5_rate": 0.15397135416666666,
+            "family_histogram": {
+              "2": 1,
+              "3": 7,
+              "4": 62,
+              "5": 473,
+              "6": 2529
+            },
+            "mean_profile_score": 87.53356481481046,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "0",
+        "out_line": 8,
+        "in_line": 7
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.15494791666666666,
+      "min_family5_rate": 0.14680989583333334,
+      "avg_improvement_vs_core": -0.026123046875,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                5,
+                9,
+                10
+              ],
+              "0": [
+                7
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 506,
+            "family5_rate": 0.16471354166666666,
+            "family_histogram": {
+              "3": 2,
+              "4": 47,
+              "5": 506,
+              "6": 2517
+            },
+            "mean_profile_score": 86.21802662036599,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                1,
+                8,
+                11
+              ],
+              "0": [
+                2
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 451,
+            "family5_rate": 0.14680989583333334,
+            "family_histogram": {
+              "3": 7,
+              "4": 56,
+              "5": 451,
+              "6": 2558
+            },
+            "mean_profile_score": 88.19589120369922,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                2,
+                10
+              ],
+              "0": [
+                4
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 486,
+            "family5_rate": 0.158203125,
+            "family_histogram": {
+              "3": 3,
+              "4": 61,
+              "5": 486,
+              "6": 2522
+            },
+            "mean_profile_score": 86.90719039351421,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                4,
+                6,
+                7
+              ],
+              "0": [
+                0
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 461,
+            "family5_rate": 0.15006510416666666,
+            "family_histogram": {
+              "3": 1,
+              "4": 48,
+              "5": 461,
+              "6": 2562
+            },
+            "mean_profile_score": 87.67093460647692,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    },
+    {
+      "base_move": {
+        "bucket": "1",
+        "out_line": 10,
+        "in_line": 0
+      },
+      "all_canonical": true,
+      "avg_family5_rate": 0.15323893229166666,
+      "min_family5_rate": 0.14713541666666666,
+      "avg_improvement_vs_core": -0.02783203125,
+      "per_subset": {
+        "02": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "02",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                5,
+                9
+              ],
+              "0": [
+                8
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 458,
+            "family5_rate": 0.14908854166666666,
+            "family_histogram": {
+              "3": 10,
+              "4": 61,
+              "5": 458,
+              "6": 2543
+            },
+            "mean_profile_score": 88.06054687499557,
+            "preserves_canonical_counts": true
+          }
+        },
+        "12": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "12",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                7,
+                8,
+                11
+              ],
+              "0": [
+                3
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 499,
+            "family5_rate": 0.16243489583333334,
+            "family_histogram": {
+              "3": 5,
+              "4": 50,
+              "5": 499,
+              "6": 2518
+            },
+            "mean_profile_score": 86.54535590277335,
+            "preserves_canonical_counts": true
+          }
+        },
+        "13": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "13",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                0,
+                2,
+                5
+              ],
+              "0": [
+                1
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 474,
+            "family5_rate": 0.154296875,
+            "family_histogram": {
+              "3": 8,
+              "4": 74,
+              "5": 474,
+              "6": 2516
+            },
+            "mean_profile_score": 87.4636140046252,
+            "preserves_canonical_counts": true
+          }
+        },
+        "23": {
+          "candidate": {
+            "template_key": "A2_orbit_replacement",
+            "axis_subset_key": "23",
+            "axis_size": 2,
+            "total_cell_count": 4,
+            "bucket_counts": {
+              "2": 0,
+              "1": 3,
+              "0": 1
+            },
+            "selections": {
+              "2": [],
+              "1": [
+                6,
+                7,
+                8
+              ],
+              "0": [
+                5
+              ]
+            }
+          },
+          "metrics": {
+            "best_counts": [
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "best_profile_score": 1.3333333333333335,
+            "exact_hits": 0,
+            "exact_rate": 0.0,
+            "family5_hits": 452,
+            "family5_rate": 0.14713541666666666,
+            "family_histogram": {
+              "2": 1,
+              "4": 48,
+              "5": 452,
+              "6": 2571
+            },
+            "mean_profile_score": 88.00339988425459,
+            "preserves_canonical_counts": true
+          }
+        }
+      }
+    }
+  ]
+}

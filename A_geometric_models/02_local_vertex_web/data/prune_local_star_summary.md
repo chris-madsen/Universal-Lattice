@@ -1,0 +1,10 @@
+# Local Vertex Prune Summary
+
+- samples: `1200`
+- canonical 24-cell vertex degree: `8`
+- target oriented ray count: `5`
+- target absolute family count: `3`
+- joint exact matches: `0`
+- oriented histogram: `{7: 212, 8: 967, 6: 17, 5: 3, 4: 1}`
+- absolute histogram: `{7: 314, 8: 835, 6: 44, 5: 6, 4: 1}`
+- best candidate: `{'zero_edges': 0, 'oriented_ray_count': 5, 'absolute_family_count': 5, 'oriented_centers_deg': [206.82091362959642, 208.3979805012398, 262.37304485001084, 316.08215527024873, 318.2140980786345], 'absolute_centers_deg': [26.82091362959642, 28.3979805012398, 82.37304485001081, 136.08215527024873, 138.2140980786345]}`

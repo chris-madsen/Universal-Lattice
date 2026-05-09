@@ -1,0 +1,352 @@
+{
+  "captured_at": "2026-05-09 00:56:15",
+  "summary_meta": {
+    "updated": "2026-05-09 00:56:15",
+    "status": "running",
+    "kernel backend": "rust_persistent",
+    "generation": "46360",
+    "generation progress": "96.5833%",
+    "candidate evaluations": "3337920",
+    "candidate progress": "96.5833%",
+    "projection evaluations": "320440320",
+    "templates touched": "77",
+    "root branches touched": "261",
+    "root-branch coverage": "66.7519%",
+    "elapsed wall seconds": "6601.8",
+    "generations/sec": "7.0224",
+    "ETA": "4m"
+  },
+  "best_overall": {
+    "template_key": "A2_B2-0_B1-3_B0-1",
+    "axis_subset_key": "02",
+    "axis_size": 2,
+    "total_cell_count": 4,
+    "bucket_counts": {
+      "2": 0,
+      "1": 3,
+      "0": 1
+    },
+    "selections": {
+      "2": [],
+      "1": [
+        9,
+        10,
+        2
+      ],
+      "0": [
+        8
+      ]
+    },
+    "source": "aco",
+    "family5_hits": 38,
+    "exact_hits": 0,
+    "family5_rate": 0.3958333333333333,
+    "exact_rate": 0.0,
+    "mean_profile_score": 62.65046296296287,
+    "fitness": 395.990441381484,
+    "family_histogram": {
+      "4": 4,
+      "5": 38,
+      "6": 54
+    },
+    "best_counts": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "evaluation_seed": 3322869,
+    "root_branch_key": "A2_B2-0_B1-3_B0-1@02",
+    "kernel_backend_used": "rust_persistent"
+  },
+  "best_exact": {
+    "template_key": "A3_B2-1_B1-6_B0-0",
+    "axis_subset_key": "013",
+    "axis_size": 3,
+    "total_cell_count": 7,
+    "bucket_counts": {
+      "2": 1,
+      "1": 6,
+      "0": 0
+    },
+    "selections": {
+      "2": [
+        0
+      ],
+      "1": [
+        9,
+        1,
+        6,
+        4,
+        10,
+        11
+      ],
+      "0": []
+    },
+    "source": "ga",
+    "family5_hits": 2,
+    "exact_hits": 1,
+    "family5_rate": 0.020833333333333332,
+    "exact_rate": 0.010416666666666666,
+    "mean_profile_score": 453.6265432098765,
+    "fitness": 125.02199607600865,
+    "family_histogram": {
+      "10": 59,
+      "5": 2,
+      "7": 1,
+      "8": 7,
+      "9": 27
+    },
+    "best_counts": [
+      1,
+      1,
+      1,
+      2,
+      5
+    ],
+    "evaluation_seed": 3076611,
+    "root_branch_key": "A3_B2-1_B1-6_B0-0@013",
+    "kernel_backend_used": "rust_persistent"
+  },
+  "shortlist_filter": {
+    "template_prefix": "A2_",
+    "min_eval_count": 2000,
+    "best_counts_required": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "limit": 8
+  },
+  "shortlist": [
+    {
+      "root_branch_key": "A2_B2-0_B1-4_B0-0@02",
+      "template_key": "A2_B2-0_B1-4_B0-0",
+      "axis_subset_key": "02",
+      "eval_count": 195643,
+      "running_family5_rate": 0.18144624392387984,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.3645833333333333,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [],
+        "1": [
+          10,
+          2,
+          9,
+          5
+        ],
+        "0": []
+      }
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-3_B0-1@02",
+      "template_key": "A2_B2-0_B1-3_B0-1",
+      "axis_subset_key": "02",
+      "eval_count": 1748098,
+      "running_family5_rate": 0.17494733323493658,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.3958333333333333,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [],
+        "1": [
+          9,
+          10,
+          2
+        ],
+        "0": [
+          8
+        ]
+      }
+    },
+    {
+      "root_branch_key": "A2_B2-0_B1-2_B0-2@02",
+      "template_key": "A2_B2-0_B1-2_B0-2",
+      "axis_subset_key": "02",
+      "eval_count": 724387,
+      "running_family5_rate": 0.16693555781187194,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.3645833333333333,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [],
+        "1": [
+          2,
+          10
+        ],
+        "0": [
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-3_B0-0@02",
+      "template_key": "A2_B2-1_B1-3_B0-0",
+      "axis_subset_key": "02",
+      "eval_count": 81979,
+      "running_family5_rate": 0.16610376844476518,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.34375,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [
+          1
+        ],
+        "1": [
+          10,
+          9,
+          5
+        ],
+        "0": []
+      }
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-2_B0-1@02",
+      "template_key": "A2_B2-1_B1-2_B0-1",
+      "axis_subset_key": "02",
+      "eval_count": 116100,
+      "running_family5_rate": 0.1592519020958929,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.34375,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [
+          1
+        ],
+        "1": [
+          2,
+          9
+        ],
+        "0": [
+          8
+        ]
+      }
+    },
+    {
+      "root_branch_key": "A2_B2-1_B1-1_B0-2@02",
+      "template_key": "A2_B2-1_B1-1_B0-2",
+      "axis_subset_key": "02",
+      "eval_count": 57485,
+      "running_family5_rate": 0.15205705836304967,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.3229166666666667,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [
+          1
+        ],
+        "1": [
+          9
+        ],
+        "0": [
+          8,
+          7
+        ]
+      }
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-2_B0-0@02",
+      "template_key": "A2_B2-2_B1-2_B0-0",
+      "axis_subset_key": "02",
+      "eval_count": 7538,
+      "running_family5_rate": 0.12471394932342789,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.2604166666666667,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [
+          1,
+          4
+        ],
+        "1": [
+          5,
+          2
+        ],
+        "0": []
+      }
+    },
+    {
+      "root_branch_key": "A2_B2-2_B1-1_B0-1@02",
+      "template_key": "A2_B2-2_B1-1_B0-1",
+      "axis_subset_key": "02",
+      "eval_count": 7063,
+      "running_family5_rate": 0.12061682948699802,
+      "running_exact_rate": 0.0,
+      "best_family5_rate": 0.2604166666666667,
+      "best_exact_rate": 0.0,
+      "best_counts": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "best_selections": {
+        "2": [
+          1,
+          4
+        ],
+        "1": [
+          2
+        ],
+        "0": [
+          7
+        ]
+      }
+    }
+  ]
+}

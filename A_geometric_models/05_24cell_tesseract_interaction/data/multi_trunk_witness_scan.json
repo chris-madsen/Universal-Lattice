@@ -1,0 +1,1614 @@
+{
+  "captured_at": "2026-05-09 00:56:15",
+  "projection_batch": 4096,
+  "negative_batch": 2048,
+  "canonical_counts": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "target_subsets": [
+    "02",
+    "12",
+    "13",
+    "23"
+  ],
+  "configs": {
+    "core_only": [
+      "A2_B2-0_B1-3_B0-1"
+    ],
+    "core_plus_b1": [
+      "A2_B2-0_B1-3_B0-1",
+      "A2_B2-0_B1-4_B0-0"
+    ],
+    "core_plus_b0": [
+      "A2_B2-0_B1-3_B0-1",
+      "A2_B2-0_B1-2_B0-2"
+    ],
+    "dual_outer": [
+      "A2_B2-0_B1-4_B0-0",
+      "A2_B2-0_B1-2_B0-2"
+    ],
+    "triple_union": [
+      "A2_B2-0_B1-3_B0-1",
+      "A2_B2-0_B1-4_B0-0",
+      "A2_B2-0_B1-2_B0-2"
+    ]
+  },
+  "merge_rows": [
+    {
+      "subset_key": "02",
+      "config_name": "core_only",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1"
+      ],
+      "candidate": {
+        "template_key": "core_only",
+        "axis_subset_key": "02",
+        "axis_size": 2,
+        "total_cell_count": 4,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            5,
+            9,
+            10
+          ],
+          "0": [
+            8
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 738,
+        "family5_rate": 0.18017578125,
+        "family_histogram": {
+          "3": 3,
+          "4": 58,
+          "5": 738,
+          "6": 3297
+        },
+        "mean_profile_score": 84.65066189235459,
+        "preserves_canonical_counts": true
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "02",
+      "config_name": "core_plus_b1",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b1",
+        "axis_subset_key": "02",
+        "axis_size": 2,
+        "total_cell_count": 6,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            5,
+            9,
+            10
+          ],
+          "0": [
+            8
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "best_profile_score": 1.1111111111111112,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 25,
+        "family5_rate": 0.006103515625,
+        "family_histogram": {
+          "4": 1,
+          "5": 25,
+          "6": 231,
+          "7": 1016,
+          "8": 2823
+        },
+        "mean_profile_score": 268.1705005787226,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            0,
+            2
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "02",
+      "config_name": "core_plus_b0",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b0",
+        "axis_subset_key": "02",
+        "axis_size": 2,
+        "total_cell_count": 6,
+        "bucket_counts": {
+          "2": 0,
+          "1": 4,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            2,
+            5,
+            9,
+            10
+          ],
+          "0": [
+            7,
+            8
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "best_profile_score": 1.1111111111111112,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 24,
+        "family5_rate": 0.005859375,
+        "family_histogram": {
+          "4": 3,
+          "5": 24,
+          "6": 194,
+          "7": 1090,
+          "8": 2785
+        },
+        "mean_profile_score": 268.15672019677817,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            2
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            7
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "02",
+      "config_name": "dual_outer",
+      "part_templates": [
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "dual_outer",
+        "axis_subset_key": "02",
+        "axis_size": 2,
+        "total_cell_count": 6,
+        "bucket_counts": {
+          "2": 0,
+          "1": 4,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            9,
+            10
+          ],
+          "0": [
+            7,
+            8
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "best_profile_score": 1.1111111111111112,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 21,
+        "family5_rate": 0.005126953125,
+        "family_histogram": {
+          "4": 3,
+          "5": 21,
+          "6": 177,
+          "7": 998,
+          "8": 2897
+        },
+        "mean_profile_score": 271.46240234376904,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            0,
+            2
+          ],
+          "missing": [
+            5
+          ]
+        },
+        "0": {
+          "extra": [
+            7
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "02",
+      "config_name": "triple_union",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "triple_union",
+        "axis_subset_key": "02",
+        "axis_size": 2,
+        "total_cell_count": 7,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            5,
+            9,
+            10
+          ],
+          "0": [
+            7,
+            8
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "best_profile_score": 0.6666666666666667,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 6,
+        "family5_rate": 0.00146484375,
+        "family_histogram": {
+          "5": 6,
+          "6": 44,
+          "7": 267,
+          "8": 1116,
+          "9": 2663
+        },
+        "mean_profile_score": 363.88037109374994,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            0,
+            2
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            7
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "12",
+      "config_name": "core_only",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1"
+      ],
+      "candidate": {
+        "template_key": "core_only",
+        "axis_subset_key": "12",
+        "axis_size": 2,
+        "total_cell_count": 4,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            1,
+            8,
+            11
+          ],
+          "0": [
+            3
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 767,
+        "family5_rate": 0.187255859375,
+        "family_histogram": {
+          "3": 1,
+          "4": 49,
+          "5": 767,
+          "6": 3279
+        },
+        "mean_profile_score": 83.88547092013263,
+        "preserves_canonical_counts": true
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "12",
+      "config_name": "core_plus_b1",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b1",
+        "axis_subset_key": "12",
+        "axis_size": 2,
+        "total_cell_count": 6,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            1,
+            7,
+            8,
+            11
+          ],
+          "0": [
+            3
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "best_profile_score": 1.1111111111111112,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 19,
+        "family5_rate": 0.004638671875,
+        "family_histogram": {
+          "4": 2,
+          "5": 19,
+          "6": 237,
+          "7": 1040,
+          "8": 2798
+        },
+        "mean_profile_score": 267.6874457465467,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            0,
+            7
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "12",
+      "config_name": "core_plus_b0",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b0",
+        "axis_subset_key": "12",
+        "axis_size": 2,
+        "total_cell_count": 5,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            1,
+            8,
+            11
+          ],
+          "0": [
+            2,
+            3
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 97,
+        "family5_rate": 0.023681640625,
+        "family_histogram": {
+          "4": 9,
+          "5": 97,
+          "6": 888,
+          "7": 3102
+        },
+        "mean_profile_score": 177.73887803820483,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            2
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "12",
+      "config_name": "dual_outer",
+      "part_templates": [
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "dual_outer",
+        "axis_subset_key": "12",
+        "axis_size": 2,
+        "total_cell_count": 7,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            1,
+            7,
+            8,
+            11
+          ],
+          "0": [
+            2,
+            3
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "best_profile_score": 0.6666666666666667,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 7,
+        "family5_rate": 0.001708984375,
+        "family_histogram": {
+          "5": 7,
+          "6": 46,
+          "7": 336,
+          "8": 1082,
+          "9": 2625
+        },
+        "mean_profile_score": 361.0960286458333,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            0,
+            7
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            2
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "12",
+      "config_name": "triple_union",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "triple_union",
+        "axis_subset_key": "12",
+        "axis_size": 2,
+        "total_cell_count": 7,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            1,
+            7,
+            8,
+            11
+          ],
+          "0": [
+            2,
+            3
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "best_profile_score": 0.6666666666666667,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 6,
+        "family5_rate": 0.00146484375,
+        "family_histogram": {
+          "4": 1,
+          "5": 6,
+          "6": 50,
+          "7": 313,
+          "8": 1129,
+          "9": 2597
+        },
+        "mean_profile_score": 360.79817708333337,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            0,
+            7
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            2
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "13",
+      "config_name": "core_only",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1"
+      ],
+      "candidate": {
+        "template_key": "core_only",
+        "axis_subset_key": "13",
+        "axis_size": 2,
+        "total_cell_count": 4,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            10
+          ],
+          "0": [
+            1
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 739,
+        "family5_rate": 0.180419921875,
+        "family_histogram": {
+          "3": 5,
+          "4": 56,
+          "5": 739,
+          "6": 3296
+        },
+        "mean_profile_score": 84.6748589409659,
+        "preserves_canonical_counts": true
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "13",
+      "config_name": "core_plus_b1",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b1",
+        "axis_subset_key": "13",
+        "axis_size": 2,
+        "total_cell_count": 6,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            5,
+            6,
+            10
+          ],
+          "0": [
+            1
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "best_profile_score": 1.1111111111111112,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 22,
+        "family5_rate": 0.00537109375,
+        "family_histogram": {
+          "4": 2,
+          "5": 22,
+          "6": 191,
+          "7": 1028,
+          "8": 2853
+        },
+        "mean_profile_score": 270.025535300945,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            5,
+            6
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "13",
+      "config_name": "core_plus_b0",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b0",
+        "axis_subset_key": "13",
+        "axis_size": 2,
+        "total_cell_count": 5,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            10
+          ],
+          "0": [
+            1,
+            4
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 108,
+        "family5_rate": 0.0263671875,
+        "family_histogram": {
+          "3": 1,
+          "4": 14,
+          "5": 108,
+          "6": 860,
+          "7": 3113
+        },
+        "mean_profile_score": 177.7550455729269,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            4
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "13",
+      "config_name": "dual_outer",
+      "part_templates": [
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "dual_outer",
+        "axis_subset_key": "13",
+        "axis_size": 2,
+        "total_cell_count": 7,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            5,
+            6,
+            10
+          ],
+          "0": [
+            1,
+            4
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "best_profile_score": 0.6666666666666667,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 7,
+        "family5_rate": 0.001708984375,
+        "family_histogram": {
+          "5": 7,
+          "6": 40,
+          "7": 290,
+          "8": 1096,
+          "9": 2663
+        },
+        "mean_profile_score": 363.43912760416674,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            5,
+            6
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            4
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "13",
+      "config_name": "triple_union",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "triple_union",
+        "axis_subset_key": "13",
+        "axis_size": 2,
+        "total_cell_count": 7,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            0,
+            2,
+            5,
+            6,
+            10
+          ],
+          "0": [
+            1,
+            4
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "best_profile_score": 0.6666666666666667,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 8,
+        "family5_rate": 0.001953125,
+        "family_histogram": {
+          "5": 8,
+          "6": 63,
+          "7": 294,
+          "8": 1106,
+          "9": 2625
+        },
+        "mean_profile_score": 361.2058919270833,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            5,
+            6
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            4
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "23",
+      "config_name": "core_only",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1"
+      ],
+      "candidate": {
+        "template_key": "core_only",
+        "axis_subset_key": "23",
+        "axis_size": 2,
+        "total_cell_count": 4,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            4,
+            6,
+            7
+          ],
+          "0": [
+            5
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 762,
+        "family5_rate": 0.18603515625,
+        "family_histogram": {
+          "3": 1,
+          "4": 61,
+          "5": 762,
+          "6": 3272
+        },
+        "mean_profile_score": 84.0063476562437,
+        "preserves_canonical_counts": true
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "23",
+      "config_name": "core_plus_b1",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b1",
+        "axis_subset_key": "23",
+        "axis_size": 2,
+        "total_cell_count": 6,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "0": [
+            5
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "best_profile_score": 1.1111111111111112,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 30,
+        "family5_rate": 0.00732421875,
+        "family_histogram": {
+          "4": 3,
+          "5": 30,
+          "6": 190,
+          "7": 1011,
+          "8": 2862
+        },
+        "mean_profile_score": 269.833007812519,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            3,
+            8
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "23",
+      "config_name": "core_plus_b0",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "core_plus_b0",
+        "axis_subset_key": "23",
+        "axis_size": 2,
+        "total_cell_count": 5,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            4,
+            6,
+            7
+          ],
+          "0": [
+            0,
+            5
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 130,
+        "family5_rate": 0.03173828125,
+        "family_histogram": {
+          "3": 2,
+          "4": 10,
+          "5": 130,
+          "6": 792,
+          "7": 3162
+        },
+        "mean_profile_score": 178.4236653645936,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            0
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "23",
+      "config_name": "dual_outer",
+      "part_templates": [
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "dual_outer",
+        "axis_subset_key": "23",
+        "axis_size": 2,
+        "total_cell_count": 7,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "0": [
+            0,
+            5
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "best_profile_score": 0.6666666666666667,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 9,
+        "family5_rate": 0.002197265625,
+        "family_histogram": {
+          "3": 1,
+          "4": 1,
+          "5": 9,
+          "6": 47,
+          "7": 283,
+          "8": 1083,
+          "9": 2672
+        },
+        "mean_profile_score": 363.26123046875006,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            3,
+            8
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            0
+          ],
+          "missing": []
+        }
+      }
+    },
+    {
+      "subset_key": "23",
+      "config_name": "triple_union",
+      "part_templates": [
+        "A2_B2-0_B1-3_B0-1",
+        "A2_B2-0_B1-4_B0-0",
+        "A2_B2-0_B1-2_B0-2"
+      ],
+      "candidate": {
+        "template_key": "triple_union",
+        "axis_subset_key": "23",
+        "axis_size": 2,
+        "total_cell_count": 7,
+        "bucket_counts": {
+          "2": 0,
+          "1": 5,
+          "0": 2
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "0": [
+            0,
+            5
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "best_profile_score": 0.6666666666666667,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 5,
+        "family5_rate": 0.001220703125,
+        "family_histogram": {
+          "5": 5,
+          "6": 42,
+          "7": 339,
+          "8": 1123,
+          "9": 2587
+        },
+        "mean_profile_score": 360.4358723958333,
+        "preserves_canonical_counts": false
+      },
+      "line_diff_vs_core": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [
+            3,
+            8
+          ],
+          "missing": []
+        },
+        "0": {
+          "extra": [
+            0
+          ],
+          "missing": []
+        }
+      }
+    }
+  ],
+  "best_multi": {
+    "subset_key": "23",
+    "config_name": "core_plus_b0",
+    "part_templates": [
+      "A2_B2-0_B1-3_B0-1",
+      "A2_B2-0_B1-2_B0-2"
+    ],
+    "candidate": {
+      "template_key": "core_plus_b0",
+      "axis_subset_key": "23",
+      "axis_size": 2,
+      "total_cell_count": 5,
+      "bucket_counts": {
+        "2": 0,
+        "1": 3,
+        "0": 2
+      },
+      "selections": {
+        "2": [],
+        "1": [
+          4,
+          6,
+          7
+        ],
+        "0": [
+          0,
+          5
+        ]
+      }
+    },
+    "metrics": {
+      "best_counts": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "best_profile_score": 1.333333333333333,
+      "exact_hits": 0,
+      "exact_rate": 0.0,
+      "family5_hits": 130,
+      "family5_rate": 0.03173828125,
+      "family_histogram": {
+        "3": 2,
+        "4": 10,
+        "5": 130,
+        "6": 792,
+        "7": 3162
+      },
+      "mean_profile_score": 178.4236653645936,
+      "preserves_canonical_counts": false
+    },
+    "line_diff_vs_core": {
+      "2": {
+        "extra": [],
+        "missing": []
+      },
+      "1": {
+        "extra": [],
+        "missing": []
+      },
+      "0": {
+        "extra": [
+          0
+        ],
+        "missing": []
+      }
+    }
+  },
+  "negative_neighbors": [
+    {
+      "name": "ABLATE_EXTRA_0_0",
+      "candidate": {
+        "template_key": "ABLATE_EXTRA_0_0",
+        "axis_subset_key": "23",
+        "axis_size": 2,
+        "total_cell_count": 4,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 1
+        },
+        "selections": {
+          "2": [],
+          "1": [
+            4,
+            6,
+            7
+          ],
+          "0": [
+            5
+          ]
+        }
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 357,
+        "family5_rate": 0.17431640625,
+        "family_histogram": {
+          "4": 32,
+          "5": 357,
+          "6": 1659
+        },
+        "mean_profile_score": 85.17100694444272,
+        "preserves_canonical_counts": true
+      },
+      "line_diff_vs_best_multi": {
+        "2": {
+          "extra": [],
+          "missing": []
+        },
+        "1": {
+          "extra": [],
+          "missing": []
+        },
+        "0": {
+          "extra": [],
+          "missing": [
+            0
+          ]
+        }
+      }
+    }
+  ]
+}

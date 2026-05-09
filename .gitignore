@@ -1,0 +1,40 @@
+# Publication profile for research/
+# Keep source code + markdown/json reports, drop generated/runtime noise.
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environment / temp
+.env
+.venv/
+venv/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Runtime async checkpoints and rolling logs
+async_state/
+
+# Rust build artifacts
+rust/**/target/
+
+# Heavy visual artifacts (keep text reports in figures/)
+**/figures/*.png
+**/figures/*.jpg
+**/figures/*.jpeg
+**/figures/*.svg
+**/figures/*.webp
+**/figures/*.pdf
+
+# Generic generated visuals anywhere inside research/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.webp
+*.pdf

@@ -1,0 +1,440 @@
+{
+  "base_subset_key": "02",
+  "base_templates": [
+    "A2_B2-0_B1-4_B0-0",
+    "A2_B2-0_B1-3_B0-1",
+    "A2_B2-0_B1-2_B0-2"
+  ],
+  "projection_batch": 1024,
+  "targets": {
+    "12": {
+      "target_subset_key": "12",
+      "best_overlap_score": 0.4525121001683502,
+      "classification": "good",
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "template_records": [
+        {
+          "template_key": "A2_B2-0_B1-4_B0-0",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              0,
+              1,
+              7,
+              11
+            ],
+            "0": []
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              0,
+              11,
+              8,
+              4
+            ],
+            "0": []
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 0.3333333333333333,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 0.7777777777777777,
+          "observed_running_family5_rate": 0.17045454545454544,
+          "observed_best_single_family5_rate": 0.23958333333333334,
+          "transfer_eval_family5_rate": 0.18359375,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "template_key": "A2_B2-0_B1-3_B0-1",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              1,
+              8,
+              11
+            ],
+            "0": [
+              3
+            ]
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              7,
+              8,
+              11
+            ],
+            "0": [
+              3
+            ]
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 0.5,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 0.8333333333333334,
+          "observed_running_family5_rate": 0.1736111111111111,
+          "observed_best_single_family5_rate": 0.23958333333333334,
+          "transfer_eval_family5_rate": 0.1845703125,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "template_key": "A2_B2-0_B1-2_B0-2",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              8,
+              11
+            ],
+            "0": [
+              2,
+              3
+            ]
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              11,
+              8
+            ],
+            "0": [
+              2,
+              3
+            ]
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 1.0,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 1.0,
+          "observed_running_family5_rate": 0.17526041666666667,
+          "observed_best_single_family5_rate": 0.22916666666666666,
+          "transfer_eval_family5_rate": 0.1806640625,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "13": {
+      "target_subset_key": "13",
+      "best_overlap_score": 0.487831096263627,
+      "classification": "strong",
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "signs": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "template_records": [
+        {
+          "template_key": "A2_B2-0_B1-4_B0-0",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              2,
+              5,
+              6,
+              10
+            ],
+            "0": []
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              0,
+              10,
+              2,
+              6
+            ],
+            "0": []
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 0.6,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 0.8666666666666667,
+          "observed_running_family5_rate": 0.17078567538126363,
+          "observed_best_single_family5_rate": 0.28125,
+          "transfer_eval_family5_rate": 0.1953125,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "template_key": "A2_B2-0_B1-3_B0-1",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              0,
+              2,
+              10
+            ],
+            "0": [
+              1
+            ]
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              2,
+              0,
+              10
+            ],
+            "0": [
+              1
+            ]
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 1.0,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 1.0,
+          "observed_running_family5_rate": 0.1709571951437248,
+          "observed_best_single_family5_rate": 0.3125,
+          "transfer_eval_family5_rate": 0.169921875,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "template_key": "A2_B2-0_B1-2_B0-2",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              0,
+              2
+            ],
+            "0": [
+              1,
+              4
+            ]
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              2,
+              0
+            ],
+            "0": [
+              4,
+              1
+            ]
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 1.0,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 1.0,
+          "observed_running_family5_rate": 0.16885964912280707,
+          "observed_best_single_family5_rate": 0.3020833333333333,
+          "transfer_eval_family5_rate": 0.177734375,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "23": {
+      "target_subset_key": "23",
+      "best_overlap_score": 0.467359275366127,
+      "classification": "good",
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "signs": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "template_records": [
+        {
+          "template_key": "A2_B2-0_B1-4_B0-0",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              3,
+              4,
+              6,
+              8
+            ],
+            "0": []
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              7,
+              4,
+              6,
+              3
+            ],
+            "0": []
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 0.6,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 0.8666666666666667,
+          "observed_running_family5_rate": 0.17109375,
+          "observed_best_single_family5_rate": 0.25,
+          "transfer_eval_family5_rate": 0.1748046875,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "template_key": "A2_B2-0_B1-3_B0-1",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              4,
+              6,
+              7
+            ],
+            "0": [
+              5
+            ]
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              7,
+              4,
+              6
+            ],
+            "0": [
+              5
+            ]
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 1.0,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 1.0,
+          "observed_running_family5_rate": 0.15842661691542287,
+          "observed_best_single_family5_rate": 0.25,
+          "transfer_eval_family5_rate": 0.1904296875,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "template_key": "A2_B2-0_B1-2_B0-2",
+          "mapped_selections": {
+            "2": [],
+            "1": [
+              6,
+              7
+            ],
+            "0": [
+              0,
+              5
+            ]
+          },
+          "observed_best_selections": {
+            "2": [],
+            "1": [
+              6,
+              7
+            ],
+            "0": [
+              5,
+              0
+            ]
+          },
+          "bucketwise_jaccard": {
+            "2": 1.0,
+            "1": 1.0,
+            "0": 1.0
+          },
+          "mean_bucketwise_jaccard": 1.0,
+          "observed_running_family5_rate": 0.16065140845070416,
+          "observed_best_single_family5_rate": 0.25,
+          "transfer_eval_family5_rate": 0.162109375,
+          "transfer_eval_exact_rate": 0.0,
+          "transfer_eval_best_counts": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  }
+}

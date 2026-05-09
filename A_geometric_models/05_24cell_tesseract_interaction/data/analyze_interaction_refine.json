@@ -1,0 +1,630 @@
+{
+  "focus_classes": [
+    "T4_C4",
+    "T4_C5",
+    "T4_C6",
+    "T4_C7",
+    "T3_C4",
+    "T3_C5",
+    "T3_C6",
+    "T2_C8"
+  ],
+  "focus_samples_per_class": 3000,
+  "sampling_seed": 151,
+  "focus_exact_profile": [
+    1,
+    1,
+    1,
+    1,
+    6
+  ],
+  "class_hits": {
+    "T4_C4": {
+      "hits_family5": 30,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.01,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 2,
+        "5": 30,
+        "6": 177,
+        "7": 605,
+        "8": 2186
+      },
+      "best": {
+        "class": "T4_C4",
+        "tesseract_count": 4,
+        "cell_count": 4,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          3
+        ],
+        "profile_score": 1.925925925925926,
+        "exact_profile_hit": false
+      }
+    },
+    "T4_C5": {
+      "hits_family5": 4,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0013333333333333333,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 2,
+        "5": 4,
+        "6": 42,
+        "7": 233,
+        "8": 723,
+        "9": 1996
+      },
+      "best": {
+        "class": "T4_C5",
+        "tesseract_count": 4,
+        "cell_count": 5,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          4
+        ],
+        "profile_score": 2.666666666666667,
+        "exact_profile_hit": false
+      }
+    },
+    "T4_C6": {
+      "hits_family5": 3,
+      "hits_exact_profile_11116": 2,
+      "family5_hit_rate": 0.001,
+      "exact_profile_hit_rate": 0.0006666666666666666,
+      "family_histogram": {
+        "5": 3,
+        "6": 14,
+        "7": 93,
+        "8": 306,
+        "9": 783,
+        "10": 1801
+      },
+      "best": {
+        "class": "T4_C6",
+        "tesseract_count": 4,
+        "cell_count": 6,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          5
+        ],
+        "profile_score": 4.074074074074074,
+        "exact_profile_hit": false
+      }
+    },
+    "T4_C7": {
+      "hits_family5": 0,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "6": 3,
+        "7": 33,
+        "8": 102,
+        "9": 347,
+        "10": 814,
+        "11": 1701
+      },
+      "best": {
+        "class": "T4_C7",
+        "tesseract_count": 4,
+        "cell_count": 7,
+        "family_count": 6,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          3,
+          4
+        ],
+        "profile_score": 108.0,
+        "exact_profile_hit": false
+      }
+    },
+    "T3_C4": {
+      "hits_family5": 99,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.033,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 3,
+        "4": 17,
+        "5": 99,
+        "6": 553,
+        "7": 2328
+      },
+      "best": {
+        "class": "T3_C4",
+        "tesseract_count": 3,
+        "cell_count": 4,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "profile_score": 1.333333333333333,
+        "exact_profile_hit": false
+      }
+    },
+    "T3_C5": {
+      "hits_family5": 30,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.01,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 1,
+        "4": 4,
+        "5": 30,
+        "6": 150,
+        "7": 694,
+        "8": 2121
+      },
+      "best": {
+        "class": "T3_C5",
+        "tesseract_count": 3,
+        "cell_count": 5,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "profile_score": 1.1111111111111112,
+        "exact_profile_hit": false
+      }
+    },
+    "T3_C6": {
+      "hits_family5": 7,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.0023333333333333335,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "5": 7,
+        "6": 60,
+        "7": 215,
+        "8": 787,
+        "9": 1931
+      },
+      "best": {
+        "class": "T3_C6",
+        "tesseract_count": 3,
+        "cell_count": 6,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "profile_score": 0.6666666666666667,
+        "exact_profile_hit": false
+      }
+    },
+    "T2_C8": {
+      "hits_family5": 2,
+      "hits_exact_profile_11116": 2,
+      "family5_hit_rate": 0.0006666666666666666,
+      "exact_profile_hit_rate": 0.0006666666666666666,
+      "family_histogram": {
+        "5": 2,
+        "6": 22,
+        "7": 57,
+        "8": 259,
+        "9": 871,
+        "10": 1789
+      },
+      "best": {
+        "class": "T2_C8",
+        "tesseract_count": 2,
+        "cell_count": 8,
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          6
+        ],
+        "profile_score": 6.074074074074074,
+        "exact_profile_hit": true
+      }
+    }
+  },
+  "top_records": [
+    {
+      "class": "T3_C6",
+      "tesseract_count": 3,
+      "cell_count": 6,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "profile_score": 0.6666666666666667,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C5",
+      "tesseract_count": 3,
+      "cell_count": 5,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "profile_score": 1.1111111111111112,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C5",
+      "tesseract_count": 3,
+      "cell_count": 5,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "profile_score": 1.1111111111111112,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    },
+    {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    }
+  ],
+  "best_family5_class": "T3_C4",
+  "best_family5_stats": {
+    "hits_family5": 99,
+    "hits_exact_profile_11116": 0,
+    "family5_hit_rate": 0.033,
+    "exact_profile_hit_rate": 0.0,
+    "family_histogram": {
+      "3": 3,
+      "4": 17,
+      "5": 99,
+      "6": 553,
+      "7": 2328
+    },
+    "best": {
+      "class": "T3_C4",
+      "tesseract_count": 3,
+      "cell_count": 4,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "profile_score": 1.333333333333333,
+      "exact_profile_hit": false
+    }
+  },
+  "best_exact_class": "T4_C6",
+  "best_exact_stats": {
+    "hits_family5": 3,
+    "hits_exact_profile_11116": 2,
+    "family5_hit_rate": 0.001,
+    "exact_profile_hit_rate": 0.0006666666666666666,
+    "family_histogram": {
+      "5": 3,
+      "6": 14,
+      "7": 93,
+      "8": 306,
+      "9": 783,
+      "10": 1801
+    },
+    "best": {
+      "class": "T4_C6",
+      "tesseract_count": 4,
+      "cell_count": 6,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        5
+      ],
+      "profile_score": 4.074074074074074,
+      "exact_profile_hit": false
+    }
+  },
+  "comparison_to_08_09": {
+    "branch_08": {
+      "best_class": "L5_S5",
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0004
+    },
+    "branch_09": {
+      "best_class": "A4_L6_H0",
+      "family5_hit_rate": 0.0004,
+      "exact_profile_hit_rate": 0.0
+    },
+    "branch_05_best_family5_class": "T3_C4",
+    "branch_05_best_family5_rate": 0.033,
+    "branch_05_best_exact_class": "T4_C6",
+    "branch_05_best_exact_rate": 0.0006666666666666666
+  }
+}

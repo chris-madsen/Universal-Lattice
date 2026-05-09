@@ -1,0 +1,17 @@
+# F4/B4 Hybrid Search
+
+- per-class samples: `100`
+
+## Class Hits
+- `A3_L8_H0` -> hits_family5=`0`, best=`{'class': 'A3_L8_H0', 'axis_count': 3, 'long_count': 8, 'half_count': 0, 'family_count': 6, 'family_multiplicities': [1, 1, 1, 2, 3, 3], 'profile_score': 106.0}`
+- `A4_L6_H0` -> hits_family5=`1`, best=`{'class': 'A4_L6_H0', 'axis_count': 4, 'long_count': 6, 'half_count': 0, 'family_count': 5, 'family_multiplicities': [1, 1, 1, 1, 6], 'profile_score': 6.074074074074074}`
+- `A4_L8_H0` -> hits_family5=`0`, best=`{'class': 'A4_L8_H0', 'axis_count': 4, 'long_count': 8, 'half_count': 0, 'family_count': 8, 'family_multiplicities': [1, 1, 1, 1, 1, 1, 2, 4], 'profile_score': 314.0}`
+- `A3_L6_H2` -> hits_family5=`0`, best=`{'class': 'A3_L6_H2', 'axis_count': 3, 'long_count': 6, 'half_count': 2, 'family_count': 7, 'family_multiplicities': [1, 1, 1, 1, 2, 2, 3], 'profile_score': 210.0}`
+- `A4_L6_H2` -> hits_family5=`0`, best=`{'class': 'A4_L6_H2', 'axis_count': 4, 'long_count': 6, 'half_count': 2, 'family_count': 9, 'family_multiplicities': [1, 1, 1, 1, 1, 1, 1, 1, 4], 'profile_score': 414.0}`
+- `A4_L8_H2` -> hits_family5=`0`, best=`{'class': 'A4_L8_H2', 'axis_count': 4, 'long_count': 8, 'half_count': 2, 'family_count': 10, 'family_multiplicities': [1, 1, 1, 1, 1, 1, 1, 1, 1, 5], 'profile_score': 518.0}`
+- `A2_L8_H2` -> hits_family5=`0`, best=`{'class': 'A2_L8_H2', 'axis_count': 2, 'long_count': 8, 'half_count': 2, 'family_count': 7, 'family_multiplicities': [1, 1, 1, 1, 2, 3, 3], 'profile_score': 212.0}`
+- `A3_L8_H2` -> hits_family5=`0`, best=`{'class': 'A3_L8_H2', 'axis_count': 3, 'long_count': 8, 'half_count': 2, 'family_count': 9, 'family_multiplicities': [1, 1, 1, 1, 1, 1, 1, 2, 4], 'profile_score': 416.0}`
+- `A4_L4_H4` -> hits_family5=`0`, best=`{'class': 'A4_L4_H4', 'axis_count': 4, 'long_count': 4, 'half_count': 4, 'family_count': 6, 'family_multiplicities': [1, 1, 2, 2, 3, 3], 'profile_score': 106.0}`
+
+## Top Records
+- `{'class': 'A4_L6_H0', 'axis_count': 4, 'long_count': 6, 'half_count': 0, 'family_count': 5, 'family_multiplicities': [1, 1, 1, 1, 6], 'profile_score': 6.074074074074074}`

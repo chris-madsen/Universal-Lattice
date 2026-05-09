@@ -1,0 +1,399 @@
+{
+  "comparison": {
+    "branch05_best_family5_class": "T3_C4",
+    "branch05_best_family5_rate": 0.033,
+    "branch05_best_exact_class": "T4_C6",
+    "branch05_best_exact_rate": 0.0006666666666666666,
+    "branch10_best_template": "A2_B2-1_B1-1_B0-2",
+    "branch10_best_family5_rate": 0.16666666666666666,
+    "branch10_best_exact_rate": 0.0,
+    "branch10_beats_05_on_family5": true,
+    "branch10_beats_05_on_exact": false
+  },
+  "top_results": [
+    {
+      "template": "A2_B2-1_B1-1_B0-2",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 1,
+        "1": 1,
+        "0": 2
+      },
+      "hits_family5": 250,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.16666666666666666,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 27,
+        "5": 250,
+        "6": 1223
+      },
+      "best": {
+        "template": "A2_B2-1_B1-1_B0-2",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 1,
+          "1": 1,
+          "0": 2
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-0_B1-2_B0-2",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 0,
+        "1": 2,
+        "0": 2
+      },
+      "hits_family5": 244,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.16266666666666665,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "4": 19,
+        "5": 244,
+        "6": 1237
+      },
+      "best": {
+        "template": "A2_B2-0_B1-2_B0-2",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 0,
+          "1": 2,
+          "0": 2
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-0_B1-4_B0-0",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 0,
+        "1": 4,
+        "0": 0
+      },
+      "hits_family5": 237,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.158,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 1,
+        "4": 22,
+        "5": 237,
+        "6": 1240
+      },
+      "best": {
+        "template": "A2_B2-0_B1-4_B0-0",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 0,
+          "1": 4,
+          "0": 0
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-1_B1-3_B0-0",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 1,
+        "1": 3,
+        "0": 0
+      },
+      "hits_family5": 236,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.15733333333333333,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "2": 1,
+        "3": 3,
+        "4": 47,
+        "5": 236,
+        "6": 1213
+      },
+      "best": {
+        "template": "A2_B2-1_B1-3_B0-0",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 1,
+          "1": 3,
+          "0": 0
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-0_B1-3_B0-1",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 0,
+        "1": 3,
+        "0": 1
+      },
+      "hits_family5": 227,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.15133333333333332,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 2,
+        "4": 23,
+        "5": 227,
+        "6": 1248
+      },
+      "best": {
+        "template": "A2_B2-0_B1-3_B0-1",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 0,
+          "1": 3,
+          "0": 1
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-1_B1-2_B0-1",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 1,
+        "1": 2,
+        "0": 1
+      },
+      "hits_family5": 218,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.14533333333333334,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 1,
+        "4": 36,
+        "5": 218,
+        "6": 1245
+      },
+      "best": {
+        "template": "A2_B2-1_B1-2_B0-1",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 1,
+          "1": 2,
+          "0": 1
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-2_B1-1_B0-1",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 2,
+        "1": 1,
+        "0": 1
+      },
+      "hits_family5": 179,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.11933333333333333,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "2": 4,
+        "3": 10,
+        "4": 36,
+        "5": 179,
+        "6": 1271
+      },
+      "best": {
+        "template": "A2_B2-2_B1-1_B0-1",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 2,
+          "1": 1,
+          "0": 1
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-2_B1-2_B0-0",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 2,
+        "1": 2,
+        "0": 0
+      },
+      "hits_family5": 171,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.114,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "2": 1,
+        "3": 14,
+        "4": 40,
+        "5": 171,
+        "6": 1274
+      },
+      "best": {
+        "template": "A2_B2-2_B1-2_B0-0",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 2,
+          "1": 2,
+          "0": 0
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A2_B2-2_B1-0_B0-2",
+      "axis_dims": 2,
+      "bucket_counts": {
+        "2": 2,
+        "1": 0,
+        "0": 2
+      },
+      "hits_family5": 149,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.09933333333333333,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "2": 1,
+        "3": 14,
+        "4": 20,
+        "5": 149,
+        "6": 1316
+      },
+      "best": {
+        "template": "A2_B2-2_B1-0_B0-2",
+        "axis_dims": 2,
+        "bucket_counts": {
+          "2": 2,
+          "1": 0,
+          "0": 2
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "profile_score": 1.3333333333333335,
+        "exact_profile_hit": false
+      }
+    },
+    {
+      "template": "A3_B2-4_B1-0_B0-0",
+      "axis_dims": 3,
+      "bucket_counts": {
+        "2": 4,
+        "1": 0,
+        "0": 0
+      },
+      "hits_family5": 75,
+      "hits_exact_profile_11116": 0,
+      "family5_hit_rate": 0.05,
+      "exact_profile_hit_rate": 0.0,
+      "family_histogram": {
+        "3": 1,
+        "4": 21,
+        "5": 75,
+        "6": 192,
+        "7": 1211
+      },
+      "best": {
+        "template": "A3_B2-4_B1-0_B0-0",
+        "axis_dims": 3,
+        "bucket_counts": {
+          "2": 4,
+          "1": 0,
+          "0": 0
+        },
+        "family_count": 5,
+        "family_multiplicities": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "profile_score": 1.333333333333333,
+        "exact_profile_hit": false
+      }
+    }
+  ],
+  "interpretation": "orbit-language is promising if it compresses branch 05 winners into a smaller symmetry-motivated description, even if raw hit-rate is lower"
+}

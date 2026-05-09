@@ -1,0 +1,35 @@
+{
+  "candidate": "A2_B2-0_B1-3_B0-1@02",
+  "projection_batch": 25000,
+  "seed": 424242,
+  "python_elapsed_sec": 3.338800929952413,
+  "rust_subprocess_elapsed_sec": 0.11774308898020536,
+  "rust_persistent_elapsed_sec": 0.11598676594439894,
+  "python_over_rust_subprocess": 28.35666160001733,
+  "python_over_rust_persistent": 28.786050742659278,
+  "rust_subprocess_over_rust_persistent": 1.0151424433771035,
+  "python_family5_rate": 0.18252,
+  "rust_subprocess_family5_rate": 0.1736,
+  "rust_persistent_family5_rate": 0.1736,
+  "python_best_counts": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "rust_subprocess_best_counts": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "rust_persistent_best_counts": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ]
+}

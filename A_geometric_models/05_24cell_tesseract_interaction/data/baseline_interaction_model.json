@@ -1,0 +1,27 @@
+{
+  "tesseract_axis_line_count": 4,
+  "cell_direction_line_count": 12,
+  "reduced_model": "tesseract axis scaffold + 24-cell direction shell",
+  "motivation": "Branch 09 suggests that axis+long structure may already carry the signal, so branch 05 can now be tested directly as a geometric interaction model.",
+  "branch_09_hint": {
+    "source": "09 analyze_hybrid_refine.json",
+    "best_focus_class": "A4_L6_H0",
+    "current_read": "axis+long currently dominates the hybrid branch",
+    "best_record": {
+      "class": "A4_L6_H0",
+      "axis_count": 4,
+      "long_count": 6,
+      "half_count": 0,
+      "family_count": 5,
+      "family_multiplicities": [
+        1,
+        1,
+        1,
+        3,
+        4
+      ],
+      "profile_score": 3.6296296296296298,
+      "exact_profile_hit": false
+    }
+  }
+}

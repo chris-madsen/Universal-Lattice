@@ -1,0 +1,432 @@
+{
+  "candidate": {
+    "template_key": "A2_B2-0_B1-3_B0-1",
+    "axis_subset_key": "02",
+    "axis_size": 2,
+    "total_cell_count": 4,
+    "bucket_counts": {
+      "2": 0,
+      "1": 3,
+      "0": 1
+    },
+    "selections": {
+      "2": [],
+      "1": [
+        9,
+        10,
+        5
+      ],
+      "0": [
+        8
+      ]
+    }
+  },
+  "projection_batch": 8192,
+  "canonical_counts": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "base_eval": {
+    "best_counts": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "best_profile_score": 1.3333333333333335,
+    "exact_hits": 0,
+    "exact_rate": 0.0,
+    "family5_hits": 1462,
+    "family5_rate": 0.178466796875,
+    "family_histogram": {
+      "3": 8,
+      "4": 99,
+      "5": 1462,
+      "6": 6623
+    },
+    "mean_profile_score": 84.85091145832553,
+    "preserves_canonical_counts": true
+  },
+  "ablations": [
+    {
+      "name": "ABLATE_1_9",
+      "removed_bucket": "1",
+      "removed_line": 9,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "best_profile_score": 1.4074074074074074,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 7156,
+        "family5_rate": 0.87353515625,
+        "family_histogram": {
+          "3": 44,
+          "4": 992,
+          "5": 7156
+        },
+        "mean_profile_score": 14.633246527775901,
+        "preserves_canonical_counts": false
+      }
+    },
+    {
+      "name": "ABLATE_1_10",
+      "removed_bucket": "1",
+      "removed_line": 10,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "best_profile_score": 1.4074074074074074,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 7139,
+        "family5_rate": 0.8714599609375,
+        "family_histogram": {
+          "2": 1,
+          "3": 38,
+          "4": 1014,
+          "5": 7139
+        },
+        "mean_profile_score": 14.79214590566942,
+        "preserves_canonical_counts": false
+      }
+    },
+    {
+      "name": "ABLATE_1_5",
+      "removed_bucket": "1",
+      "removed_line": 5,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "best_profile_score": 1.4074074074074074,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 7079,
+        "family5_rate": 0.8641357421875,
+        "family_histogram": {
+          "2": 2,
+          "3": 42,
+          "4": 1069,
+          "5": 7079
+        },
+        "mean_profile_score": 15.600658275461177,
+        "preserves_canonical_counts": false
+      }
+    },
+    {
+      "name": "ABLATE_0_8",
+      "removed_bucket": "0",
+      "removed_line": 8,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "best_profile_score": 1.4074074074074074,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 7065,
+        "family5_rate": 0.8624267578125,
+        "family_histogram": {
+          "3": 42,
+          "4": 1085,
+          "5": 7065
+        },
+        "mean_profile_score": 15.72274667245196,
+        "preserves_canonical_counts": false
+      }
+    }
+  ],
+  "additions": [
+    {
+      "name": "ADD_1_2",
+      "added_bucket": "1",
+      "added_line": 2,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 206,
+        "family5_rate": 0.025146484375,
+        "family_histogram": {
+          "3": 1,
+          "4": 16,
+          "5": 206,
+          "6": 1819,
+          "7": 6150
+        },
+        "mean_profile_score": 176.9365053530392,
+        "preserves_canonical_counts": false
+      }
+    },
+    {
+      "name": "ADD_1_0",
+      "added_bucket": "1",
+      "added_line": 0,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 222,
+        "family5_rate": 0.027099609375,
+        "family_histogram": {
+          "3": 1,
+          "4": 31,
+          "5": 222,
+          "6": 1692,
+          "7": 6246
+        },
+        "mean_profile_score": 177.91305881079427,
+        "preserves_canonical_counts": false
+      }
+    },
+    {
+      "name": "ADD_0_7",
+      "added_bucket": "0",
+      "added_line": 7,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 236,
+        "family5_rate": 0.02880859375,
+        "family_histogram": {
+          "3": 1,
+          "4": 18,
+          "5": 236,
+          "6": 1677,
+          "7": 6260
+        },
+        "mean_profile_score": 177.91006582757674,
+        "preserves_canonical_counts": false
+      }
+    },
+    {
+      "name": "ADD_2_1",
+      "added_bucket": "2",
+      "added_line": 1,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 238,
+        "family5_rate": 0.029052734375,
+        "family_histogram": {
+          "3": 2,
+          "4": 27,
+          "5": 238,
+          "6": 1790,
+          "7": 6135
+        },
+        "mean_profile_score": 176.37063259551627,
+        "preserves_canonical_counts": false
+      }
+    },
+    {
+      "name": "ADD_2_4",
+      "added_bucket": "2",
+      "added_line": 4,
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "best_profile_score": 1.333333333333333,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 280,
+        "family5_rate": 0.0341796875,
+        "family_histogram": {
+          "3": 1,
+          "4": 15,
+          "5": 280,
+          "6": 1658,
+          "7": 6238
+        },
+        "mean_profile_score": 177.09462709783108,
+        "preserves_canonical_counts": false
+      }
+    }
+  ],
+  "transfers": [
+    {
+      "subset_key": "12",
+      "classification": "good",
+      "mapped_selections": {
+        "2": [],
+        "1": [
+          1,
+          8,
+          11
+        ],
+        "0": [
+          3
+        ]
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 1469,
+        "family5_rate": 0.1793212890625,
+        "family_histogram": {
+          "2": 1,
+          "3": 6,
+          "4": 97,
+          "5": 1469,
+          "6": 6619
+        },
+        "mean_profile_score": 84.76445855033943,
+        "preserves_canonical_counts": true
+      }
+    },
+    {
+      "subset_key": "13",
+      "classification": "strong",
+      "mapped_selections": {
+        "2": [],
+        "1": [
+          0,
+          2,
+          10
+        ],
+        "0": [
+          1
+        ]
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 1520,
+        "family5_rate": 0.185546875,
+        "family_histogram": {
+          "3": 5,
+          "4": 116,
+          "5": 1520,
+          "6": 6551
+        },
+        "mean_profile_score": 84.09320746527007,
+        "preserves_canonical_counts": true
+      }
+    },
+    {
+      "subset_key": "23",
+      "classification": "good",
+      "mapped_selections": {
+        "2": [],
+        "1": [
+          4,
+          6,
+          7
+        ],
+        "0": [
+          5
+        ]
+      },
+      "metrics": {
+        "best_counts": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "best_profile_score": 1.3333333333333335,
+        "exact_hits": 0,
+        "exact_rate": 0.0,
+        "family5_hits": 1514,
+        "family5_rate": 0.184814453125,
+        "family_histogram": {
+          "3": 4,
+          "4": 98,
+          "5": 1514,
+          "6": 6576
+        },
+        "mean_profile_score": 84.15714518228408,
+        "preserves_canonical_counts": true
+      }
+    }
+  ],
+  "verdict": {
+    "base_preserves_canonical_counts": true,
+    "all_single_ablations_break_canonical_counts": true,
+    "all_single_additions_break_canonical_counts": true,
+    "all_transfers_hold_canonical_counts_and_rate": true,
+    "transfer_min_rate_threshold": 0.16,
+    "average_transfer_family5_rate": 0.1832275390625,
+    "is_concrete_witness_candidate": true
+  },
+  "selection_reason": {
+    "chosen_template": "A2_B2-0_B1-3_B0-1",
+    "why_not_A2_B2-0_B1-4_B0-0": "slightly stronger raw average on some subsets, but much weaker global search support and less interpretable anchor-correction structure",
+    "why_not_A2_B2-0_B1-2_B0-2": "stable but weaker than the chosen core on both support and average transferred strength"
+  }
+}
