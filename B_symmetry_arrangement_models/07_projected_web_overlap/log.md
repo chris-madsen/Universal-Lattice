@@ -1,13 +1,13 @@
 # Log
 
 ## YYYY-MM-DD HH:MM — baseline
-Цель:
-Гипотеза:
-Скрипт:
-Артефакты:
-Что считаю:
-Формулы / reasoning:
-Промежуточные результаты:
-Что это значит:
-Сложность:
-Следующий шаг:
+Target:
+Hypothesis:
+Script:
+Artifacts:
+What I think:
+Formulas/reasoning:
+Intermediate results:
+What does it mean:
+Complexity:
+Next step:

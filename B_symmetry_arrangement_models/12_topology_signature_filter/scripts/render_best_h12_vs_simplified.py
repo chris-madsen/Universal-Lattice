@@ -186,13 +186,13 @@ def main() -> int:
     render_grid(
         SIMPLIFIED_OUT,
         simplified,
-        "Наша упрощенная сетка (central bundle)",
+"Our simplified grid (central bundle)",
         "#7f7f7f",
     )
     render_grid(
         BEST_OUT,
         candidate_segments,
-        "Лучшая сетка по гипотезе 12 (A2 candidate)",
+"Best grid for hypothesis 12 (A2 candidate)",
         "#2255cc",
     )
 

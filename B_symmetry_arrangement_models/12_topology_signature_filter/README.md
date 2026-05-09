@@ -1,12 +1,12 @@
 # 12_topology_signature_filter
 
-Цель ветки: убрать орбитально-эквивалентные конфигурации из branch `05` до тяжёлой оценки проекциями.
+Purpose of the branch: remove orbitally equivalent configurations from branch `05` before heavy evaluation by projections.
 
-Ключевая идея:
-- строим симметрийно-инвариантный `topological_signature` кандидата;
-- используем его как фильтр в дереве `GA + ACO`;
-- оцениваем, насколько падает число реально разных конфигураций.
+Key idea:
+- construct a symmetry-invariant `topological_signature` candidate;
+- use it as a filter in the `GA + ACO` tree;
+- We estimate how much the number of actually different configurations decreases.
 
-Основные артефакты:
+Main artifacts:
 - `data/topology_signature_space_report.json`
 - `data/topology_signature_space_report.md`
