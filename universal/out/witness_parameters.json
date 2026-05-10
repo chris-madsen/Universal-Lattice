@@ -26,7 +26,7 @@
     "projection_idx": 3,
     "key": "T-T|r1:2|a22.5|p0|edge_union|central_bundle:3"
   },
-  "best_complement_spec": {
+  "approved_c16_spec": {
     "stage_name": "A16_readout",
     "source_name": "16",
     "ratio": [
@@ -69,7 +69,7 @@
   ],
   "counts": {
     "leader": 35,
-    "complement": 18,
+    "c16_layer": 18,
     "union": 53,
     "intersection_cloud_unique_points": 2412,
     "intersection_cloud_raw_points": 2696

@@ -8,7 +8,7 @@ Goal: explain, in mathematically explicit but human language, how the approved r
 - `T2`: second tesseract,
 - `C16`: one 16-cell layer.
 
-The output grid is the approved one used in H12 (`leader + complement`).
+The output grid is the approved one used in H12 (`leader + C16 layer`).
 
 ## Why This Was Needed
 During the search phase, many configurations were tested. Once the target lattice was approved visually and structurally, the next task became different:
@@ -68,7 +68,7 @@ Hence `15` nodes total.
 
 The approved lattice has:
 - `53` segments in union,
-- generated as `leader (35)` plus `complement (18)`.
+- generated as `leader (35)` plus the approved `C16` layer (`18`).
 
 ## What The Script Actually Does
 The build script `build_universal_from_2T_plus_16.py` runs this pipeline.
@@ -79,7 +79,7 @@ The build script `build_universal_from_2T_plus_16.py` runs this pipeline.
 
 2. Restores fixed witness specs:
 - leader spec (`T1 + T2` layer),
-- best complement spec (`C16` layer).
+- approved `C16` layer spec.
 
 3. Rebuilds three layer segment supports:
 - `seg_t1`, `seg_t2`, `seg_c16`.

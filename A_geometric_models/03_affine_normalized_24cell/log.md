@@ -1,61 +1,61 @@
 # Log
 
 ## YYYY-MM-DD HH:MM — baseline
-Цель:
-Гипотеза:
-Скрипт:
-Артефакты:
-Что считаю:
-Формулы / reasoning:
-Промежуточные результаты:
-Что это значит:
-Сложность:
-Следующий шаг:
+Target:
+Hypothesis:
+Script:
+Artifacts:
+What I think:
+Formulas/reasoning:
+Intermediate results:
+What does it mean:
+Complexity:
+Next step:
 
 ## 2026-05-08 21:04 — baseline
-Цель: зафиксировать, какие свойства решётки branch `03` вправе менять affine-нормализацией, а какие нет.
-Гипотеза: `03_affine_normalized_24cell`
-Скрипт: `research/A_geometric_models/03_affine_normalized_24cell/scripts/run.py --stage baseline`
-Артефакты:
+Goal: to fix which properties of the lattice branch `03` can be changed by affine normalization, and which cannot.
+Hypothesis: `03_affine_normalized_24cell`
+Script: `research/A_geometric_models/03_affine_normalized_24cell/scripts/run.py --stage baseline`
+Artifacts:
 - `data/baseline_affine_constraints.json`
 - `data/baseline_affine_constraints.md`
-Что считаю:
-- target family-count решётки;
-- список структурных свойств, которые invertible affine map сохраняет.
-Формулы / reasoning:
-- affine-нормализация может менять углы и отношения длин;
-- но она не склеивает разные направления как projective classes и не ломает incidence сама по себе.
-Промежуточные результаты:
+What I think:
+- target family-count grid;
+- a list of structural properties that the invertible affine map saves.
+Formulas/reasoning:
+- affine normalization can change angles and length ratios;
+- but it does not glue different directions together like projective classes and does not break incidence on its own.
+Intermediate results:
 - target absolute family count: `5`
 - affine invariants: `['collinearity', 'line incidence', 'intersection graph', 'projective direction distinctness under invertible linear map']`
-Что это значит:
-- ветка `03` должна объяснять решётку без надежды на чудесное схлопывание разных направлений только affine-преобразованием.
-Сложность:
-- низкая.
-Следующий шаг:
-- перейти к prune и проверить, что означает это ограничение на фоне результатов `01_raw_24cell_web`.
+What does it mean:
+- branch `03` should explain the lattice without hope of a miraculous collapse of different directions only by affine transformation.
+Complexity:
+- low.
+Next step:
+- go to prune and check what this limitation means against the results of `01_raw_24cell_web`.
 
 ## 2026-05-08 21:04 — prune
-Цель: проверить, способна ли чистая affine-нормализация сама по себе спасти branch `03`, если branch `01` уже не попал в target family-count.
-Гипотеза: `03_affine_normalized_24cell`
-Скрипт: `research/A_geometric_models/03_affine_normalized_24cell/scripts/run.py --stage prune`
-Артефакты:
+Goal: To test whether pure affine normalization by itself can save branch `03` if branch `01` is not already in the target family-count.
+Hypothesis: `03_affine_normalized_24cell`
+Script: `research/A_geometric_models/03_affine_normalized_24cell/scripts/run.py --stage prune`
+Artifacts:
 - `data/prune_affine_direction_invariance.json`
 - `data/prune_affine_direction_invariance.md`
-Что считаю:
-- результаты prune из `01_raw_24cell_web`;
-- projective invariant: invertible affine map не склеивает разные direction classes в одну.
-Формулы / reasoning:
-- если raw branch `01` не даёт target family-count `5`, а лучший найденный уровень `7`, то pure affine normalization сама по себе не превратит `7` distinct direction classes в `5`;
-- значит ветка `03` в чистом виде ослабляется логически, а не только численно.
-Промежуточные результаты:
+What I think:
+- prune results from `01_raw_24cell_web`;
+- projective invariant: invertible affine map does not merge different direction classes into one.
+Formulas/reasoning:
+- if raw branch `01` does not give target family-count `5`, and the best level found is `7`, then pure affine normalization by itself will not turn `7` distinct direction classes into `5`;
+- this means that branch `03` in its pure form is weakened logically, and not just numerically.
+Intermediate results:
 - raw exact matches from `01`: `0`
 - best raw family count: `7`
 - implication: `Pure raw+affine is weakened; any rescue would require additional selection/pruning beyond affine normalization itself.`
-Что это значит:
-- ветка `03_affine_normalized_24cell` сейчас получает быстрый логический red flag;
-- если её когда-то спасать, то уже не как “raw + affine only”, а через дополнительный selection mechanism, что ближе к другим веткам плана.
-Сложность:
-- низкая; это логический prune без тяжёлого поиска.
-Следующий шаг:
-- зафиксировать ослабление ветки и перейти к `06_double_rotation_overlay`.
+What does it mean:
+- branch `03_affine_normalized_24cell` now receives a fast logical red flag;
+- if it is ever saved, it will be done not as “raw + affine only”, but through an additional selection mechanism, which is closer to other branches of the plan.
+Complexity:
+- low; it's a logical prune without heavy searching.
+Next step:
+- fix the weakening of the branch and go to `06_double_rotation_overlay`.

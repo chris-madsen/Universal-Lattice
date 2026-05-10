@@ -79,18 +79,10 @@ def as_set(raw: Iterable[Iterable[int]]) -> set[tuple[int, int]]:
     return out
 
 
-def choose_best_union_candidate(rows: list[dict]) -> dict:
-    ranked = sorted(
-        rows,
-        key=lambda row: (
-            row["comparison"]["missing_after_union_vs_universal"],
-            row["comparison"]["extra_after_union_vs_universal"],
-            -row["comparison"]["matched_complement_segments"],
-        ),
-    )
-    if not ranked:
-        raise RuntimeError("no candidates in h12 complement state")
-    return ranked[0]
+def select_approved_c16_layer(state: dict) -> dict:
+    if "approved_c16_layer" in state:
+        return state["approved_c16_layer"]
+    raise RuntimeError("no approved C16 layer found in H12 state")
 
 
 def canonical_tesseract_vertices() -> np.ndarray:
@@ -458,8 +450,8 @@ def t1_t2_layer_segments(leader_spec: dict) -> tuple[set[tuple[int, int]], set[t
     return seg1, seg2
 
 
-def c16_layer_segments(best_union: dict) -> set[tuple[int, int]]:
-    spec = best_union["spec"]
+def c16_layer_segments(c16_layer: dict) -> set[tuple[int, int]]:
+    spec = c16_layer["spec"]
     ratio = tuple(spec["ratio"])
     alpha = math.radians(float(spec["base_angle_deg"]) * float(ratio[0]))
     beta = math.radians(float(spec["base_angle_deg"]) * float(ratio[1]))
@@ -472,13 +464,13 @@ def c16_layer_segments(best_union: dict) -> set[tuple[int, int]]:
     fam = projected_family_angles(vectors, projection)
     derived = segments_from_family_angles(fam, tol=2)
 
-    c16_state = as_set(best_union["candidate_complement_segment_ids"])
+    c16_state = as_set(c16_layer["c16_segment_ids"])
     if not c16_state.issubset(derived):
-        raise RuntimeError("C16 calibrated complement is not contained in derived geometric family set")
+        raise RuntimeError("approved C16 layer is not contained in derived geometric family set")
     return c16_state
 
 
-def projected_layer_geometry(leader_spec: dict, best_union_spec: dict):
+def projected_layer_geometry(leader_spec: dict, c16_spec: dict):
     ratio_l = tuple(leader_spec["ratio"])
     alpha_l = math.radians(float(leader_spec["base_angle_deg"]) * float(ratio_l[0]))
     beta_l = math.radians(float(leader_spec["base_angle_deg"]) * float(ratio_l[1]))
@@ -494,14 +486,14 @@ def projected_layer_geometry(leader_spec: dict, best_union_spec: dict):
     v1_2 = (projection @ v1_4.T).T
     v2_2 = (projection @ v2r_4.T).T
 
-    ratio_c = tuple(best_union_spec["ratio"])
-    alpha_c = math.radians(float(best_union_spec["base_angle_deg"]) * float(ratio_c[0]))
-    beta_c = math.radians(float(best_union_spec["base_angle_deg"]) * float(ratio_c[1]))
-    plane_c = int(best_union_spec["plane_idx"])
+    ratio_c = tuple(c16_spec["ratio"])
+    alpha_c = math.radians(float(c16_spec["base_angle_deg"]) * float(ratio_c[0]))
+    beta_c = math.radians(float(c16_spec["base_angle_deg"]) * float(ratio_c[1]))
+    plane_c = int(c16_spec["plane_idx"])
     rot_c = double_rotation_matrix(plane_c, alpha_c, beta_c)
-    action = orientation_action(int(best_union_spec["orientation_seed_idx"]))
+    action = orientation_action(int(c16_spec["orientation_seed_idx"]))
 
-    vc16_4, ec16 = source_polytope(str(best_union_spec["source_name"]))
+    vc16_4, ec16 = source_polytope(str(c16_spec["source_name"]))
     vc16_rot = (rot_c @ vc16_4.T).T
     vc16_oriented = np.array([transform_vector(vec, action) for vec in vc16_rot], dtype=float)
     vc16_2 = (projection @ vc16_oriented.T).T
@@ -757,25 +749,19 @@ def main() -> None:
     leader_spec = state["fixed_leader_spec"]
     leader_segments = as_set(state["fixed_leader_segment_ids"])
 
-    rows = state.get("best_candidates", [])
-    if rows:
-        best_union = choose_best_union_candidate(rows)
-    else:
-        best_union = state.get("best_union_candidate")
-        if best_union is None:
-            raise RuntimeError("h12 state has neither best_candidates nor best_union_candidate")
+    c16_layer = select_approved_c16_layer(state)
 
-    complement_segments = as_set(best_union["candidate_complement_segment_ids"])
-    union_segments = leader_segments | complement_segments
+    c16_segments = as_set(c16_layer["c16_segment_ids"])
+    union_segments = leader_segments | c16_segments
 
     seg_t1_raw, seg_t2_raw = t1_t2_layer_segments(leader_spec)
-    seg_c16_raw = c16_layer_segments(best_union)
+    seg_c16_raw = c16_layer_segments(c16_layer)
 
     seg_t1 = union_segments & seg_t1_raw
     seg_t2 = union_segments & seg_t2_raw
     seg_c16 = union_segments & seg_c16_raw
 
-    v1_2, v2_2, vc16_2, projection, e1, e2, ec16 = projected_layer_geometry(leader_spec, best_union["spec"])
+    v1_2, v2_2, vc16_2, projection, e1, e2, ec16 = projected_layer_geometry(leader_spec, c16_layer["spec"])
     cloud_unique, cloud_raw, lines = intersection_cloud(v1_2, v2_2, vc16_2, e1, e2, ec16)
     snapped_x, snapped_y = snap_levels_from_cloud(cloud_unique)
     arrangement_family_angles = sorted(
@@ -806,7 +792,7 @@ def main() -> None:
         json.dumps(
             {
                 "leader_segment_count": len(leader_segments),
-                "complement_segment_count": len(complement_segments),
+                "c16_segment_count": len(c16_segments),
                 "union_segment_count": len(union_segments),
                 "segments": segment_ids_as_pairs(union_segments, CANONICAL_NODES),
             },
@@ -832,13 +818,13 @@ def main() -> None:
     witness = {
         "state_path": str(state_path),
         "leader_spec": leader_spec,
-        "best_complement_spec": best_union["spec"],
+        "approved_c16_spec": c16_layer["spec"],
         "leader_key": state.get("fixed_leader_key"),
         "reference_image": str(REFERENCE_IMAGE),
         "projection_matrix_rows": [[float(x) for x in row] for row in projection.tolist()],
         "counts": {
             "leader": len(leader_segments),
-            "complement": len(complement_segments),
+            "c16_layer": len(c16_segments),
             "union": len(union_segments),
             "intersection_cloud_unique_points": len(cloud_unique),
             "intersection_cloud_raw_points": len(cloud_raw),
@@ -873,13 +859,13 @@ def main() -> None:
         "",
         "## Scope",
         "",
-        "The lattice is rebuilt from the approved H12 state (fixed leader + best complement), with polytope-derived layer provenance and intersection-cloud embedding checks.",
+        "The lattice is rebuilt from the approved H12 state (fixed leader + approved C16 layer), with polytope-derived layer provenance and intersection-cloud embedding checks.",
         f"- state source: `{state_path}`",
         "",
         "## Core Counts",
         "",
         f"- leader segments: `{len(leader_segments)}`",
-        f"- complement segments: `{len(complement_segments)}`",
+        f"- C16 layer segments: `{len(c16_segments)}`",
         f"- union segments: `{len(union_segments)}`",
         f"- unique intersection-cloud points: `{len(cloud_unique)}`",
         f"- raw pairwise intersections (pre-dedup): `{len(cloud_raw)}`",
