@@ -11,6 +11,7 @@ from typing import Iterable
 import matplotlib
 matplotlib.use("Agg")
 from matplotlib import pyplot as plt
+from matplotlib.lines import Line2D
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent
@@ -687,6 +688,21 @@ def render_layers(
         ax.plot([x1, x2], [y1, y2], color=pick_color(seg), lw=2.2, alpha=0.95)
 
     setup_ax(ax, nodes, "Universal Rune Lattice from 2×Tesseract + 16-cell")
+    handles = [
+        Line2D([0], [0], color=COLOR_T1, lw=2.8, label="T1 only (first tesseract)"),
+        Line2D([0], [0], color=COLOR_T2, lw=2.8, label="T2 only (second tesseract)"),
+        Line2D([0], [0], color=COLOR_C16, lw=2.8, label="C16 only (16-cell bridge)"),
+        Line2D([0], [0], color=COLOR_T1_T2, lw=2.8, label="T1 ∩ T2"),
+        Line2D([0], [0], color=COLOR_T1_C16, lw=2.8, label="T1 ∩ C16"),
+        Line2D([0], [0], color=COLOR_T2_C16, lw=2.8, label="T2 ∩ C16"),
+        Line2D([0], [0], color=COLOR_ALL, lw=2.8, label="T1 ∩ T2 ∩ C16"),
+    ]
+    leg = ax.legend(handles=handles, loc="upper right", frameon=True, fontsize=8)
+    leg.get_frame().set_facecolor("#20242E")
+    leg.get_frame().set_edgecolor("#9AA1B5")
+    for text in leg.get_texts():
+        text.set_color(COLOR_NODE)
+
     fig.savefig(out_png, dpi=220, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
 

@@ -1,66 +1,136 @@
 # Universal Rune Lattice From 2×Tesseract + 16-cell
 
-## Statement
-This package reconstructs the approved rune-generative lattice from a fixed 4D configuration:
-- first tesseract `T1`,
-- second tesseract `T2` (double-rotated relative to `T1`),
-- one `16-cell` layer used as the complement bridge.
+## What This Document Is
+This is a reconstruction story, not a parameter dump.
 
-The final published grid is the approved H12 union (`leader + complement`), and this package adds explicit geometric provenance and embedding checks.
+Goal: explain, in mathematically explicit but human language, how the approved rune-generative lattice is produced from a fixed 4D configuration of three objects:
+- `T1`: first tesseract,
+- `T2`: second tesseract,
+- `C16`: one 16-cell layer.
 
-## 4D Objects
-- Tesseract vertex set:
-  `T = {(±1, ±1, ±1, ±1)}`.
-- 16-cell vertex set:
-  `C16 = {±e1, ±e2, ±e3, ±e4}`.
+The output grid is the approved one used in H12 (`leader + complement`).
 
-For each polytope we use edge-direction classes modulo sign (`v ~ -v`).
+## Why This Was Needed
+During the search phase, many configurations were tested. Once the target lattice was approved visually and structurally, the next task became different:
+- not to continue brute force,
+- but to rebuild the same lattice deterministically,
+- and show that it comes from a real geometric pipeline.
 
-## Relative Configuration
-Let
-- `R(α, β; planes)` be a double rotation in two orthogonal 2-planes,
-- `P` be a deterministic 2D projection matrix produced by the H12 projection family.
+So this package does two things at once:
+- keeps the approved 15-node/53-segment lattice as the canonical output frame,
+- proves that this frame is supported by a polytope-derived 2D arrangement.
 
-The reconstruction uses the fixed H12 witness parameters stored in:
+## Mathematical Objects
+We work in `R^4`.
+
+Tesseract vertex set:
+\[
+T = \{(\pm 1, \pm 1, \pm 1, \pm 1)\}.
+\]
+
+16-cell vertex set:
+\[
+C_{16} = \{\pm e_1, \pm e_2, \pm e_3, \pm e_4\}.
+\]
+
+Edges are standard 1-skeleton edges of each polytope.
+From edges we extract direction classes modulo sign:
+\[
+v \sim -v.
+\]
+
+That gives finite directional families for each layer.
+
+## Relative Orientation: Double Rotation
+Two independent 2-planes are used. For a selected plane decomposition,
+\[
+R(\alpha, \beta) = R_{(i_1,j_1)}(\alpha)\,R_{(i_2,j_2)}(\beta).
+\]
+
+The second tesseract and the 16-cell layer are rotated by such operators with parameters coming from the approved H12 witness state.
+
+## Projection `R^4 -> R^2`
+A deterministic projection matrix `P` is selected from the same projection family used by the approved run.
+
+For any 4D direction vector `v`:
+\[
+\pi(v) = Pv \in R^2.
+\]
+
+Then angular classes are computed in `R^2`, clustered with fixed tolerance, and converted into segment support on the canonical node frame.
+
+## Canonical Output Frame
+The published rune frame uses fixed readable levels:
+- x-levels: `0, 1, 2`,
+- y-levels: `0, 1, 1.5, 2, 3`.
+
+Hence `15` nodes total.
+
+The approved lattice has:
+- `53` segments in union,
+- generated as `leader (35)` plus `complement (18)`.
+
+## What The Script Actually Does
+The build script `build_universal_from_2T_plus_16.py` runs this pipeline.
+
+1. Reads approved H12 state from:
 - `research/async_state/h12_complement/state.json`.
 
-So the model is not searched again; it is rebuilt from the approved witness.
+2. Restores fixed witness specs:
+- leader spec (`T1 + T2` layer),
+- best complement spec (`C16` layer).
 
-## Projection and Arrangement
-For each layer, vectors are projected by
-`π(v) = P v`.
+3. Rebuilds three layer segment supports:
+- `seg_t1`, `seg_t2`, `seg_c16`.
 
-From projected edge-direction families we extract line families and then segment candidates on the canonical 15-node frame.
+4. Builds the arrangement cloud from real projected edges:
+- gets unique projected lines,
+- computes all pairwise line intersections in a bounded geometric window,
+- stores both raw and deduplicated cloud.
 
-## Canonical Frame
-The approved readable frame is:
-- x-levels: `{0, 1, 2}`,
-- y-levels: `{0, 1, 1.5, 2, 3}`,
-- total nodes: `15`.
+5. Recovers the 3×5 level scaffold from the cloud:
+- 1D clustering on x and y coordinates,
+- deterministic index-wise mapping to canonical levels.
 
-The lattice segments are taken from the approved H12 union and rendered on this frame.
+6. Produces subset proof artifacts:
+- canonical nodes are embedded in the intersection cloud (with numerical tolerance),
+- canonical segments are supported by arrangement angle families.
 
-## Why This Is Not "Made Up"
-The script computes a full 2D intersection cloud from projected polytope edge lines:
-- all pairwise line intersections in a bounded geometric window,
-- de-duplicated intersection cloud,
-- recovered 3×5 level structure from that cloud,
-- proof that the canonical node-frame is embedded in this cloud,
-- proof that every canonical segment is supported by at least one arrangement line.
+7. Renders output images with layer provenance colors.
 
-These checks are saved to:
-- `out/intersection_cloud.json`,
-- `out/subset_proof.json`.
+## Important Conceptual Point
+This is not literal 4D volume intersection of bodies.
 
-## Layer Colors
-The rendering uses the requested palette:
-- `T1`: `#00008B` (Dark Blue),
-- `T2`: `#8B0000` (Dark Red),
-- `C16`: `#8B008B` (Dark Magenta),
-- overlaps: `#FF00FF`, `#7F00FF`, `#FF007F`,
-- full overlap: `#8B00FF` (Electric Violet).
+The lattice is obtained from a **projected line-arrangement readout** of 4D sources:
+- edge-direction families from `T1`, `T2`, `C16`,
+- projected to 2D,
+- interpreted as line families,
+- read out on the canonical node frame.
 
-## Generated Artifacts
+So “intersection cloud” here means intersections of projected arrangement lines, not intersection of solid 4D volumes.
+
+## Why The Result Is Not Arbitrary
+The package writes machine-checkable artifacts:
+- `out/intersection_cloud.json`: full deduplicated cloud,
+- `out/subset_proof.json`: embedding/support proof,
+- `out/layer_contributions.json`: per-segment provenance flags,
+- `out/witness_parameters.json`: exact witness parameters used for reconstruction.
+
+This is exactly the anti-"made-up points" guarantee: the final frame is tied back to computed arrangement geometry.
+
+## Color Semantics In The Main Figure
+In `out/universal_lattice_layers.png`, each segment color reflects source provenance:
+- `#00008B`: from `T1` only,
+- `#8B0000`: from `T2` only,
+- `#8B008B`: from `C16` only,
+- `#FF00FF`: overlap `T1 ∩ T2`,
+- `#7F00FF`: overlap `T1 ∩ C16`,
+- `#FF007F`: overlap `T2 ∩ C16`,
+- `#8B00FF`: overlap of all three.
+
+A legend is rendered directly on the image.
+
+## Output Files
 After build, `universal/out/` contains:
 - `nodes.json`,
 - `segments.json`,
@@ -73,7 +143,9 @@ After build, `universal/out/` contains:
 - `universal_lattice_only.png`,
 - `universal_lattice_layers_provenance.png`.
 
-## Run
+## How To Reproduce
 ```bash
 make -C universal universal-build
 ```
+
+This command is deterministic for the same repository state.
