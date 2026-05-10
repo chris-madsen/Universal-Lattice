@@ -1,0 +1,76 @@
+{
+  "leader_spec": {
+    "source_pair": [
+      "T",
+      "T"
+    ],
+    "ratio": [
+      1,
+      2
+    ],
+    "base_angle_deg": 22.5,
+    "plane_idx": 0,
+    "plane_decomposition": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "readout_mode": "edge_union",
+    "projection_family": "central_bundle",
+    "projection_idx": 3,
+    "key": "T-T|r1:2|a22.5|p0|edge_union|central_bundle:3"
+  },
+  "best_complement_spec": {
+    "stage_name": "A16_readout",
+    "source_name": "16",
+    "ratio": [
+      1,
+      1
+    ],
+    "base_angle_deg": 7.5,
+    "plane_idx": 1,
+    "plane_decomposition": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "readout_mode": "line_arrangement_core",
+    "projection_family": "central_bundle",
+    "projection_idx": 3,
+    "orientation_seed_idx": 0,
+    "key": "A16_readout|16|r1:1|a7.5|p1|line_arrangement_core|central_bundle:3|o0"
+  },
+  "leader_key": "T-T|r1:2|a22.5|p0|edge_union|central_bundle:3",
+  "reference_image": "/home/ilja/Desktop/runes/docs/research/B_symmetry_arrangement_models/12_polytope_pair_double_rotation_match/figures/h12_leader_plus_complement.png",
+  "projection_matrix_rows": [
+    [
+      0.5345224838248488,
+      0.8017837257372732,
+      0.0,
+      -0.2672612419124244
+    ],
+    [
+      -0.7762840694254951,
+      0.5585458548305392,
+      0.2650726090721203,
+      0.1230694256406273
+    ]
+  ],
+  "counts": {
+    "leader": 35,
+    "complement": 18,
+    "union": 53,
+    "intersection_cloud_unique_points": 2412,
+    "intersection_cloud_raw_points": 2696
+  }
+}
