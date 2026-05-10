@@ -227,27 +227,27 @@ def run_baseline(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — baseline
-Цель: зафиксировать arrangement-аспекты решётки, которые делают ветку `08_f4_root_arrangement` не декоративной, а содержательной.
-Гипотеза: `08_f4_root_arrangement`
-Скрипт: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage baseline`
-Артефакты:
+Goal: to capture the arrangement aspects of the lattice that make the `08_f4_root_arrangement` branch not decorative, but meaningful.
+Hypothesis: `08_f4_root_arrangement`
+Script: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage baseline`
+Artifacts:
 - `data/baseline_arrangement_targets.json`
 - `data/baseline_arrangement_targets.md`
-Что считаю:
+What I think:
 - anchor nodes;
 - arrangement intersections;
 - false intersections;
-- центральные degrees.
-Формулы / reasoning:
-- если у решётки при продолжении maximal lines возникает большой слой false intersections, то arrangement-подход выглядит естественно, а не натянуто.
-Промежуточные результаты:
+- central degrees.
+Formulas/reasoning:
+- if the grid has a large layer of false intersections when continuing maximal lines, then the arrangement approach looks natural and not forced.
+Intermediate results:
 - anchor / arrangement / false intersections: `{data['anchor_node_count']}` / `{data['arrangement_intersection_count']}` / `{data['false_intersection_count']}`
-Что это значит:
-- ветка `08` получает прямую структурную мотивацию из уже извлечённой сигнатуры решётки.
-Сложность:
-- низкая.
-Следующий шаг:
-- сделать prune на arrangement-plausibility и понять, усиливает ли baseline эту ветку по сравнению с уже ослабленными 01–03.
+What does it mean:
+- branch `08` receives direct structural motivation from the already extracted lattice signature.
+Complexity:
+- low.
+Next step:
+- do a prune on arrangement-plausibility and understand whether baseline strengthens this branch compared to the already weakened 01–03.
 """
     log_path.write_text(log)
 
@@ -299,28 +299,28 @@ def run_prune(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — prune
-Цель: проверить, усиливает ли baseline сама идея arrangement-подхода, а не только абстрактная связь с `F4`.
-Гипотеза: `08_f4_root_arrangement`
-Скрипт: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage prune`
-Артефакты:
+Goal: to check whether baseline itself strengthens the idea of ​​the arrangement approach, and not just the abstract connection with `F4`.
+Hypothesis: `08_f4_root_arrangement`
+Script: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage prune`
+Artifacts:
 - `data/prune_arrangement_plausibility.json`
 - `data/prune_arrangement_plausibility.md`
-Что считаю:
-- отношение false intersections к anchor nodes.
-Формулы / reasoning:
-- если false-intersection слой большой, arrangement-ветка получает естественный structural boost;
-- если он мал, то arrangement-подход был бы подозрительно избыточным.
-Промежуточные результаты:
+What I think:
+- the ratio of false intersections to anchor nodes.
+Formulas/reasoning:
+- if the false-intersection layer is large, the arrangement branch receives a natural structural boost;
+- if it is small, then the arrangement approach would be suspiciously redundant.
+Intermediate results:
 - anchor nodes: `{anchor_count}`
 - false intersections: `{false_count}`
 - false/anchor ratio: `{ratio:.3f}`
 - assessment: `{report['assessment']}`
-Что это значит:
-- `08_f4_root_arrangement` сейчас выглядит не ослабленной, а наоборот содержательно мотивированной веткой.
-Сложность:
-- низкая.
-Следующий шаг:
-- перейти к реальному search/analysis этой ветки и строить уже F4-связанный arrangement scaffold.
+What does it mean:
+- `08_f4_root_arrangement` now looks not like a weakened branch, but rather a meaningfully motivated one.
+Complexity:
+- low.
+Next step:
+- go to the real search/analysis of this branch and build an already F4-related arrangement scaffold.
 """
     log_path.write_text(log)
 
@@ -404,32 +404,32 @@ def run_search(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — search-f4-root-scaffold
-Цель: построить первый содержательный F4-scaffold, а не держать ветку `08` на одном только baseline-мотиве.
-Гипотеза: `08_f4_root_arrangement`
-Скрипт: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage search`
-Артефакты:
+Goal: build the first meaningful F4-scaffold, and not keep the `08` branch on the baseline motif alone.
+Hypothesis: `08_f4_root_arrangement`
+Script: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage search`
+Artifacts:
 - `data/search_f4_root_scaffold.json`
 - `data/search_f4_root_scaffold.md`
-Что считаю:
-- полный набор корней `F4`;
-- short и long shells;
-- число root lines до отождествления по знаку;
-- грубую статистику family-count для случайных 2D-проекций root-line arrangement.
-Формулы / reasoning:
-- `F4` важна не как абстрактное слово, а как конкретная 48-корневая 4D-система;
-- long shell из 24 корней связывает ветку `08` с 24-cell, а short shell даёт дополнительную arrangement-структуру.
-Промежуточные результаты:
+What I think:
+- a complete set of roots `F4`;
+- short and long shells;
+- number of root lines before identification by sign;
+- rough family-count statistics for random 2D projections root-line arrangement.
+Formulas/reasoning:
+- `F4` is important not as an abstract word, but as a specific 48-root 4D system;
+- long shell of 24 roots links branch `08` to 24-cell, and short shell gives additional arrangement structure.
+Intermediate results:
 - total / short / long roots: `{report['root_count_total']}` / `{report['root_count_short']}` / `{report['root_count_long']}`
 - total root lines: `{report['root_line_count_total']}`
 - projected family-count histogram: `{family_hist}`
 - best projected family count: `{best['family_count']}`
-Что это значит:
-- ветка `08` теперь имеет честный 4D F4-scaffold для дальнейшего анализа;
-- можно дальше разбирать, какой именно sub-arrangement или local readout мог бы давать нашу решётку.
-Сложность:
-- низкая-средняя; это уже содержательный search, но пока ещё не тяжёлый.
-Следующий шаг:
-- перейти к analysis и решить, какие подсемейства F4-root arrangement имеет смысл сравнивать с lattice grammar в первую очередь.
+What does it mean:
+- branch `08` now has an honest 4D F4-scaffold for further analysis;
+- we can further analyze which sub-arrangement or local readout could give our lattice.
+Complexity:
+- low-medium; This is already a meaningful search, but not yet a heavy one.
+Next step:
+- go to analysis and decide which subfamilies of F4-root arrangement make sense to compare with lattice grammar first.
 """
     log_path.write_text(log)
 
@@ -512,29 +512,29 @@ def run_analyze(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — analyze-f4-shells-and-subarrangements
-Цель: понять не только shell-level картину, но и проверить реальные `F4` sub-arrangements вместо whole-shell.
-Гипотеза: `08_f4_root_arrangement`
-Скрипт: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage analyze`
-Артефакты:
+Goal: to understand not only the shell-level picture, but also to check real `F4` sub-arrangements instead of whole-shell.
+Hypothesis: `08_f4_root_arrangement`
+Script: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage analyze`
+Artifacts:
 - `data/analyze_f4_shells.json`
 - `data/analyze_f4_shells.md`
-Что считаю:
-- shell-level family-count histograms для short и long shells;
-- стратифицированный scan по `F4` sub-arrangement классам `Lk_Sm`.
-Формулы / reasoning:
-- whole shells сами по себе далеки от target family-count `5`;
-- поэтому следующий честный шаг — искать не по whole-shell, а по подсемействам направлений с оценкой по family-profile, а не только по числу семей.
-Промежуточные результаты:
+What I think:
+- shell-level family-count histograms for short and long shells;
+- stratified scan by `F4` sub-arrangement classes `Lk_Sm`.
+Formulas/reasoning:
+- whole shells themselves are far from target family-count `5`;
+- therefore, the next honest step is to search not by whole-shell, but by subfamilies of directions with an assessment by family-profile, and not just by the number of families.
+Intermediate results:
 - short-shell best family count: `{short_best['family_count']}`
 - long-shell best family count: `{long_best['family_count']}`
 - top sub-arrangement record: `{top_subset[0]}`
-Что это значит:
-- ветка `08` перешла от общего F4-scaffold к реальному sub-arrangement screening;
-- теперь уже можно видеть, какие смеси short/long lines хоть как-то резонируют с target family-profile.
-Сложность:
-- средняя, но пока контролируемая.
-Следующий шаг:
-- сделать focused refinement вокруг лучших классов `L8_S2` и `L4_S6` и проверить устойчивость сигнала на большей выборке.
+What does it mean:
+- branch `08` moved from the general F4-scaffold to real sub-arrangement screening;
+- now you can already see which short/long lines mixtures at least somehow resonate with the target family-profile.
+Complexity:
+- average, but still controllable.
+Next step:
+- do focused refinement around the best classes `L8_S2` and `L4_S6` and check the signal stability on a larger sample.
 """
     log_path.write_text(log)
 
@@ -609,29 +609,29 @@ def run_finalize(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — finalize-focused-refinement
-Цель: проверить, устойчивы ли первые попадания `L8_S2`/`L4_S6` на существенно большей выборке.
-Гипотеза: `08_f4_root_arrangement`
-Скрипт: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage finalize`
-Артефакты:
+Goal: check whether the first hits `L8_S2`/`L4_S6` are robust on a significantly larger sample.
+Hypothesis: `08_f4_root_arrangement`
+Script: `research/B_symmetry_arrangement_models/08_f4_root_arrangement/scripts/run.py --stage finalize`
+Artifacts:
 - `data/finalize_f4_focus.json`
 - `data/finalize_f4_focus.md`
-Что считаю:
-- focused resampling для лучших классов initial screening;
-- частоты попаданий в `family_count=5`;
-- частоты exact-profile совпадения `[1,1,1,1,6]`.
-Формулы / reasoning:
-- sparse single-hit на 100 сэмплах ещё ничего не доказывает;
-- нужен локальный добор статистики по реально перспективным классам и нескольким контролям.
-Промежуточные результаты:
+What I think:
+- focused resampling for the best initial screening classes;
+- frequency of hits in `family_count=5`;
+- exact-profile match frequencies `[1,1,1,1,6]`.
+Formulas/reasoning:
+- sparse single-hit on 100 samples does not prove anything;
+- we need a local collection of statistics for really promising classes and several controls.
+Intermediate results:
 - best focus class: `{best_class}`
 - family5 hits / exact-profile hits: `{best_stats['hits_family5']}` / `{best_stats['hits_exact_profile_11116']}`
 - best focus witness: `{best_stats['best']}`
-Что это значит:
-- теперь у ветки `08` есть не просто разовый hit, а оценка устойчивости лучшего `F4` sub-arrangement класса.
-Сложность:
-- средняя.
-Следующий шаг:
-- сравнить устойчивость `08`-классов с hybrid-веткой `09`, где short shell разбит на axis и half-компоненты.
+What does it mean:
+- now the `08` branch has not just a one-time hit, but an assessment of the stability of the best `F4` sub-arrangement class.
+Complexity:
+- average.
+Next step:
+- compare the stability of the `08` classes with the hybrid branch `09`, where the short shell is divided into axis and half components.
 """
     log_path.write_text(log)
 

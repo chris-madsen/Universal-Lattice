@@ -1,85 +1,85 @@
 # Branch 05 Glossary + FAQ
 
-Краткий справочник по предметному языку ветки:
+A quick guide to the subject language of the branch:
 
 - `A_geometric_models/05_24cell_tesseract_interaction`
 
-Документ рассчитан на читателя “с нуля”, без знания внутренних терминов.
+The document is designed for the reader “from scratch”, without knowledge of internal terms.
 
 ---
 
-## 1) С чего всё начинается
+## 1) Where it all begins
 
-Мы работаем в `R^4` и пытаемся понять происхождение 2D-решётки из `universal-lattice.py`.
+We are working in `R^4` and trying to understand the origin of the 2D lattice from `universal-lattice.py`.
 
-В ветке `05` кандидат строится из двух источников:
+In branch `05` the candidate is constructed from two sources:
 
-- оси тессеракта (`e0,e1,e2,e3`);
-- 12 уникальных направлений 24-cell (с учётом того, что противоположные направления считаются одной линией).
+- tesseract axes (`e0,e1,e2,e3`);
+- 12 unique 24-cell directions (taking into account that opposite directions are considered one line).
 
-Каждый кандидат:
+Each candidate:
 
-1. задаётся как набор 4D линий;
-2. много раз случайно проецируется в 2D;
-3. по каждой проекции получает структурные метрики;
-4. ранжируется относительно целевой грамматики.
+1. specified as a set of 4D lines;
+2. Many times accidentally projected into 2D;
+3. receives structural metrics for each projection;
+4. ranked relative to the target grammar.
 
 ---
 
-## 2) Что такое `subset` и почему `02`, `12`, `13`, `23`
+## 2) What is `subset` and why `02`, `12`, `13`, `23`
 
-- `subset` — выбранные оси из `{e0,e1,e2,e3}`.
+- `subset` — selected axes from `{e0,e1,e2,e3}`.
 - `02` = `{e0,e2}`
 - `12` = `{e1,e2}`
 - `13` = `{e1,e3}`
 - `23` = `{e2,e3}`
 
-Эти subset-ы важны как orbit-related набор для `A2`-режима: между ними есть симметрийные переносы (signed permutations).
+These subsets are important as an orbit-related set for `A2`-mode: there are symmetry transfers (signed permutations) between them.
 
 ---
 
-## 3) Что значит `A2`, `A3`, `A4`
+## 3) What does `A2`, `A3`, `A4` mean?
 
-`A*` — размер осевого subset:
+`A*` — axial subset size:
 
-- `A2` — 2 оси;
-- `A3` — 3 оси;
-- `A4` — 4 оси.
+- `A2` — 2 axes;
+- `A3` - 3 axes;
+- `A4` - 4 axes.
 
-Пример:
+Example:
 
-- `A2_B2-0_B1-3_B0-1` значит “subset из 2 осей + определённая композиция bucket-ов”.
+- `A2_B2-0_B1-3_B0-1` means “subset of 2 axes + a certain composition of buckets”.
 
 ---
 
-## 4) Что такое `bucket-2 / bucket-1 / bucket-0`
+## 4) What is `bucket-2/bucket-1/bucket-0`
 
-Для каждой 24-cell линии смотрим, сколько её координатных осей пересекаются с выбранным subset.
+For each 24-cell line, we look at how many of its coordinate axes intersect with the selected subset.
 
-- `bucket-2`: overlap=2 (линия “совпадает” с обеими осями subset)
+- `bucket-2`: overlap=2 (the line “coincides” with both subset axes)
 - `bucket-1`: overlap=1
 - `bucket-0`: overlap=0
 
-Для `A2` обычно:
+For `A2` usually:
 
-- `bucket-2`: 2 линии
-- `bucket-1`: 8 линий
-- `bucket-0`: 2 линии
+- `bucket-2`: 2 lines
+- `bucket-1`: 8 lines
+- `bucket-0`: 2 lines
 
 ---
 
-## 5) Как читать шаблон вида `A2_B2-0_B1-3_B0-1`
+## 5) How to read a pattern like `A2_B2-0_B1-3_B0-1`
 
-Расшифровка:
+Explanation:
 
-- `A2` — subset размера 2;
-- `B2-0` — взять 0 линий из bucket-2;
-- `B1-3` — взять 3 линии из bucket-1;
-- `B0-1` — взять 1 линию из bucket-0.
+- `A2` — subset of size 2;
+- `B2-0` — take 0 lines from bucket-2;
+- `B1-3` — take 3 lines from bucket-1;
+- `B0-1` — take 1 line from bucket-0.
 
-Этого недостаточно для полного кандидата. Нужны ещё конкретные `line-id`.
+This is not enough for a full candidate. We also need specific `line-id`.
 
-Пример полного root-branch:
+Example of a complete root-branch:
 
 - `A2_B2-0_B1-3_B0-1@02`
 - selections: `{'2': [], '1': [9,10,2], '0': [8]}`
@@ -88,146 +88,146 @@
 
 ## 6) `template`, `root branch`, `selection`
 
-- `template` — класс кандидатов по формату `A*_B2-*_B1-*_B0-*`.
-- `root branch` — `template + subset` (например `...@02`).
-- `selection` — конкретные line-id внутри bucket-ов.
+- `template` — class of candidates according to the format `A*_B2-*_B1-*_B0-*`.
+- `root branch` - `template + subset` (for example `...@02`).
+- `selection` — specific line-ids inside buckets.
 
-Иерархия:
+Hierarchy:
 
-`template` -> `root branch` -> `selection (конкретный кандидат)`
-
----
-
-## 7) Что такое семейства направлений (`family_count`)
-
-Для одной 2D-проекции:
-
-1. все выбранные 4D-векторы проецируем в 2D;
-2. считаем их углы по модулю 180°;
-3. кластеризуем близкие углы (порог примерно `1.5°`).
-
-Каждый кластер = одно семейство направлений.
-
-- `family_count` = число кластеров.
-- `best_counts` = размеры кластеров (кратности семейств), например `[1,1,1,1,2]`.
+`template` -> `root branch` -> `selection (specific candidate)`
 
 ---
 
-## 8) Почему используется `family_count = 5`
+## 7) What are direction families (`family_count`)
 
-В `A2`-режиме branch `05` именно 5 семейств исторически дают наиболее устойчивую структурную зону.
+For one 2D projection:
 
-Это operational target, а не “доказательство”.
+1. We project all selected 4D vectors into 2D;
+2. calculate their angles modulo 180°;
+3. cluster close angles (threshold approximately `1.5°`).
 
-Поэтому смотрим не только `family_count=5`, но и:
+Each cluster = one family of directions.
 
-- профиль `best_counts`;
-- стабильность к add/ablation;
-- переносимость между orbit-related subset-ами.
+- `family_count` = number of clusters.
+- `best_counts` = cluster sizes (multiplicities of families), for example `[1,1,1,1,2]`.
 
 ---
 
-## 9) Что такое `family5_hits`, `family5_rate`, `exact_rate`
+## 8) Why is `family_count = 5` used?
 
-`projection_batch` = N случайных проекций одного кандидата.
+In the `A2` branch `05` mode, it is precisely 5 families that historically provide the most stable structural zone.
 
-- `family5_hits`: сколько из N дали `family_count=5`
+This is an operational target, not “evidence”.
+
+Therefore, we look not only at `family_count=5`, but also at:
+
+- profile `best_counts`;
+- stability to add/ablation;
+- portability between orbit-related subsets.
+
+---
+
+## 9) What are `family5_hits`, `family5_rate`, `exact_rate`
+
+`projection_batch` = N random projections of one candidate.
+
+- `family5_hits`: how many of N gave `family_count=5`
 - `family5_rate = family5_hits / N`
-- `exact_hits`: сколько из N попали в узкий exact-profile критерий loop-а
+- `exact_hits`: how many of N hit the narrow exact-profile loop criterion
 - `exact_rate = exact_hits / N`
 
 ---
 
-## 10) Что такое `fitness` и зачем нужна агрегатная функция
+## 10) What is `fitness` and why is an aggregate function needed?
 
-В loop кандидатов миллионы. Нужен единый ранжирующий скор для:
+There are millions of candidates in the loop. We need a single ranking score for:
 
-- отбора “элит”;
-- усиления феромонов ACO;
-- выбора, какие кандидаты мутировать/развивать дальше.
+- selection of “elites”;
+- enhancement of ACO pheromones;
+- choosing which candidates to mutate/develop further.
 
-Текущая формула (branch `05`):
+Current formula (branch `05`):
 
 - `fitness = 10000*exact_rate + 1000*family5_rate + 10/(1+mean_profile_score)`
 
-Логика приоритетов:
+Priority logic:
 
 1. exact-rate
 2. family5-rate
-3. аккуратность профиля (`mean_profile_score`)
+3. profile accuracy (`mean_profile_score`)
 
 ---
 
-## 11) Что значит “удерживает canonical counts”
+## 11) What does “holds canonical counts” mean?
 
-`canonical counts` для strongest `A2` слоя: `[1,1,1,1,2]`.
+`canonical counts` for the strongest `A2` layer: `[1,1,1,1,2]`.
 
-Фраза “кандидат удерживает canonical counts” означает:
+The phrase “canonical counts” means:
 
-- в проверочном батче у него структурно лучший профиль остаётся `[1,1,1,1,2]`;
-- то есть он не перешёл в другой класс грамматики.
-
----
-
-## 12) Что значит “ломается при single-add/single-ablate”
-
-Проверка:
-
-- добавляем одну линию (`single-add`) или удаляем одну (`single-ablate`);
-- пересчитываем метрики.
-
-“Ломается” означает:
-
-- теряется canonical профиль (`[1,1,1,1,2]`);
-- обычно переход в `[1,1,1,2,2]`, `[1,1,2,2,2]`, `[1,1,2,2,3]` и т.п.
-
-Это важный признак минимального устойчивого ядра: лишняя или недостающая линия разрушает структуру.
+- in the test batch, its structurally best profile remains `[1,1,1,1,2]`;
+- that is, he did not move to another grammar class.
 
 ---
 
-## 13) Что такое `orbit-related subsets` и `orbit transfer`
+## 12) What does “breaks with single-add/single-ablate” mean?
 
-`02`, `12`, `13`, `23` считаются связанными симметриями 4D-пространства.
+Examination:
+
+- add one line (`single-add`) or remove one (`single-ablate`);
+- recalculate metrics.
+
+“Breaks” means:
+
+- canonical profile is lost (`[1,1,1,1,2]`);
+- usually transition to `[1,1,1,2,2]`, `[1,1,2,2,2]`, `[1,1,2,2,3]`, etc.
+
+This is an important sign of a minimal stable core: an extra or missing line destroys the structure.
+
+---
+
+## 13) What are `orbit-related subsets` and `orbit transfer`
+
+`02`, `12`, `13`, `23` are considered to be related by symmetries of 4D space.
 
 `orbit transfer`:
 
-- переносит правило/кандидат с одного subset на другой через signed permutation;
-- проверяет, сохраняется ли canonical grammar после переноса.
+- transfers a rule/candidate from one subset to another via signed permutation;
+- checks whether the canonical grammar is preserved after the transfer.
 
-Если сохраняется, это не локальный трюк одного subset, а устойчивый структурный паттерн.
-
----
-
-## 14) Что такое `add`, `replace`, `union`, `gated move`
-
-- `add` — добавить одну линию в bucket.
-- `replace` — заменить одну линию на другую в том же bucket.
-- `union` — объединить линии нескольких trunk-кандидатов.
-- `gated move` — шаг, который принимаем только если:
-  - canonical counts сохранены;
-  - `family5_rate` не падает ниже заданного порога относительно core.
-
-Практический вывод branch `05`:
-
-- naive `add/union` чаще разрушает профиль;
-- `replace`-шаги дали рабочий orbit-consistent upgrade слой.
+If it persists, it is not a local trick of one subset, but a stable structural pattern.
 
 ---
 
-## 15) Что такое этапы `baseline`, `prune`, `sampling`, `search`, `analyze`, `finalize`
+## 14) What is `add`, `replace`, `union`, `gated move`
 
-- `baseline`: формализация целевой сигнатуры и минимальные проверки.
-- `prune`: логический и симметрийный отсев слабых областей пространства.
-- `sampling`: ограниченное статистическое зондирование большой области (быстрый сигнал).
-- `search`: основной вычислительный поиск.
-- `analyze`: разбор победителей/антипримеров, сравнение гипотез.
-- `finalize`: фиксация статуса ветки и артефактов witness/certificate.
+- `add` — add one line to the bucket.
+- `replace` — replace one line with another in the same bucket.
+- `union` — combine lines of several trunk candidates.
+- `gated move` - a step that is accepted only if:
+- canonical counts saved;
+- `family5_rate` does not fall below the specified threshold relative to core.
+
+Practical output of branch `05`:
+
+- naive `add/union` destroys the profile more often;
+- `replace` steps gave a working orbit-consistent upgrade layer.
 
 ---
 
-## 16) Текущий статус ветки `05` (коротко)
+## 15) What are the stages `baseline`, `prune`, `sampling`, `search`, `analyze`, `finalize`
 
-- Полный strict-match всей решётки пока не доказан.
-- Сильный `A2` witness-candidate найден.
-- Orbit-consistent replacement-family найден и сохраняет canonical counts на `02/12/13/23`.
-- Следующий шаг: упаковать witness-layer v2 (`rule + diff + nearby negatives`) и решить вопрос о повышении статуса `05`.
+- `baseline`: formalization of the target signature and minimal checks.
+- `prune`: logical and symmetrical screening of weak areas of space.
+- `sampling`: limited statistical sensing of a large area (fast signal).
+- `search`: basic computational search.
+- `analyze`: analysis of winners/anti-examples, comparison of hypotheses.
+- `finalize`: fixing the status of the branch and witness/certificate artifacts.
+
+---
+
+## 16) Current status of branch `05` (short)
+
+- Complete strict-match of the entire lattice has not yet been proven.
+- Strong `A2` witness-candidate found.
+- Orbit-consistent replacement-family found and saves canonical counts to `02/12/13/23`.
+- Next step: package witness-layer v2 (`rule + diff + nearby negatives`) and resolve the issue of raising the status of `05`.
