@@ -820,7 +820,7 @@ def append_log(log_path: Path, state: dict, note: str) -> None:
     eta = remaining_gens / gen_rate if gen_rate > 0 else None
     entry = f"""
 ## {now_string()} — generation {state['generation']}
-Что посчитано:
+What is counted:
 - kernel backend: `{state.get('kernel_backend', DEFAULT_KERNEL_BACKEND)}`
 - topology filter: `{state.get('topology_filter_enabled', False)}`
 - topology max evals/signature: `{state.get('topology_max_evals_per_signature', 1)}`
@@ -843,11 +843,11 @@ def append_log(log_path: Path, state: dict, note: str) -> None:
 - root branches touched: `{prog['touched_root_branches']}` / `{prog['total_root_branches']}`
 - root-branch coverage: `{prog['root_branch_progress_percent']:.4f}%`
 - ETA: `{humanize_duration_hm(eta)}`
-Лучший overall:
+Best overall:
 - `{state['best_overall']}`
-Лучший exact:
+Best exact:
 - `{state['best_exact']}`
-Примечание:
+Note:
 - {note}
 """
     with log_path.open("a") as fh:

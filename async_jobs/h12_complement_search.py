@@ -929,7 +929,7 @@ def append_log(path: Path, state: dict, note: str) -> None:
         )
     entry = f"""
 ## {now_string()} — {stage['name'] if stage else 'completed'}
-Что посчитано:
+What is counted:
 - current stage: `{stage['name'] if stage else 'completed'}`
 - stage generation: `{state['current_stage_generation']}`
 - stage candidate progress: `{prog['stage_candidate_progress']:.4f}%`
@@ -940,15 +940,15 @@ def append_log(path: Path, state: dict, note: str) -> None:
 - exact complement matches: `{state['exact_complement_matches']}`
 - exact union matches: `{state['exact_union_matches']}`
 - ETA: `{prog['eta_human']}`
-Лучший 16-cell:
+Best 16-cell:
 - {best_16_text}
-Лучший tesseract:
+Best tesseract:
 - {best_t_text}
-Лучший union:
+Best union:
 - {union_text}
-Что это значит:
-- мы ищем не всю сетку заново, а ровно дополнение к фиксированному лидеру до `universal-lattice.py`.
-Примечание:
+What does it mean:
+- we are not looking for the entire grid again, but exactly the addition to the fixed leader up to `universal-lattice.py`.
+Note:
 - {note}
 """
     with path.open("a") as fh:

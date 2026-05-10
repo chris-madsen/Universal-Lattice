@@ -310,20 +310,20 @@ def append_log(log_path: Path, state: dict, note: str) -> None:
     eta = remaining / rate if rate > 0 else None
     entry = f"""
 ## {now_string()} — checkpoint {state['checkpoint_count']}
-Цель:
-- углублённый async search по ridge-классам ветки `05_24cell_tesseract_interaction`.
-Что посчитано:
+Target:
+- in-depth async search for ridge classes of the `05_24cell_tesseract_interaction` branch.
+What is counted:
 - total samples: `{state['total_samples']}` / `{total_target}`
 - overall progress: `{prog['overall_progress_percent']:.4f}%`
 - variants started/completed: `{prog['variants_started']}` / `{prog['variants_completed']}` / `{prog['variants_total']}`
 - remaining samples: `{remaining}`
 - effective samples/sec: `{rate:.1f}`
 - ETA sec: `{eta:.1f}`
-Лучший family5-класс:
+Best family5-class:
 - `{prog['best_family']['class']}` rate=`{prog['best_family']['family5_rate']:.6f}`
-Лучший exact-profile-класс:
+Best exact-profile class:
 - `{prog['best_exact']['class']}` rate=`{prog['best_exact']['exact_rate']:.6f}`
-Примечание:
+Note:
 - {note}
 """
     with log_path.open("a") as fh:

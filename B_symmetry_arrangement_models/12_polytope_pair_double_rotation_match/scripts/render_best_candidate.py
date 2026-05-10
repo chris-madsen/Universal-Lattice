@@ -107,11 +107,11 @@ def main() -> int:
     diff = render_overlay(overlay_png, candidate)
 
     c = best["comparison"]
-    found = "да" if c["topology_match"] else "нет"
+found = "yes" if c["topology_match"] else "no"
     report_md.write_text(
         "# H12 Best Candidate Report\n\n"
         f"- source / rotation / projection: `{best['spec']['key']}`\n"
-        f"- сетку нашли: `{found}`\n"
+f" - the grid was found: `{found}`\n"
         f"- score: `{best['score']:.6f}`\n"
         f"- target segments matched: `{c['matched_segments']}` / `{c['target_segment_count']}`\n"
         f"- missing target segments: `{c['missing_segments']}`\n"
@@ -119,11 +119,11 @@ def main() -> int:
         f"- vertical masts: `{c['vertical_masts_matched']}` / `{c['vertical_masts_total']}`\n"
         f"- central rays: `{c['central_rays_matched']}` / `{c['central_rays_total']}`\n"
         f"- angle-class jaccard: `{c['angle_class_jaccard']:.6f}`\n\n"
-        "## Что совпало\n\n"
+"## What coincided\n\n"
         f"{segment_text(diff['matched'])}\n\n"
-        "## Чего не хватает от целевой сетки\n\n"
+"##What's missing from the target grid\n\n"
         f"{segment_text(diff['missing'])}\n\n"
-        "## Что лишнее у кандидата\n\n"
+"##What is a candidate's extra items\n\n"
         f"{segment_text(diff['extra'])}\n\n"
         "## Images\n\n"
         f"- target: `{target_png}`\n"

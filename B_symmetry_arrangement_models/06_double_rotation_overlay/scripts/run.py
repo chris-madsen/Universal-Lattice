@@ -114,27 +114,27 @@ def run_baseline(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — baseline
-Цель: зафиксировать рабочее пространство параметров для double-rotation ветки и перевести её из полного перебора в стратифицированный sampling.
-Гипотеза: `06_double_rotation_overlay`
-Скрипт: `research/B_symmetry_arrangement_models/06_double_rotation_overlay/scripts/run.py --stage baseline`
-Артефакты:
+Goal: to fix the working space of parameters for the double-rotation branch and transfer it from exhaustive search to stratified sampling.
+Hypothesis: `06_double_rotation_overlay`
+Script: `research/B_symmetry_arrangement_models/06_double_rotation_overlay/scripts/run.py --stage baseline`
+Artifacts:
 - `data/baseline_double_rotation_space.json`
 - `data/baseline_double_rotation_space.md`
-Что считаю:
-- какие оси параметров реально участвуют в ветке;
-- какие ratio-классы и plane classes стоит сканировать первыми.
-Формулы / reasoning:
-- вместо полного перебора берётся стратифицированная выборка по ratio-классам, plane decompositions, base angles и projection seeds;
-- первый scan намеренно замораживает overlay mode в `edge_union`, чтобы не распухать по лишним измерениям.
-Промежуточные результаты:
+What I think:
+- which parameter axes actually participate in the branch;
+- which ratio classes and plane classes should be scanned first.
+Formulas/reasoning:
+- instead of a complete search, a stratified sample is taken by ratio classes, plane decompositions, base angles and projection seeds;
+- the first scan deliberately freezes the overlay mode in `edge_union`, so as not to swell with unnecessary dimensions.
+Intermediate results:
 - ratio classes: `{data['stratified_scan']['ratio_classes']}`
 - projection seeds: `{data['stratified_scan']['projection_seed_count']}`
-Что это значит:
-- ветка `06` снова становится рабочей, но уже не через тупой brute force, а через осмысленное sampling-покрытие классов комбинаций.
-Сложность:
-- средняя.
-Следующий шаг:
-- сделать стратифицированный search и посмотреть распределения resonance-показателей по классам.
+What does it mean:
+- branch `06` becomes working again, but not through stupid brute force, but through meaningful sampling-coverage of combination classes.
+Complexity:
+- average.
+Next step:
+- do a stratified search and look at the distribution of resonance indicators by class.
 """
     log_path.write_text(log)
 
@@ -245,30 +245,30 @@ def run_search(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — search-stratified-sampling
-Цель: заменить грубое `слишком много комбинаций` на реальный sampling по основным классам сочетаний.
-Гипотеза: `06_double_rotation_overlay`
-Скрипт: `research/B_symmetry_arrangement_models/06_double_rotation_overlay/scripts/run.py --stage search`
-Артефакты:
+Goal: replace the crude “too many combinations” with real sampling based on the main classes of combinations.
+Hypothesis: `06_double_rotation_overlay`
+Script: `research/B_symmetry_arrangement_models/06_double_rotation_overlay/scripts/run.py --stage search`
+Artifacts:
 - `data/search_stratified_sampling_report.json`
 - `data/search_stratified_sampling_report.md`
-Что считаю:
-- стратифицированную выборку по ratio-классам, plane decompositions, base angles и projection seeds;
-- для каждой комбинации считаю family-count, projected edge count и простой resonance score относительно target решётки.
-Формулы / reasoning:
-- это не полный перебор и не доказательство;
-- это закон больших чисел в рабочем виде: сначала смотрим распределение по основным классам комбинаций и ищем, где вообще возникает резонанс.
-Промежуточные результаты:
+What I think:
+- stratified sampling by ratio classes, plane decompositions, base angles and projection seeds;
+- for each combination I consider family-count, projected edge count and a simple resonance score relative to the target grid.
+Formulas/reasoning:
+- this is not a complete search and not a proof;
+- this is the law of large numbers in working form: first we look at the distribution by main classes of combinations and look for where resonance generally occurs.
+Intermediate results:
 - total samples: `{total_samples}`
 - family-count histogram: `{dict(sorted(family_hist.items()))}`
 - overall target hits: `{overall_target_hits}`
 - best overall family/line/score: `{best_overall['absolute_family_count']}` / `{best_overall['projected_edge_count']}` / `{best_overall['resonance_score']}`
-Что это значит:
-- ветка `06` больше не отброшена вслепую;
-- теперь видно распределение по классам и можно решать, есть ли реальные зоны резонанса для более глубокого копания.
-Сложность:
-- средняя, но контролируемая.
-Следующий шаг:
-- перейти к analysis: какие ratio/plane classes реально лучшие и есть ли смысл локально сужать поиск вокруг них.
+What does it mean:
+- branch `06` is no longer discarded blindly;
+- now you can see the distribution by class and you can decide whether there are real resonance zones for deeper digging.
+Complexity:
+- average, but controlled.
+Next step:
+- go to analysis: which ratio/plane classes are really the best and whether it makes sense to locally narrow the search around them.
 """
     log_path.write_text(log)
 
@@ -339,29 +339,29 @@ def run_analyze(variant_dir: Path) -> int:
     log = log_path.read_text().rstrip() + f"""
 
 ## {now_string()} — analyze-stratified-classes
-Цель: разобрать распределение по class-level sampling и понять, есть ли у double rotation реальные зоны резонанса.
-Гипотеза: `06_double_rotation_overlay`
-Скрипт: `research/B_symmetry_arrangement_models/06_double_rotation_overlay/scripts/run.py --stage analyze`
-Артефакты:
+Goal: to analyze the distribution by class-level sampling and understand whether double rotation has real resonance zones.
+Hypothesis: `06_double_rotation_overlay`
+Script: `research/B_symmetry_arrangement_models/06_double_rotation_overlay/scripts/run.py --stage analyze`
+Artifacts:
 - `data/analyze_stratified_classes.json`
 - `data/analyze_stratified_classes.md`
-Что считаю:
-- top classes по resonance score;
-- summary по ratio-классам;
-- overall target hits по family-count.\nФормулы / reasoning:
-- если хотя бы некоторые ratio/plane classes системно лучше, ветку имеет смысл локально refine-ить;
-- если распределение плоское и hits нет, ветка ослабляется, но уже по данным, а не по страху перед 10 млн комбинаций.
-Промежуточные результаты:
+What I think:
+- top classes by resonance score;
+- summary by ratio classes;
+- overall target hits by family-count.\nFormulas / reasoning:
+- if at least some ratio/plane classes are systemically better, it makes sense to refine the branch locally;
+- if the distribution is flat and there are no hits, the branch is weakened, but according to the data, and not due to fear of 10 million combinations.
+Intermediate results:
 - overall target hits: `{analysis['overall_target_hits']}`
 - best overall family/score: `{analysis['best_overall']['absolute_family_count']}` / `{analysis['best_overall']['resonance_score']}`
 - ratio summary: `{top_ratio_stats}`
-Что это значит:
-- ветка `06` теперь прошла честный statistical screen;
-- по этим данным уже можно решать, parked ли она снова, или у неё есть конкретная зона для локального углубления.
-Сложность:
-- низкая.
-Следующий шаг:
-- если есть target hits или явный класс-лидер, сужать поиск локально вокруг него; иначе вернуть ветку в parked, но уже с реальными распределениями в руках.
+What does it mean:
+- branch `06` now passed an honest statistical screen;
+- using this data, you can already decide whether it is parked again, or whether it has a specific zone for local deepening.
+Complexity:
+- low.
+Next step:
+- if there is a target hits or an explicit leader class, narrow the search locally around it; otherwise, return the branch to parked, but with real distributions in hand.
 """
     log_path.write_text(log)
 

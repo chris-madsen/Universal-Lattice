@@ -843,7 +843,7 @@ def append_log(state: dict, path: Path, note: str) -> None:
     prog = progress_summary(state)
     best = state.get("best_grid_match")
     if best is None:
-        best_text = "ещё нет кандидатов"
+best_text = "no candidates yet"
     else:
         c = best["comparison"]
         best_text = (
@@ -853,18 +853,18 @@ def append_log(state: dict, path: Path, note: str) -> None:
         )
     entry = f"""
 ## {now_string()} — generation {state['generation']}
-Что посчитано:
+What is counted:
 - candidates checked: `{state['visited_count']}` / `{state['total_candidates']}` (`{prog['candidate_progress']:.4f}%`)
 - unique topological signatures: `{len(state['unique_topological_signatures'])}`
 - topology matches: `{state['topology_match_count']}`
 - full target segment matches: `{state['segment_match_count']}`
 - projection evaluations: `{state['total_projection_evaluations']}`
 - ETA: `{prog['eta_human']}`
-Лучший кандидат:
+Best candidate:
 - {best_text}
-Что это значит:
-- мы проверяем, совпадает ли полученная сетка с упрощённой: 3 мачты, 8 центральных лучей, 11 сегментов, 15 узлов и угловые классы.
-Примечание:
+What does it mean:
+- we check whether the resulting mesh matches the simplified one: 3 masts, 8 central rays, 11 segments, 15 nodes and corner classes.
+Note:
 - {note}
 """
     with path.open("a") as fh:

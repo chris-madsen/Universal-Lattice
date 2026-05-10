@@ -2,11 +2,11 @@
 
 Status: completed
 
-## Итог по гипотезе 12 (целиком)
+## Summary of hypothesis 12 (entirely)
 
-Проверяли гипотезу `12_topology_signature_filter`: можно ли canonical signed-permutation signature использовать как pre-eval фильтр эквивалентных кандидатов в поиске branch `05`.
+We tested the `12_topology_signature_filter` hypothesis: can canonical signed-permutation signature be used as a pre-eval filter for equivalent candidates in the branch `05` search.
 
-### 1. Структурный baseline (пространство сигнатур)
+### 1. Structural baseline (signature space)
 
 - total root branches: `391`
 - total templates: `79`
@@ -14,27 +14,27 @@ Status: completed
 - unique topological signatures: `14,510`
 - structural compression ratio: `2.651826x`
 
-Наиболее сильное локальное сжатие:
+Strongest local compression:
 - `A2_B2-0_B1-5_B0-0@01`: `56 -> 14` (`4.000000x`)
 - `A2_B2-0_B1-5_B0-0@23`: `56 -> 14` (`4.000000x`)
 - `A2_B2-0_B1-7_B0-0@01`: `8 -> 2` (`4.000000x`)
 - `A2_B2-0_B1-7_B0-0@23`: `8 -> 2` (`4.000000x`)
 
-Вывод baseline:
-- эквивалентные по симметриям конфигурации занимают большую долю пространства;
-- signature-фильтрация как идея обоснована.
+Baseline output:
+- symmetry-equivalent configurations occupy a larger proportion of space;
+- signature filtering as an idea is justified.
 
-### 2. Интеграция фильтра в live loop
+### 2. Integrating the filter into the live loop
 
-В `branch05_ga_aco_tree_search.py` добавлены:
-- фильтрация дублей внутри поколения по topological signature;
-- cap на число eval на signature (`topology_max_evals_per_signature`);
-- учёт статистики: unique signatures, skipped in-batch, skipped by cap;
-- anti-stall backfill, чтобы цикл не замирал при полном упоре в cap.
+Added to `branch05_ga_aco_tree_search.py`:
+- filtering duplicates within a generation by topological signature;
+- cap on the number eval on signature (`topology_max_evals_per_signature`);
+- statistics accounting: unique signatures, skipped in-batch, skipped by cap;
+- anti-stall backfill so that the cycle does not freeze when the cap is fully pressed.
 
-### 3. Финальный A/B (одинаковый бюджет)
+### 3. Final A/B (same budget)
 
-Оба прогона завершены на одном бюджете:
+Both runs completed on the same budget:
 - generation: `50000 / 50000`
 - kernel: `rust_persistent`
 
@@ -55,36 +55,36 @@ Status: completed
 - skipped in-batch equivalent: `1,685,396`
 - skipped by signature cap: `1,910,927`
 
-### 4. Вердикт
+### 4. Verdict
 
-Подтверждено:
-- как dedup/equivalence фильтр гипотеза работает;
-- expensive eval-объём сокращается радикально.
+Confirmed:
+- how the dedup/equivalence filter hypothesis works;
+- expensive eval volume is reduced radically.
 
-Не подтверждено:
-- как ускорение wall-clock в текущем режиме (`signature_cap=1` + текущая policy) фильтр не выигрывает по времени завершения.
+Not confirmed:
+- as wall-clock acceleration in the current mode (`signature_cap=1` + current policy), the filter does not win in terms of completion time.
 
-### 5. Конечный статус гипотезы 12
+### 5. Final status of hypothesis 12
 
-Гипотеза 12 закрыта на текущем этапе с результатом:
-- **PASS** по дедупликации и структурной редукции;
-- **FAIL** по wall-clock ускорению в текущей конфигурации;
-- следующий шаг (если продолжать именно 12): тюнинг policy cap/backfill/scheduling на фиксированном compute-бюджете.
+Hypothesis 12 is closed at the current stage with the result:
+- **PASS** on deduplication and structural reduction;
+- **FAIL** for wall-clock acceleration in the current configuration;
+- the next step (if we continue exactly 12): tuning the policy cap/backfill/scheduling on a fixed compute budget.
 
-### 6. Ответ на вопрос “сетка подошла или нет”
+### 6. Answer to the question “the mesh fits or not”
 
-Короткий ответ:
-- **строгий финальный match сетки по 12-й гипотезе не зафиксирован**;
-- **но найдено устойчивое сильное приближение** в `A2`-классах.
+Short answer:
+- **strict final match of the grid according to the 12th hypothesis has not been fixed**;
+- **but a stable strong approximation was found** in `A2`-classes.
 
-Что именно найдено:
-- лучший пик без фильтра: `A2_B2-0_B1-3_B0-1@12`, `family5_rate=0.3854167`, `best_counts=[1,1,1,1,2]`;
-- лучший пик с фильтром: `A2_B2-0_B1-4_B0-0@03`, `family5_rate=0.3333333`, `best_counts=[1,1,1,1,2]`.
+What exactly was found:
+- best peak without filter: `A2_B2-0_B1-3_B0-1@12`, `family5_rate=0.3854167`, `best_counts=[1,1,1,1,2]`;
+- best peak with filter: `A2_B2-0_B1-4_B0-0@03`, `family5_rate=0.3333333`, `best_counts=[1,1,1,1,2]`.
 
-Частотность похожих сеток:
-- top running классы в обоих финальных прогонах: `A2_B2-0_B1-4_B0-0`, `A2_B2-0_B1-3_B0-1`, `A2_B2-0_B1-2_B0-2`;
-- у этих лидеров `best_counts` стабильно `[1,1,1,1,2]`.
+Frequency of similar grids:
+- top running classes in both final runs: `A2_B2-0_B1-4_B0-0`, `A2_B2-0_B1-3_B0-1`, `A2_B2-0_B1-2_B0-2`;
+- these leaders have stable `[1,1,1,1,2]` `best_counts`.
 
-Интерпретация:
-- похожая зона найдена и подтверждена статистически;
-- окончательный строгий `PASS` всей сетки в рамках 12-й ветки пока не доказан.
+Interpretation:
+- a similar zone is found and confirmed statistically;
+- the final strict `PASS` of the entire grid within the 12th branch has not yet been proven.

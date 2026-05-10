@@ -2,23 +2,23 @@
 
 ## Summary
 
-Запустить настоящую 12-ю гипотезу как resumable systemd-сервис: beautiful-first поиск пар 4D-источников с double rotation, topology signature и сравнением с `simplified_lattice_central_bundle.py`.
+Run the real 12th hypothesis as a resumable systemd service: beautiful-first search for 4D source pairs with double rotation, topology signature and comparison with `simplified_lattice_central_bundle.py`.
 
-Full coarse не запускать. Основной поиск идёт через `FFT + GA + ACO + Rust + topological signature`.
+Don't run Full coarse. The main search is done through `FFT + GA + ACO + Rust + topological signature`.
 
 ## Key Changes
 
-- Создать новую ветку:
+- Create a new branch:
   - `research/B_symmetry_arrangement_models/12_polytope_pair_double_rotation_match/`
-- Старую `12_topology_signature_filter` оставить только как исторический неудачный заход и источник reusable filter-кода.
-- Новый сервис запускать в существующем `runes-research.slice`.
-- Сделать stateful async job:
+- Leave the old `12_topology_signature_filter` only as a historical unsuccessful entry and a source of reusable filter code.
+- Launch the new service in the existing `runes-research.slice`.
+- Make a stateful async job:
   - `state.json`
   - `summary.md`
   - `log.md`
   - `best_candidates.json`
-  - `checkpoint` после каждой пачки поколений.
-- Сервис должен поддерживать stop/restart/resume без пересчёта с нуля.
+- `checkpoint` after each pack of generations.
+- The service must support stop/restart/resume without recalculating from scratch.
 
 ## Algorithm
 
@@ -91,10 +91,10 @@ Add a render script for best candidates:
   - missing target segments;
   - extra candidate segments;
 - write a short report explaining:
-  - “сетку нашли / не нашли”;
-  - “насколько подошла”;
-  - “что именно совпало”;
-  - “что именно не совпало”.
+- “the grid was found / was not found”;
+- “as far as it fits”;
+- “what exactly coincided”;
+- “what exactly didn’t match.”
 
 ## Systemd
 
