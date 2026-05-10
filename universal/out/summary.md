@@ -3,6 +3,7 @@
 ## Scope
 
 The lattice is rebuilt from the approved H12 state (fixed leader + best complement), with polytope-derived layer provenance and intersection-cloud embedding checks.
+- state source: `/home/ilja/Desktop/runes/docs/universal/data/h12_complement_state.json`
 
 ## Core Counts
 

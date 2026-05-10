@@ -20,7 +20,8 @@ PROJECT_ROOT = ROOT.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-STATE_PATH = PROJECT_ROOT / "research" / "async_state" / "h12_complement" / "state.json"
+STATE_PATH_LOCAL = ROOT / "data" / "h12_complement_state.json"
+STATE_PATH_LEGACY = PROJECT_ROOT / "research" / "async_state" / "h12_complement" / "state.json"
 REFERENCE_IMAGE = (
     PROJECT_ROOT
     / "research"
@@ -56,6 +57,18 @@ PLANE_DECOMPOSITIONS = (((0, 1), (2, 3)), ((0, 2), (1, 3)), ((0, 3), (1, 2)))
 
 IDENTITY_ACTION = SignedPermutationAction(perm=(0, 1, 2, 3), signs=(1, 1, 1, 1))
 ORIENTATION_ACTIONS = [IDENTITY_ACTION] + [a for a in signed_permutation_actions(dim=4) if a != IDENTITY_ACTION]
+
+
+def resolve_state_path() -> Path:
+    if STATE_PATH_LOCAL.exists():
+        return STATE_PATH_LOCAL
+    if STATE_PATH_LEGACY.exists():
+        return STATE_PATH_LEGACY
+    raise FileNotFoundError(
+        "No H12 state file found. Expected one of: "
+        f"{STATE_PATH_LOCAL} or {STATE_PATH_LEGACY}. "
+        "Restore universal/data/h12_complement_state.json for repo-local reproducibility."
+    )
 
 
 def as_set(raw: Iterable[Iterable[int]]) -> set[tuple[int, int]]:
@@ -739,7 +752,8 @@ def render_provenance(nodes: list[tuple[float, float]], seg_t1: set[tuple[int, i
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
-    state = json.loads(STATE_PATH.read_text())
+    state_path = resolve_state_path()
+    state = json.loads(state_path.read_text())
     leader_spec = state["fixed_leader_spec"]
     leader_segments = as_set(state["fixed_leader_segment_ids"])
 
@@ -816,6 +830,7 @@ def main() -> None:
     (OUT / "layer_contributions.json").write_text(json.dumps(layer_payload, indent=2, ensure_ascii=True))
 
     witness = {
+        "state_path": str(state_path),
         "leader_spec": leader_spec,
         "best_complement_spec": best_union["spec"],
         "leader_key": state.get("fixed_leader_key"),
@@ -859,6 +874,7 @@ def main() -> None:
         "## Scope",
         "",
         "The lattice is rebuilt from the approved H12 state (fixed leader + best complement), with polytope-derived layer provenance and intersection-cloud embedding checks.",
+        f"- state source: `{state_path}`",
         "",
         "## Core Counts",
         "",

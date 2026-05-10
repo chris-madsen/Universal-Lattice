@@ -74,7 +74,8 @@ The approved lattice has:
 The build script `build_universal_from_2T_plus_16.py` runs this pipeline.
 
 1. Reads approved H12 state from:
-- `research/async_state/h12_complement/state.json`.
+- `universal/data/h12_complement_state.json` (repo-local snapshot).
+- legacy fallback: `research/async_state/h12_complement/state.json`.
 
 2. Restores fixed witness specs:
 - leader spec (`T1 + T2` layer),

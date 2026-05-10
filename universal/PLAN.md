@@ -10,7 +10,8 @@ Restore `universal/` as a standalone reproducible package that rebuilds the appr
 - `out/` generated artifacts
 
 ## Recovery Rules
-- Use approved H12 state as ground truth source (`research/async_state/h12_complement/state.json`).
+- Use approved H12 state snapshot as repo-local ground truth source (`universal/data/h12_complement_state.json`).
+- Keep legacy fallback path only for local developer compatibility (`research/async_state/h12_complement/state.json`).
 - Keep canonical 15-node frame shape exactly as approved visual form.
 - Do not use manual drawing-only output without geometric provenance.
 - Provide machine-readable evidence:
